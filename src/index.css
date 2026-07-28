@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Cairo', 'Outfit', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #050505;
+    color: #e0e0e0;
+  }
+  .font-orbitron {
+    font-family: 'Orbitron', 'Outfit', monospace;
+  }
+}
+
+/* Sophisticated Dark Theme Classes */
+.cyber-border {
+  border: 1px solid #333;
+  box-shadow: 0 0 15px rgba(0, 229, 255, 0.05);
+}
+
+.neon-text {
+  color: #00e5ff;
+  text-shadow: 0 0 10px rgba(0, 229, 255, 0.4);
+}
+
+.btn-remote {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #e0e0e0;
+}
+
+.btn-remote:hover {
+  border-color: #00e5ff;
+  background: #222;
+  color: #00e5ff;
+  box-shadow: 0 0 10px rgba(0, 229, 255, 0.2);
+}
+
+.category-card {
+  background: linear-gradient(145deg, #121212, #0a0a0a);
+  border: 1px solid #222;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 12px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.category-card:hover {
+  border-color: #7000ff;
+  box-shadow: 0 0 20px rgba(112, 0, 255, 0.15);
+  transform: translateY(-2px);
+}
+
+.brand-pill {
+  background: #111;
+  border: 1px solid #222;
+  padding: 8px 20px;
+  border-radius: 9999px;
+  font-size: 12px;
+  color: #888;
+  transition: all 0.2s;
+}
+
+.brand-pill:hover {
+  border-color: #00e5ff;
+  color: #00e5ff;
+}
+
+.active-glow {
+  background: rgba(0, 229, 255, 0.1) !important;
+  border-color: #00e5ff !important;
+  box-shadow: 0 0 15px rgba(0, 229, 255, 0.2);
+}
+
+/* Custom glow and button press effects */
+.cyber-glow-cyan {
+  box-shadow: 0 0 15px rgba(0, 229, 255, 0.25), inset 0 0 10px rgba(0, 229, 255, 0.15);
+}
+
+.cyber-glow-amber {
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.25), inset 0 0 10px rgba(245, 158, 11, 0.15);
+}
+
+.cyber-glow-emerald {
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.25), inset 0 0 10px rgba(16, 185, 129, 0.15);
+}
+
+.cyber-glow-rose {
+  box-shadow: 0 0 15px rgba(255, 0, 85, 0.25), inset 0 0 10px rgba(255, 0, 85, 0.15);
+}
+
+/* IR Signal Pulse Animation */
+@keyframes irPulse {
+  0% { transform: scale(0.9); opacity: 0.8; filter: drop-shadow(0 0 4px #00e5ff); }
+  50% { transform: scale(1.35); opacity: 1; filter: drop-shadow(0 0 16px #00e5ff); }
+  100% { transform: scale(1); opacity: 0.8; filter: drop-shadow(0 0 4px #00e5ff); }
+}
+
+.animate-ir-pulse {
+  animation: irPulse 0.3s ease-out;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00e5ff;
+}
