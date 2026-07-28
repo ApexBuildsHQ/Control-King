@@ -1,0 +1,6 @@
+{
+  "name": "Control King",
+  "description": "Universal Remote Control web application for TVs, ACs, Smart Appliances, and Lighting with multi-brand support and i18n.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
