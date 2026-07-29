@@ -1,0 +1,21 @@
+{
+  "categoryId": "fan",
+  "brandId": "acorn",
+  "protocol": "RAW",
+  "frequency": 38000,
+  "ipEndpoint": null,
+  "buttons": [
+    {
+      "id": "off",
+      "label": "off",
+      "code": "sgcyABgJCBkZCRkJGQkIGQgZCBkZCQgaCBkIGQgZCBkIGRgJGQkYCRkJCBoIGQj8GQkYCQgaAAAAAAAA",
+      "type": "WIFI"
+    },
+    {
+      "id": "default",
+      "label": "default",
+      "code": "{\"low\":\"sgsyABkJGQkIGRkJCRkZCRkJGQkIGQkZCRkZCQkZCBkJGQgZGAkZCRkJGQkIGQkZGQkZCQn7AAAAAAAA\",\"medium\":\"sgkyABkJCRkZCQgZGQkZCRkJCBkIGQgZGQkJGQgZCRkJGQkZCBoYCRkJCBkJGRkJGQkJ+xkJAAAAAAAA\",\"high\":\"sggyABgJGAoIGRkJCBkZCRkJGAkJGQgaCBkZCQkaCBkIGQgZGQkZCQgaCBkZCRkJCBkJGQj7AAAAAAAA\"}",
+      "type": "WIFI"
+    }
+  ]
+}

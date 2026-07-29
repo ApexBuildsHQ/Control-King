@@ -1,0 +1,45 @@
+{
+  "categoryId": "media_player",
+  "brandId": "insignia",
+  "protocol": "RAW",
+  "frequency": 38000,
+  "ipEndpoint": null,
+  "buttons": [
+    {
+      "id": "off",
+      "label": "off",
+      "code": "JgBIAAABKJURFRA5EjkRExIUERUQExM4EjkQFhE4EhMSFBITERQTFBA3FTcROBI6EhISExIUERQRFBEUEhQRFBE4EjkRORE6DgANBQ==",
+      "type": "WIFI"
+    },
+    {
+      "id": "on",
+      "label": "on",
+      "code": "JgBQAAABJpAUEBM1EjUTERMQExASEBM2EzUSEBM2ExASEBMRExAQEhM1FBATEBIRExETNRI1ExETEBI1EzYTNRI1ExETEBI1EwAFkQABJUgTAA0FAAAAAAAAAAA=",
+      "type": "WIFI"
+    },
+    {
+      "id": "volumedown",
+      "label": "volumeDown",
+      "code": "JgBYAAABKJUSExI4EzcTExITEhMTEhQ2EzgSExM3ExITExITEhMTEhM3ExMSOBM3ExITExITEhMTEhM3ExITExI4EzcTOBI4EwAFfgABKUoTAAxRAAEpShMADQU=",
+      "type": "WIFI"
+    },
+    {
+      "id": "volumeup",
+      "label": "volumeUp",
+      "code": "JgBgAAABKZQTExI4EjcUEhMTERQRFBI3FDcRFRE5EhMSExITEhMSFBETExMSOBI6DhYRFBIUDxUSOBI4ExMSFBE4EjgTOBI4EwAFfgABKUoTAAxRAAEnShMADFEAAShLEgANBQAAAAAAAAAA",
+      "type": "WIFI"
+    },
+    {
+      "id": "mute",
+      "label": "mute",
+      "code": "JgBgAAABKJUSExE5FDcSFRAUERQSExE5EjgSFRA4ExQSFBAUERUQExMTEjcTOBQ3EhQSEhMUEBQSOBETEhYQFBE5ETkRORM3EgAFgAABKEoTAAxRAAEoShMADFEAASlJEwANBQAAAAAAAAAA",
+      "type": "WIFI"
+    },
+    {
+      "id": "sources",
+      "label": "sources",
+      "code": "{\"TV\":\"JgBYAAABKJUSFBE5ETkSEhQSEhYPFRA4EzgTExA5ExITExITEhQSExEVERMRFBI4EjoRExIUEhISORE4EjgUExETEzgRORI4EwAFfQABKUoTAAxSAAEoSxMADQU=\",\"HDMI3\":\"JgBkAAUAB6QAASeXEBUROBM4ERQSFBAUEhQROBM5EhMSOBITEBYSEhIUDxcQFBIVERMPOxI5ERMSFRAUETkSNxM4EhMTExE5EDkTOREABYAAAShKEwAMUQABKUoSAAxRAAEmTRMADQUAAAAA\"}",
+      "type": "WIFI"
+    }
+  ]
+}

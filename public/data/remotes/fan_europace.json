@@ -1,0 +1,27 @@
+{
+  "categoryId": "fan",
+  "brandId": "europace",
+  "protocol": "RAW",
+  "frequency": 38000,
+  "ipEndpoint": null,
+  "buttons": [
+    {
+      "id": "off",
+      "label": "off",
+      "code": "JgBYAAABLJYTEhMTExITExQ2EzgTEhMTEzcUNhQ3EzcUEhITFDYUNxMSFBIUNhQ3ExIUEhQRFDcUNhQ2FBIUERQ3EzcUNhQSFAAFKQABLUkUAAxzAAEsShQADQU=",
+      "type": "WIFI"
+    },
+    {
+      "id": "default",
+      "label": "default",
+      "code": "{\"low\":\"JgBYAAABLZUTEhMTFBETExM3EzgSExMTEzcTNxQ3EzcUEhITEzcTOBQRFBITExI4ExITExMTEjgUNhM3FDcTEhM4EzcTNxQSEwAFKgABLEoUAAxyAAEtSRQADQU=\",\"medium\":\"JgBYAAABLZUTEhMTFBETExM3EzgSExMTEzcTNxQ3EzcUEhITEzcTOBQRFBITExI4ExITExMTEjgUNhM3FDcTEhM4EzcTNxQSEwAFKgABLEoUAAxyAAEtSRQADQU=\",\"high\":\"JgBYAAABLZUTEhMTFBETExM3EzgSExMTEzcTNxQ3EzcUEhITEzcTOBQRFBITExI4ExITExMTEjgUNhM3FDcTEhM4EzcTNxQSEwAFKgABLEoUAAxyAAEtSRQADQU=\"}",
+      "type": "WIFI"
+    },
+    {
+      "id": "oscillate",
+      "label": "oscillate",
+      "code": "JgBQAAABLJYTExMSFBITExM3FDYTExMSEzgTNxQ3FDYTExITFDcSOBMTEjgUNhQSExMTEhMTFDYTOBMSFBITNxQ2FDcTNxMTEwAFKwABLEsTAA0FAAAAAAAAAAA=",
+      "type": "WIFI"
+    }
+  ]
+}

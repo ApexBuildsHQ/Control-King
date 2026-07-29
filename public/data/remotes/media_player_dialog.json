@@ -1,0 +1,147 @@
+{
+  "categoryId": "media_player",
+  "brandId": "dialog",
+  "protocol": "RAW",
+  "frequency": 38000,
+  "ipEndpoint": null,
+  "buttons": [
+    {
+      "id": "on",
+      "label": "on",
+      "code": "JgBIAAABJpQTEhAVEhMTEhAVEhMRFBAVEjgQOhI4EjgQFRI4EDkTOBI4EBUSOBAVEjgSExI4EBUSEhM4EhITOBISEzgSEhM4EgANBQ==",
+      "type": "WIFI"
+    },
+    {
+      "id": "off",
+      "label": "off",
+      "code": "JgBIAAABJpQTEhEVEhITEhMTEhITEhEVEjcTNxM3EjgTEhI4EzcTNxI4ExISOBAVEjgTEhI4ExISExM3EhMTNxITEzcSExM3EgANBQ==",
+      "type": "WIFI"
+    },
+    {
+      "id": "volumeup",
+      "label": "volumeUp",
+      "code": "JgBIAAABI5cQFRAUEhQQFRAUERUQFRAUEToQORE5EToQFBE6EDkROREUETkRORE5ERQRFBE5ERQROREUERQQFRE5EDoRFBA6EQANBQ==",
+      "type": "WIFI"
+    },
+    {
+      "id": "volumedown",
+      "label": "volumeDown",
+      "code": "JgBIAAABJ5MTExITEhITEhMTEhITExAVEjcTNxM4EjcTExI3EzcTOBISEzcTNxMTEjcTEhM3ExITNxMSExITNxITEzcSExM3EgANBQ==",
+      "type": "WIFI"
+    },
+    {
+      "id": "mute",
+      "label": "mute",
+      "code": "JgBQAAABJpQTEhITExISExISExMSExISEzgSOBI3EzgSEhM4EjcTNxMSExMSNxM3EzgSEhMSExMSNxM3ExITExISEzcTNxM3EwAFRgABKEoSAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "5_1choutput",
+      "label": "5_1chOutput",
+      "code": "JgBIAAABJZURFBEVEBQRFBEVEBQRFBEVEDkRORE5ETkQFRE5EDoRORE5EDoROREUERQQFRA6EBUQFREUEBUQOhA6ETkQFRE5EAANBQ==",
+      "type": "WIFI"
+    },
+    {
+      "id": "2_1chooutput",
+      "label": "2_1chOoutput",
+      "code": "JgBIAAABJ5MRFRISExIRFRISExITExISEzcTNxE5EzcSExM3EjgQOhM3EhMTNxITExITEhI4EBUSExM3EhMSOBI4EDoSExA5EwANBQ==",
+      "type": "WIFI"
+    },
+    {
+      "id": "3dsoundmode",
+      "label": "3dSoundMode",
+      "code": "JgBIAAABJ5MTEhMTEhITEhMTEhITEhMTEjcTNxM3EzcRFBM3EzcTNxI4EBUSOBA6EzcSExMSEBUSExM3EhMTEhMSEjgTNxM3EgANBQ==",
+      "type": "WIFI"
+    },
+    {
+      "id": "reset",
+      "label": "reset",
+      "code": "JgBQAAABJJYQFREUERQQFREUERQQFREUETkRORA6ETkRFBE5ETkQOhE5EDoQOhEUEDoRFBA5EhQQFRAUEhQQORIUEDkSFBA5EQAFSQABJUwRAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "volumeupfront",
+      "label": "volumeUpFront",
+      "code": "JgBQAAABJpMTExITEhITExITEhIUEhITEjcTNxM4EjcTExI3EzcTOBISEzgSEhM4EjcTExI3ExITNxMTEjcTEhMSEzcTEhM3EwAFRgABKEkRAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "volumedownfront",
+      "label": "volumeDownFront",
+      "code": "JgBQAAABJ5MTExITEhITExITEhITExITEjcTNxM4EjcTExI3EzcTOBISEzgSEhMSExMSEhM3ExITNxMSEzcTNxM3EzcTEhM3EgAFRgABKUkTAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "volumeupcenter",
+      "label": "volumeUpCenter",
+      "code": "JgBQAAABJ5MRFBEVERMRFBEUEhMTEhAVEjgQOhE5EjgQFRI4EDoSOBITEhMQOhI4EhMSExMSEhMSOBI4EhMSExI4EjgTNhM4EgAFRgABJkwQAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "volumedowncenter",
+      "label": "volumeDownCenter",
+      "code": "JgBQAAABJJYQFRAVERQQFg8VERQQFRAVETkQOhA5EjkQFBI5EDoQORE6EBQROhA5ERUQFBEUERUQFBE6EBQRFBE5EToQORE5EQAFSAABJU0QAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "volumeuprear",
+      "label": "volumeUpRear",
+      "code": "JgBQAAABJJYQFREUERQQFREUERQQFREUETkRORA6ETkRFBE5ETkQOhEUEBUQFREUEDkSFBAVEBURORA6EDkSORAUEjkQORE5EQAFSAABJkwRAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "volumedownrear",
+      "label": "volumeDownRear",
+      "code": "JgBQAAABJZURFBEVEBQRFBAVERQRFBAVETkQOhE5ETkQFRE5EDoRORE5EBUQFREUEDoRFBAVEBURFBA5EjkQOhAVEDoQORI5EAAFSAABKEoTAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "volumeupsubwoofer",
+      "label": "volumeUpSubwoofer",
+      "code": "JgBQAAABJpQQFRISExMSExISExITExISEzgSNxM3EzgSEhM4EjcTNxoLExMSNxMTEjcTExISExITNxM3ExITNxMSEzcTNxM3EwAFRgABKEoSAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "volumedownsubwoofer",
+      "label": "volumeDownSubwoofer",
+      "code": "JgBQAAABJZURFRAUERQRFRAUERQRFRAUEToQORE5EToQFBE6EDkRORE5ERQROREUETkRFBEUEBURFBE5ERQROREUETkRORA6EQAFRwABJk0QAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "trebleup",
+      "label": "TrebleUp",
+      "code": "JgBQAAABJZUSEhMSExMSEhMSExMSEhMSEzcTOBI3EzcTEhM3EzcTNxMSEhMTNxITExITEhITExITNxM3EhMTNxI4EzcTNxI4EwAFRQABKEoTAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "trebledown",
+      "label": "TrebleDown",
+      "code": "JgBQAAABJJYSEhMSERUSEhMSERUQFBEUETkTNxI4EDoTEhA6EzcSOBM3ExIQOhMSEBUSExMSEBUSExM3EhMSOBI4EjgSOBI4EgAFRwABJ0oTAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "bassup",
+      "label": "BassUp",
+      "code": "JgBQAAABJJYQFRAVERQQFRAVERQQFRAVETkQOhA5EjkQFBI5EDoQOREVEBUQFBE6EBQRFBEVEBQROhA5ETkRFBE5EToQORE5EQAFSQABJE0QAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "bassdown",
+      "label": "BassDown",
+      "code": "JgBQAAABJJYQFRAVERQQFRAVERQQFRAVETkQOhA5EjkQFBI5EDoQORE6EBQRFBE5ERQRFRAUERQRFRA5ETkRFBE5ETkRORE5EQAFSAABJU0QAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "sound_modes",
+      "label": "sound_modes",
+      "code": "{\"5.1\":\"JgBIAAABJZURFBEVEBQRFBEVEBQRFBEVEDkRORE5ETkQFRE5EDoRORE5EDoROREUERQQFRA6EBUQFREUEBUQOhA6ETkQFRE5EAANBQ==\",\"2.1\":\"JgBIAAABJ5MRFRISExIRFRISExITExISEzcTNxE5EzcSExM3EjgQOhM3EhMTNxITExITEhI4EBUSExM3EhMSOBI4EDoSExA5EwANBQ==\"}",
+      "type": "WIFI"
+    },
+    {
+      "id": "sources",
+      "label": "sources",
+      "code": "{\"5.1CH/DVD\":\"JgBQAAABJpQSExMSEBUSExITEBUSExEUEDoRORI4EDoSExA6EjgSOBA5ExMQORM4EhITExA5ExMQFRI4EBUSEhM4EjcRFRI3EQAFSAABKEoSAA0F\",\"Stereo\":\"JgBQAAABJpQTEhITExITEhITExITEhITEzcSOBM3EzcSExM3EjgTNhM4EjgSNxM4EhITExA5ExMSExISExITExI3EzcTEhM3EwAFRwABJ0oSAA0F\",\"AUX 1\":\"JgBQAAABJJYQFREUERQQFRAVERQQFRAVETkQOhA5EjkQFBI5EDoQORI5EBQSFBA5EhMRFRA5ERURExI5ETgRFRE4ETkSExE5EgAFRwABJkwRAA0F\",\"AUX 2\":\"JgBQAAABJJYQFBIUEBUQFBIUEBUQFBIUEDkSORA5ETkSFBA6ETkROBE5EjkRExI5ERMSExE5EhMRFRETEzcTEhM3EzcSExM3EgAFRwABJ0oSAA0F\"}",
+      "type": "WIFI"
+    }
+  ]
+}

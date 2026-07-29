@@ -1,0 +1,51 @@
+{
+  "categoryId": "light",
+  "brandId": "toshiba",
+  "protocol": "RAW",
+  "frequency": 38000,
+  "ipEndpoint": null,
+  "buttons": [
+    {
+      "id": "on",
+      "label": "on",
+      "code": "",
+      "type": "WIFI"
+    },
+    {
+      "id": "off",
+      "label": "off",
+      "code": "[\"\",\"\"]",
+      "type": "WIFI"
+    },
+    {
+      "id": "brighten",
+      "label": "brighten",
+      "code": "",
+      "type": "WIFI"
+    },
+    {
+      "id": "dim",
+      "label": "dim",
+      "code": "",
+      "type": "WIFI"
+    },
+    {
+      "id": "colder",
+      "label": "colder",
+      "code": "",
+      "type": "WIFI"
+    },
+    {
+      "id": "temp_up",
+      "label": "warmer",
+      "code": "",
+      "type": "WIFI"
+    },
+    {
+      "id": "night",
+      "label": "night",
+      "code": "",
+      "type": "WIFI"
+    }
+  ]
+}
