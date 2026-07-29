@@ -1,7 +1,8 @@
 {
   "app": {
     "title": "كنترول كينج - الريموت الشامل",
-    "tagline": "التحكم الذكي الفائق بجميع أجهزتك من مكان واحد"
+    "tagline": "التحكم الذكي الفائق بجميع أجهزتك من مكان واحد",
+    "titleShort": "كنترول كينج"
   },
   "header": {
     "title": "Control King",
@@ -36,7 +37,9 @@
     "not_found": "لم يتم العثور على ماركة تطابق بحثك",
     "no_results": "لم يتم العثور على نتائج",
     "models_available": "موديل متوافق",
-    "select_brand": "اختر الماركة"
+    "select_brand": "اختر الماركة",
+    "no_results_suggestion": "جرّب تغيير كلمات البحث أو اختر من قسم الأقسام الرئيسية للبحث عن ماركات متوافقة أخرى.",
+    "reset_search": "إعادة ضبط البحث"
   },
   "remote": {
     "title": "ريموت التحكم الذكي",
@@ -72,7 +75,10 @@
     "test_signal": "اختبار الشفرة",
     "custom_buttons": "أزرار مخصصة (Custom Macros)",
     "add_custom_btn": "إضافة زر جديد",
-    "shortcuts": "التطبيقات السريعة"
+    "shortcuts": "التطبيقات السريعة",
+    "hdmi1": "مدخل ١",
+    "frequency": "٣٨.٠ كيلوهرتز",
+    "quickPowerCommand": "تشغيل سريع"
   },
   "settings": {
     "title": "إعدادات التطبيق والتفضيلات",
@@ -104,6 +110,11 @@
     "label_name": "اسم الزر / الوظيفة",
     "hex_code": "كود الأشعة تحت الحمراء (Hex Code)",
     "save": "حفظ الزر",
-    "cancel": "إلغاء"
+    "cancel": "إلغاء",
+    "movieMode": "وضع السينما / IMAX",
+    "turboCool": "تبريد فائق 18° مئوية"
+  },
+  "favorites": {
+    "universalRemoteModel": "ريموت عالمي V.2026"
   }
 }

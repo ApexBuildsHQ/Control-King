@@ -12,7 +12,7 @@ import { SettingsModal } from './components/SettingsModal';
 import { LegalModal } from './components/LegalModals';
 import { CustomMacroModal } from './components/CustomMacroModal';
 import { FavoritesModal } from './components/FavoritesModal';
-import { setLanguage, subscribeLanguageChange, getInitialLanguage, SUPPORTED_LANGUAGES } from './i18n';
+import { setLanguage, subscribeLanguageChange, getInitialLanguage, t } from './i18n';
 import { TOP_50_LANGUAGES } from './data/languages';
 import { GLOBAL_BRANDS } from './data/brands';
 import { AppCategory, Brand, CustomButton, FavoriteRemote, IRSignalLog, RemoteState } from './types';
@@ -69,7 +69,7 @@ export default function App() {
   });
 
   // Interactive Remote Control State
-  const [remoteState, setRemoteState] = useState<RemoteState>({
+  const [remoteState, setRemoteState] = useState<RemoteState>(() => ({
     power: true,
     volume: 24,
     channel: 1,
@@ -81,11 +81,11 @@ export default function App() {
     brightness: 80,
     colorTemp: 4000,
     rgbColor: '#06b6d4',
-    inputSource: 'HDMI 1',
+    inputSource: t('remote.hdmi1', 'HDMI 1'),
     freezerTemp: -18,
     fridgeTemp: 4,
     ecoMode: false
-  });
+  }));
 
   // Saved Favorites List
   const [favorites, setFavorites] = useState<FavoriteRemote[]>(() => {
@@ -102,8 +102,8 @@ export default function App() {
     try {
       const saved = localStorage.getItem('control_king_macros');
       return saved ? JSON.parse(saved) : [
-        { id: '1', label: 'Movie Mode / IMAX', hexCode: '0x20DF9900' },
-        { id: '2', label: 'Turbo Cool 18°C', hexCode: '0x10AF1818' }
+        { id: '1', label: t('macro.movieMode', 'Movie Mode / IMAX'), hexCode: '0x20DF9900' },
+        { id: '2', label: t('macro.turboCool', 'Turbo Cool 18°C'), hexCode: '0x10AF1818' }
       ];
     } catch {
       return [];
@@ -160,7 +160,7 @@ export default function App() {
       command,
       hexCode,
       protocol: irProtocol,
-      frequency: '38.0 kHz'
+      frequency: t('remote.frequency', '38.0 kHz')
     };
     setRecentSignals((prev) => [newLog, ...prev.slice(0, 19)]);
   };
@@ -170,7 +170,8 @@ export default function App() {
     e.stopPropagation();
     setActivePowers((prev) => {
       const nextState = !prev[category];
-      handleEmitSignal(`Quick Power ${category.toUpperCase()}`, nextState ? '0x10AF00FF' : '0x10AF0000');
+      const command = t('remote.quickPowerCommand', 'Quick Power') + ` ${category.toUpperCase()}`;
+      handleEmitSignal(command, nextState ? '0x10AF00FF' : '0x10AF0000');
       return { ...prev, [category]: nextState };
     });
   };
@@ -217,7 +218,7 @@ export default function App() {
         brandId: selectedBrand.id,
         brandName: selectedBrand.name,
         categoryId: selectedCategory,
-        modelName: `Universal Remote V.2026`,
+        modelName: t('favorites.universalRemoteModel', 'Universal Remote V.2026'),
         addedAt: new Date().toLocaleDateString()
       };
       setFavorites((prev) => [newFav, ...prev]);
@@ -312,9 +313,9 @@ export default function App() {
       <footer className="border-t border-[#222] bg-[#0d0d0d] py-6 text-center text-xs text-neutral-500 space-y-2">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
           <div className="flex items-center gap-2">
-            <span className="font-orbitron font-bold neon-text">CONTROL KING</span>
+            <span className="font-orbitron font-bold neon-text">{t('app.titleShort', 'CONTROL KING')}</span>
             <span>•</span>
-            <span data-i18n="legal.copyright_title">جميع الحقوق محفوظة © 2026</span>
+            <span data-i18n="legal.copyright_title"></span>
           </div>
 
           <div className="flex items-center gap-4">
@@ -323,21 +324,18 @@ export default function App() {
               data-i18n="settings.privacy"
               className="hover:text-[#00e5ff] transition-colors"
             >
-              سياسة الخصوصية
             </button>
             <button 
               onClick={() => setLegalModalType('terms')}
               data-i18n="settings.terms"
               className="hover:text-[#00e5ff] transition-colors"
             >
-              شروط الاستخدام
             </button>
             <button 
               onClick={() => setLegalModalType('copyright')}
               data-i18n="settings.copyright"
               className="hover:text-[#00e5ff] transition-colors"
             >
-              حقوق الملكية
             </button>
           </div>
         </div>

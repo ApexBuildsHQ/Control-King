@@ -1,17 +1,15 @@
 import React, { useState, useMemo } from 'react';
 import { GLOBAL_BRANDS } from '../data/brands';
-import { translateKey } from '../i18n';
+import { t } from '../i18n';
 import { AppCategory, Brand } from '../types';
 
 interface BrandSelectionViewProps {
-  currentLanguage: string;
   selectedCategory: AppCategory;
   onSelectBrand: (brand: Brand) => void;
   onBackToCategories: () => void;
 }
 
 export const BrandSelectionView: React.FC<BrandSelectionViewProps> = ({
-  currentLanguage,
   selectedCategory,
   onSelectBrand,
   onBackToCategories
@@ -42,22 +40,14 @@ export const BrandSelectionView: React.FC<BrandSelectionViewProps> = ({
           >
             <i className="fa-solid fa-arrow-right rtl:block ltr:hidden group-hover:translate-x-1 transition-transform"></i>
             <i className="fa-solid fa-arrow-left ltr:block rtl:hidden group-hover:-translate-x-1 transition-transform"></i>
-            <span data-i18n="header.back_to_categories">
-              {translateKey(currentLanguage, 'header.back_to_categories', 'رجوع للأقسام الرئيسية')}
-            </span>
+            <span>{t('header.back_to_categories')}</span>
           </button>
           
-          <h2 
-            data-i18n="brands.title"
-            className="text-2xl sm:text-3xl font-bold text-white uppercase tracking-wider"
-          >
-            {translateKey(currentLanguage, 'brands.title', 'اختر الماركة المصنعة')}
+          <h2 className="text-2xl sm:text-3xl font-bold text-white uppercase tracking-wider">
+            {t('brands.title')}
           </h2>
-          <p 
-            data-i18n="brands.subtitle"
-            className="text-[#888] text-xs sm:text-sm mt-1"
-          >
-            {translateKey(currentLanguage, 'brands.subtitle', 'دعم متكامل لأشهر الماركات العالمية والموديلات المتوافقة')}
+          <p className="text-[#888] text-xs sm:text-sm mt-1">
+            {t('brands.subtitle')}
           </p>
         </div>
 
@@ -65,18 +55,16 @@ export const BrandSelectionView: React.FC<BrandSelectionViewProps> = ({
         <div className="flex items-center gap-2 bg-[#0d0d0d] p-1.5 rounded-xl border border-[#222] shrink-0">
           <button
             onClick={() => setActiveFilter('all')}
-            data-i18n="brands.all_brands"
             className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
               activeFilter === 'all'
                 ? 'bg-[#00e5ff] text-black font-bold shadow-md'
                 : 'text-[#888] hover:text-white'
             }`}
           >
-            {translateKey(currentLanguage, 'brands.all_brands', 'جميع الماركات')}
+            {t('brands.all_brands')}
           </button>
           <button
             onClick={() => setActiveFilter('popular')}
-            data-i18n="brands.popular_brands"
             className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
               activeFilter === 'popular'
                 ? 'bg-amber-400 text-black font-bold shadow-md'
@@ -84,12 +72,12 @@ export const BrandSelectionView: React.FC<BrandSelectionViewProps> = ({
             }`}
           >
             <i className="fa-solid fa-fire text-xs mr-1 text-black"></i>
-            {translateKey(currentLanguage, 'brands.popular_brands', 'الأكثر شيوًعاً')}
+            {t('brands.popular_brands')}
           </button>
         </div>
       </div>
 
-      {/* Live Search Input (Required: data-i18n-placeholder="brands.search_placeholder") */}
+      {/* Live Search Input */}
       <div className="relative max-w-2xl mx-auto">
         <div className="absolute inset-y-0 right-0 rtl:right-0 ltr:left-auto rtl:pr-4 ltr:pl-4 flex items-center pointer-events-none text-[#888] text-base">
           <i className="fa-solid fa-magnifying-glass"></i>
@@ -98,12 +86,7 @@ export const BrandSelectionView: React.FC<BrandSelectionViewProps> = ({
           type="text"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          placeholder={translateKey(
-            currentLanguage,
-            'brands.search_placeholder',
-            'ابحث عن اسم الماركة (مثل: Samsung, LG, Sharp)...'
-          )}
-          data-i18n-placeholder="brands.search_placeholder"
+          placeholder={t('brands.search_placeholder')}
           className="w-full bg-[#1a1a1a] text-white placeholder-[#666] rounded-xl py-3 px-12 border border-[#333] focus:border-[#00e5ff] focus:ring-1 focus:ring-[#00e5ff] text-xs font-medium shadow-lg transition-all outline-none"
         />
         {searchQuery && (
@@ -138,16 +121,15 @@ export const BrandSelectionView: React.FC<BrandSelectionViewProps> = ({
                   {brand.name}
                 </h3>
                 <p className="text-[11px] text-[#888] font-mono">
-                  {brand.modelsCount} {translateKey(currentLanguage, 'brands.models_available', 'موديل')}
+                  {brand.modelsCount} {t('brands.models_available')}
                 </p>
               </div>
 
               {/* Select Button */}
               <button 
-                data-i18n="brands.select_brand"
                 className="w-full mt-1 py-1.5 px-3 rounded-xl bg-[#1a1a1a] group-hover:bg-[#00e5ff] group-hover:text-black text-[#e0e0e0] text-xs font-bold transition-all border border-[#333] group-hover:border-[#00e5ff]"
               >
-                {translateKey(currentLanguage, 'brands.select_brand', 'اختر الماركة')}
+                {t('brands.select_brand')}
               </button>
             </div>
           ))}
@@ -158,17 +140,17 @@ export const BrandSelectionView: React.FC<BrandSelectionViewProps> = ({
           <div className="w-16 h-16 mx-auto rounded-full bg-[#1a1a1a] text-[#888] flex items-center justify-center text-2xl">
             <i className="fa-solid fa-circle-exclamation"></i>
           </div>
-          <h3 data-i18n="brands.no_results" className="text-lg font-bold text-[#e0e0e0]">
-            {translateKey(currentLanguage, 'brands.no_results', 'لم يتم العثور على ماركة تطابق بحثك')}
+          <h3 className="text-lg font-bold text-[#e0e0e0]">
+            {t('brands.no_results')}
           </h3>
           <p className="text-xs text-[#888] max-w-md mx-auto">
-            جرّب تغيير كلمات البحث أو اختر من قسم الأقسام الرئيسية للبحث عن ماركات متوافقة أخرى.
+            {t('brands.no_results_suggestion')}
           </p>
           <button
             onClick={() => setSearchQuery('')}
             className="px-4 py-2 bg-[#1a1a1a] hover:bg-[#222] text-[#00e5ff] rounded-xl text-xs font-semibold border border-[#333]"
           >
-            إعادة ضبط البحث
+            {t('brands.reset_search')}
           </button>
         </div>
       )}
