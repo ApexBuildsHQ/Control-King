@@ -1,0 +1,54 @@
+{
+  "header": {
+    "title": "Control King",
+    "settings": "Paramètres",
+    "theme": "Thème",
+    "favorites": "Favoris",
+    "signal_log": "Journal du Signal",
+    "back_to_categories": "Catégories Principales"
+  },
+  "categories": {
+    "tv": "Téléviseurs & Récepteurs",
+    "ac": "Climatiseurs",
+    "smart_appliances": "Appareils Intelligents",
+    "lighting_fans": "Éclairage & Ventilateurs",
+    "quick_power": "Marche Rapide"
+  },
+  "brands": {
+    "title": "Marques Mondiales",
+    "subtitle": "Support complet pour les marques mondiales et modèles compatibles",
+    "all_brands": "Toutes les Marques",
+    "popular_brands": "Les plus populaires",
+    "search_placeholder": "Rechercher une marque...",
+    "connect_btn": "Connecter & Appairer",
+    "connecting": "Connexion en cours...",
+    "not_found": "Aucune marque correspondante",
+    "no_results": "Aucun résultat",
+    "select_brand": "Sélectionner la Marque",
+    "models_available": "modèles"
+  },
+  "remote": {
+    "power": "Alimentation",
+    "volume": "Volume",
+    "temp": "Température",
+    "signal_sent": "Signal Envoyé",
+    "mute": "Muet",
+    "source": "Source d'Entrée",
+    "freezer": "Congélateur",
+    "fridge": "Réfrigérateur",
+    "ok": "OK",
+    "vol_up": "Volume +",
+    "vol_down": "Volume -",
+    "ch_up": "Chaîne +",
+    "ch_down": "Chaîne -"
+  },
+  "settings": {
+    "language_select": "Choisir la Langue",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "copyright": "Tous droits réservés © 2026 Control King"
+  },
+  "legal": {
+    "copyright_title": "Tous droits réservés © 2026"
+  }
+}

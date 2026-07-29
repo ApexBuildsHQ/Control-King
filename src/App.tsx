@@ -7,21 +7,22 @@ import React, { useState, useEffect } from 'react';
 import { Header } from './components/Header';
 import { CategoriesView } from './components/CategoriesView';
 import { BrandSelectionView } from './components/BrandSelectionView';
-import { RemoteControlView } from './components/RemoteControlView';
+import { DynamicRemote } from './components/DynamicRemote';
 import { SettingsModal } from './components/SettingsModal';
 import { LegalModal } from './components/LegalModals';
 import { CustomMacroModal } from './components/CustomMacroModal';
 import { FavoritesModal } from './components/FavoritesModal';
 import { setLanguage, subscribeLanguageChange, getInitialLanguage, t } from './i18n';
 import { TOP_50_LANGUAGES } from './data/languages';
-import { GLOBAL_BRANDS } from './data/brands';
-import { AppCategory, Brand, CustomButton, FavoriteRemote, IRSignalLog, RemoteState } from './types';
+import { AppCategory, Brand, CustomButton, FavoriteRemote, IRSignalLog } from './types';
 
 export default function App() {
   // Navigation State
   const [currentView, setCurrentView] = useState<'categories' | 'brands' | 'remote'>('categories');
   const [selectedCategory, setSelectedCategory] = useState<AppCategory | null>(null);
   const [selectedBrand, setSelectedBrand] = useState<Brand | null>(null);
+  const [dynamicRemoteConfig, setDynamicRemoteConfig] = useState<any | null>(null);
+
 
   // App Settings & Preferences
   const [currentLanguage, setCurrentLanguage] = useState<string>(() => {
@@ -67,25 +68,6 @@ export default function App() {
     smart_appliances: true,
     lighting_fans: true
   });
-
-  // Interactive Remote Control State
-  const [remoteState, setRemoteState] = useState<RemoteState>(() => ({
-    power: true,
-    volume: 24,
-    channel: 1,
-    temperature: 22,
-    mode: 'cool',
-    fanSpeed: 'med',
-    swing: true,
-    muted: false,
-    brightness: 80,
-    colorTemp: 4000,
-    rgbColor: '#06b6d4',
-    inputSource: t('remote.hdmi1', 'HDMI 1'),
-    freezerTemp: -18,
-    fridgeTemp: 4,
-    ecoMode: false
-  }));
 
   // Saved Favorites List
   const [favorites, setFavorites] = useState<FavoriteRemote[]>(() => {
@@ -177,28 +159,48 @@ export default function App() {
   };
 
   // Navigation handlers
-  const handleSelectCategory = (category: AppCategory) => {
-    setSelectedCategory(category);
-    setCurrentView('brands');
-  };
-
-  const handleSelectBrand = (brand: Brand) => {
-    setSelectedBrand(brand);
-    setCurrentView('remote');
-  };
-
   const handleNavigateHome = () => {
     setCurrentView('categories');
     setSelectedCategory(null);
     setSelectedBrand(null);
+    setDynamicRemoteConfig(null);
   };
 
   const handleNavigateToBrands = () => {
     if (selectedCategory) {
       setCurrentView('brands');
       setSelectedBrand(null);
+      setDynamicRemoteConfig(null);
     } else {
       handleNavigateHome();
+    }
+  };
+  
+  const fetchAndSetRemoteConfig = async (category: AppCategory, brand: Brand) => {
+    try {
+        const response = await fetch(`/data/remotes/${category}_${brand.id}.json`);
+        if (!response.ok) {
+            throw new Error('Remote configuration not found');
+        }
+        const data = await response.json();
+        setDynamicRemoteConfig(data);
+        setSelectedCategory(category);
+        setSelectedBrand(brand);
+        setCurrentView('remote');
+    } catch (error) {
+        console.error("Failed to fetch remote:", error);
+        handleNavigateHome();
+    }
+  };
+
+  const handleSelectCategory = (category: AppCategory) => {
+    setSelectedCategory(category);
+    setCurrentView('brands');
+  };
+
+  const handleSelectBrand = (brand: Brand) => {
+    if (selectedCategory) {
+        fetchAndSetRemoteConfig(selectedCategory, brand);
     }
   };
 
@@ -226,14 +228,13 @@ export default function App() {
   };
 
   const handleSelectFavorite = (fav: FavoriteRemote) => {
-    const brandObj = GLOBAL_BRANDS.find((b) => b.id === fav.brandId) || {
+    const brandObj: Brand = {
       id: fav.brandId,
       name: fav.brandName,
       categoryIds: [fav.categoryId]
     };
-    setSelectedCategory(fav.categoryId);
-    setSelectedBrand(brandObj);
-    setCurrentView('remote');
+    fetchAndSetRemoteConfig(fav.categoryId, brandObj);
+    setIsFavoritesOpen(false);
   };
 
   const handleSaveCustomButton = (label: string, hexCode: string) => {
@@ -288,14 +289,9 @@ export default function App() {
           />
         )}
 
-        {currentView === 'remote' && selectedCategory && selectedBrand && (
-          <RemoteControlView
-            currentLanguage={currentLanguage}
-            selectedCategory={selectedCategory}
-            selectedBrand={selectedBrand}
-            remoteState={remoteState}
-            onUpdateRemoteState={setRemoteState}
-            onBackToBrands={handleNavigateToBrands}
+        {currentView === 'remote' && selectedCategory && selectedBrand && dynamicRemoteConfig && (
+          <DynamicRemote
+            config={dynamicRemoteConfig}
             onEmitSignal={handleEmitSignal}
             audioFeedback={audioFeedback}
             hapticFeedback={hapticFeedback}
@@ -304,7 +300,6 @@ export default function App() {
             customButtons={customButtons}
             onOpenAddCustomButton={() => setIsCustomMacroOpen(true)}
             onRemoveCustomButton={handleRemoveCustomButton}
-            recentSignals={recentSignals}
           />
         )}
       </main>

@@ -1,5 +1,4 @@
-import React, { useState, useMemo } from 'react';
-import { GLOBAL_BRANDS } from '../data/brands';
+import React, { useState, useMemo, useEffect } from 'react';
 import { t } from '../i18n';
 import { AppCategory, Brand } from '../types';
 
@@ -14,12 +13,33 @@ export const BrandSelectionView: React.FC<BrandSelectionViewProps> = ({
   onSelectBrand,
   onBackToCategories
 }) => {
+  const [brands, setBrands] = useState<Brand[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [activeFilter, setActiveFilter] = useState<'all' | 'popular'>('all');
 
+  useEffect(() => {
+    const fetchBrands = async () => {
+      try {
+        const response = await fetch('/data/brands.json');
+        if (!response.ok) {
+          throw new Error('Brands data not found');
+        }
+        const data = await response.json();
+        setBrands(data);
+      } catch (error) {
+        console.error("Failed to fetch brands:", error);
+      }
+    };
+
+    fetchBrands();
+  }, []);
+
   // Filter brands by selected category, search query, and popularity tab
   const filteredBrands = useMemo(() => {
-    return GLOBAL_BRANDS.filter((brand) => {
+    if (!brands.length) {
+      return [];
+    }
+    return brands.filter((brand) => {
       const matchesCategory = brand.categoryIds.includes(selectedCategory);
       const matchesSearch = brand.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
                             (brand.country && brand.country.toLowerCase().includes(searchQuery.toLowerCase()));
@@ -27,7 +47,7 @@ export const BrandSelectionView: React.FC<BrandSelectionViewProps> = ({
 
       return matchesCategory && matchesSearch && matchesPopular;
     });
-  }, [selectedCategory, searchQuery, activeFilter]);
+  }, [selectedCategory, searchQuery, activeFilter, brands]);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8 animate-fade-in">
