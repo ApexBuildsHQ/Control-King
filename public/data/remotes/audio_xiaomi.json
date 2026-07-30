@@ -1,0 +1,39 @@
+{
+  "categoryId": "audio",
+  "brandId": "xiaomi",
+  "protocol": "RAW",
+  "frequency": 38000,
+  "ipEndpoint": null,
+  "buttons": [
+    {
+      "id": "off",
+      "label": "off",
+      "code": "JgA0ACMRFhEWLRYtFhEWLRYRFi0WERUuFi0WAAFTIhEWERYtFi0WERYtFhEVLhYRFS4VLhYADQUAAAAA",
+      "type": "WIFI"
+    },
+    {
+      "id": "on",
+      "label": "on",
+      "code": "JgA0ACMRFhEWLRYtFhEWLRYRFi0WERUuFi0WAAFTIhEWERYtFi0WERYtFhEVLhYRFS4VLhYADQUAAAAA",
+      "type": "WIFI"
+    },
+    {
+      "id": "volumedown",
+      "label": "volumeDown",
+      "code": "JgA0ACMRFSUVERYaFiQWERYRFS4VLhYRFRsWAAGOIxEVJBYRFhoWJBYRFREWLRYuFREWGhYADQUAAAAA",
+      "type": "WIFI"
+    },
+    {
+      "id": "volumeup",
+      "label": "volumeUp",
+      "code": "JgA0ACMRFSUVERYaFiQWERYRGikVJBYRFhEVAAGhIxEVJBYRFhoWJBYRFREWLhUkFhEWERUADQUAAAAA",
+      "type": "WIFI"
+    },
+    {
+      "id": "sources",
+      "label": "sources",
+      "code": "{\"UP\":\"JgA0ACISFSQWERUbFiQWERURFhoWGxUkFi0WAAGMJREWJBYRFRsWIxYRFhEWGhYaFiQWLRYADQUAAAAA\",\"DOWN\":\"JgA0ACISFSQWERUbFiQWERURFhoWGxUkFi0WAAGMJREWJBYRFRsWIxYRFhEWGhYaFiQWLRYADQUAAAAA\",\"LEFT\":\"JgA2ABQmExQTHRMmFBMUExMnEzATHRMdFAABkCETEycTExQdEyYUExMUEyYULxQdEx0TAAioDQAN\",\"RIGHT\":\"JgA0ACQRFSQWERYaFiQWERYQFi4VERYRFiQVAAGhIxEVJBYRFhoWJBYRFREWLRYRFhEWJBUADQUAAAAA\",\"OK\":\"JgA0ACMRFiQVERYbFSQWERYRFS4WGhYRFi0WAAGOIxEVJBYRFhoWJBYRFhAWLhUbFREWLhUADQUAAAAA\",\"HOME\":\"JgA0ACYSFSQWERUbFiQWERURFiQWERUbFiMWAAGhIhEWJBYRFRsWJBURFhEWJBYQFhsVJBYADQUAAAAA\",\"BACK\":\"JgA0ACMRFSQWERUbFiQWERURFhoWLhUkFhoWAAGPIhEWJBYRFRsWIxYRFhEWGhYtFiQWGhYADQUAAAAA\"}",
+      "type": "WIFI"
+    }
+  ]
+}

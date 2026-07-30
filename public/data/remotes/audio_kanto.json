@@ -1,0 +1,57 @@
+{
+  "categoryId": "audio",
+  "brandId": "kanto",
+  "protocol": "RAW",
+  "frequency": 38000,
+  "ipEndpoint": null,
+  "buttons": [
+    {
+      "id": "off",
+      "label": "off",
+      "code": "JgBQAAABIY4UERQQFBEUERMQFBEUERMRFDUUMxQ1FDQUNBQ1FDQUNBQRFBEUMxQ1FDQUERMRFBEUNBQ0FBEUEBQRFDQTNRQ0FAAE/AABI0UUAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "on",
+      "label": "on",
+      "code": "JgBQAAABIY4UERQQFBEUERMQFBEUERMRFDUUMxQ1FDQUNBQ1FDQUNBQRFBEUMxQ1FDQUERMRFBEUNBQ0FBEUEBQRFDQTNRQ0FAAE/AABI0UUAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "mute",
+      "label": "mute",
+      "code": "JgBQAAABII8TEhMRFBETERQQExITERQREzUUNBQ1EzQUNRQ1EzQUNRQRExEUNBQREzUUERQQExEUNRM1FBAUNRMRFDQUNRM1FAAE/QABIkcTAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "volumeup",
+      "label": "volumeUp",
+      "code": "JgBQAAABHpESExEUEBQSEhEWDhUQExEUETgSNw45EjYSOA84ETgROBATETgRFBQ0EjYRExITERQSNhISETcRFRETEjYROBE3EQAFAAABIEoSAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "volumedown",
+      "label": "volumeDown",
+      "code": "JgBQAAABHpESExETExISEhITERMSEhMSEjcSNRM2EjcSNRI3EjcRNxISEjcSNhI2ExISExIREhMSNxISEhMSERI3EzYSNRM2EgAFAAABIUcTAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "previouschannel",
+      "label": "previousChannel",
+      "code": "JgBQAAABH5ESExETERMSExETEhMSExATEjcSNxE2EjcTNhE2EjcTNhETEhISExISEhMSExESEhMSNxE3EzUSNxI2ETcTNhE3EQAFAgABIUgSAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "nextchannel",
+      "label": "nextChannel",
+      "code": "JgBQAAABHpISERQREhMSExISERMSExETEjYSNxI2ETcSNxE3EjcSNhE3EzYRExMTEDcSEhMSEhMSEhETETgSNhISETgSNhI2EgAFAQABIkcSAA0F",
+      "type": "WIFI"
+    },
+    {
+      "id": "sources",
+      "label": "sources",
+      "code": "{\"Aux\":\"JgBQAAABHJIQFBETERQRExEUERUPFBAVEDcSOQ83ETkQOBA3EjgPOBE4ERQQOBE4DzcTExAUERQQFQ85EBYQEhIUEDkOOQ85EgAFAQABHkkPAA0F\",\"RCA\":\"JgBYAAABHpEUERMRExEUERMSExETEhMQFDUTNhM0FDUTNhM0FDUTNhM0FBETEhM1ExETEhMRFBETERQ0FDUTERQ0EzYTNRQ0FAAE/gABIUcTAAwRAAEiRhQADQU=\",\"Optical 1\":\"JgBQAAABHpESExMSEBUPFBAUERUQFBAUETcROBE3EDgROA85ETgQOBA5ETYRORA3ETkQFg4TERQSEhAVEBMSFRESETcQOBE5EAAFAAABIEoPAA0F\",\"Optical 2\":\"JgBQAAABHpQPFBAVDhYQFRAVDxcOFA8VEDgRORA3ETgROBI4DTgROg83ERQRORA5DhMSEhIUEhMRFBA2ERQRFRA4EDgROBA4EQAFAAABIEoRAA0F\",\"Bluetooth\":\"JgBQAAABH5IRExAWDxMTExAVDxYPFRAVEDcPORA6DzgROg05ETcSNxA4EBUQFQ84DzoRExEUEhMOFhA4EDgRFBAUEjcQOBA5DwAFAQABIEsQAA0F\"}",
+      "type": "WIFI"
+    }
+  ]
+}

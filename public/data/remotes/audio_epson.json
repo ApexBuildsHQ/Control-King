@@ -1,0 +1,45 @@
+{
+  "categoryId": "audio",
+  "brandId": "epson",
+  "protocol": "RAW",
+  "frequency": 38000,
+  "ipEndpoint": null,
+  "buttons": [
+    {
+      "id": "off",
+      "label": "off",
+      "code": "JgCQAAABJpITNhM2FBEUERQRFBEUERQ1FDUUERQ1FBEUNRQRFDUUERQRFBEUERQRFDUUERQRFDYTNhM2EzYUNRQRFDUUNRQRFAAFOQABJ5IUNRQ1FBEUERQRFBEUERQ1FDUUERQ1FBEUNRQRFDYTEhMSExITEhMSEzYTEhMSEzYUNRQ1FDUUNRQRFDUUNRQRFAANBQ==",
+      "type": "WIFI"
+    },
+    {
+      "id": "on",
+      "label": "on",
+      "code": "JgCQAAABJpITNhM2FBEUERQRFBEUERQ1FDUUERQ1FBEUNRQRFDUUERQRFBEUERQRFDUUERQRFDYTNhM2EzYUNRQRFDUUNRQRFAAFOQABJ5IUNRQ1FBEUERQRFBEUERQ1FDUUERQ1FBEUNRQRFDYTEhMSExITEhMSEzYTEhMSEzYUNRQ1FDUUNRQRFDUUNRQRFAANBQ==",
+      "type": "WIFI"
+    },
+    {
+      "id": "mute",
+      "label": "mute",
+      "code": "JgCQAAABJZMTNhM2ExITEhMSExITEhM2EzYSExM3EhMSNxITEzYSExMSEzYTEhMSEzYTEhMSEzYTNhMSEzcSNxITEjcSNxMSEgAFOwABJpMTNhM2GwoTEhITExITEhM2EzYTEhM3EhITNxITEjcSExITEjcTEhMSEzYTEhMSEzYTNhMSEzYTNhMTEjcSNxITEgANBQ==",
+      "type": "WIFI"
+    },
+    {
+      "id": "volumeup",
+      "label": "volumeUp",
+      "code": "JgBIAAABI5QTNhE5EBUQFRAVEBUQFRA5ETcSFBE4EhMROBETEjgRFRAUEhMTEhE3EjgRExIUETcSOBM3ETgQFREUEDkROBEUEgANBQ==",
+      "type": "WIFI"
+    },
+    {
+      "id": "volumedown",
+      "label": "volumeDown",
+      "code": "JgCQAAABJJMTNhM3EhMRFRAUERQRFBE4ETgSFBA4EhQROBEUEjYSFBE3ExMRFBE3EjgRFBEUEjcRFBE4ETkQFBIUETcTNhMTEQAFOwABJZUQOBE4EhQRExIUERQRFBE3EzYSExI4EhISOBEUEjcRFBE4EhMRFBE4EjcRFREUETgRExI3EjcSFBEUETgSNhIUEQANBQ==",
+      "type": "WIFI"
+    },
+    {
+      "id": "sources",
+      "label": "sources",
+      "code": "{}",
+      "type": "WIFI"
+    }
+  ]
+}

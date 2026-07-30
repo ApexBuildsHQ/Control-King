@@ -1,0 +1,39 @@
+{
+  "categoryId": "general",
+  "brandId": "nec",
+  "protocol": "RAW",
+  "frequency": 38000,
+  "ipEndpoint": null,
+  "buttons": [
+    {
+      "id": "on",
+      "label": "on",
+      "code": "JgBIAAABJ5QVEBI4EhMSExMSExITEhM3EzcTEhM3EzgSExI4EjgSExU1ExITNxM3EzcWNBMTEhMSExI4EhMSExMSExITNxM3EwANBQ==",
+      "type": "WIFI"
+    },
+    {
+      "id": "off",
+      "label": "off",
+      "code": "[\"JgBIAAABJ5MUERM4EhMSExITEhMVEBI4EzcTEhM3EzcTEhM3EzgSExI4EhMSOBM3EzcTNxMSExITEhM4EhMSExITEhMSOBI4EwANBQ==\",\"JgBIAAABJ5MUERM3ExMSExITEhMSExI4EjgTEhM3EzcTEhM3EzgSExITEjgSOBI4EzcTNxMSExITNxMTEhMSExITEhMSOBI4EwANBQ==\"]",
+      "type": "WIFI"
+    },
+    {
+      "id": "brighten",
+      "label": "brighten",
+      "code": "JgBYAAABJ5MUERM3ExITExITEhMSExI4EjgSExM3EzcTEhM3EzcTEhMTEjgSExI4EjgTNxMSExITNxMSEzcTEhMTEhMSOBI4EgAFYAABJ0kTAAxUAAErSRMADQU=",
+      "type": "WIFI"
+    },
+    {
+      "id": "dim",
+      "label": "dim",
+      "code": "JgBYAAABKpEVEBI4EhMTEhMSExITEhM3FjQTEhM4EjgSExI4EzcTEhM3EzcTEhM4EjgSOBITEhMSExMSEzcTEhMSExITNxM3EwAFYAABJ0kTAAxaAAElShIADQU=",
+      "type": "WIFI"
+    },
+    {
+      "id": "night",
+      "label": "night",
+      "code": "JgBIAAABJpQTEhM3ExITEhMSExITEhM3EzgSExI4EjgTEhM3EzcTEhMSExITOBI4EjgSOBMSExITNxM3ExITEhMSExMSOBI4EgANBQ==",
+      "type": "WIFI"
+    }
+  ]
+}
