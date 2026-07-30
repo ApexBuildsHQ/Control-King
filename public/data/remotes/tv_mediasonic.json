@@ -1,0 +1,90 @@
+{
+  "categoryId": "tv",
+  "brandId": "mediasonic",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "ch_next",
+      "label": "Ch_next",
+      "ir": {
+        "code": "06 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ch_prev",
+      "label": "Ch_prev",
+      "ir": {
+        "code": "16 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_dn",
+      "label": "Vol_dn",
+      "ir": {
+        "code": "5B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_up",
+      "label": "Vol_up",
+      "ir": {
+        "code": "1B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ok",
+      "label": "Ok",
+      "ir": {
+        "code": "1A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "menu",
+      "label": "Menu",
+      "ir": {
+        "code": "46 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "exit",
+      "label": "Exit",
+      "ir": {
+        "code": "05 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "5A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "recall",
+      "label": "Recall",
+      "ir": {
+        "code": "11 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

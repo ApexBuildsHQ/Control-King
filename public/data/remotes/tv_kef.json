@@ -1,0 +1,81 @@
+{
+  "categoryId": "tv",
+  "brandId": "kef",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "02 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "input",
+      "label": "Source",
+      "ir": {
+        "code": "1A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_down",
+      "label": "Minus",
+      "ir": {
+        "code": "05 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_up",
+      "label": "Plus",
+      "ir": {
+        "code": "06 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mute",
+      "label": "Mute",
+      "ir": {
+        "code": "04 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "play_pause",
+      "label": "Play_pause",
+      "ir": {
+        "code": "18 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "previous",
+      "label": "Previous",
+      "ir": {
+        "code": "4B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "next_track",
+      "label": "Next",
+      "ir": {
+        "code": "4A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

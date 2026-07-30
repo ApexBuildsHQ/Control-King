@@ -1,0 +1,90 @@
+{
+  "categoryId": "general",
+  "brandId": "hieneking",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "46 B9 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_up",
+      "label": "Up",
+      "ir": {
+        "code": "48 B7 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_down",
+      "label": "Down",
+      "ir": {
+        "code": "4D B2 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ok",
+      "label": "Ok",
+      "ir": {
+        "code": "4A B5 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_left",
+      "label": "Left",
+      "ir": {
+        "code": "4E B1 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_right",
+      "label": "Right",
+      "ir": {
+        "code": "49 B6 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mute",
+      "label": "Mute",
+      "ir": {
+        "code": "4C B3 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "menu",
+      "label": "Menu",
+      "ir": {
+        "code": "45 BA 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "exit",
+      "label": "Exit",
+      "ir": {
+        "code": "0D F2 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

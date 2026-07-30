@@ -1,0 +1,108 @@
+{
+  "categoryId": "general",
+  "brandId": "luminarte",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "on",
+      "label": "On",
+      "ir": {
+        "code": "E9 16 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "rgb",
+      "label": "Rgb",
+      "ir": {
+        "code": "F5 0A 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_up",
+      "label": "Plus",
+      "ir": {
+        "code": "AB 54 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_down",
+      "label": "Minus",
+      "ir": {
+        "code": "BC 43 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "warm",
+      "label": "Warm",
+      "ir": {
+        "code": "EF 10 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "cold",
+      "label": "Cold",
+      "ir": {
+        "code": "EB 14 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "change",
+      "label": "Change",
+      "ir": {
+        "code": "09 F6 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sleeep",
+      "label": "Sleeep",
+      "ir": {
+        "code": "02 FD 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "cold50",
+      "label": "Cold50",
+      "ir": {
+        "code": "A8 57 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "warm50",
+      "label": "Warm50",
+      "ir": {
+        "code": "FA 05 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "timer",
+      "label": "Timer",
+      "ir": {
+        "code": "AC 53 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

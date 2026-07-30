@@ -1,0 +1,288 @@
+{
+  "categoryId": "audio",
+  "brandId": "polkaudio",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "00 FF 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mute",
+      "label": "Mute",
+      "ir": {
+        "code": "20 DF 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_up",
+      "label": "Vol_up",
+      "ir": {
+        "code": "1E E1 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_dn",
+      "label": "Vol_dn",
+      "ir": {
+        "code": "1F E0 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "night_effect",
+      "label": "Night_Effect",
+      "ir": {
+        "code": "71 8E 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "bass_up",
+      "label": "Bass_Up",
+      "ir": {
+        "code": "5C A3 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "bass_down",
+      "label": "Bass_Down",
+      "ir": {
+        "code": "5D A2 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "voice_up",
+      "label": "Voice_Up",
+      "ir": {
+        "code": "6A 95 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "voice_down",
+      "label": "Voice_Down",
+      "ir": {
+        "code": "6B 94 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "play_pause",
+      "label": "Play_Pause",
+      "ir": {
+        "code": "21 DE 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "track_back",
+      "label": "Track_back",
+      "ir": {
+        "code": "26 D9 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "track_fwd",
+      "label": "Track_fwd",
+      "ir": {
+        "code": "24 DB 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "src_tv_arc",
+      "label": "SRC_TV_ARC",
+      "ir": {
+        "code": "0F F0 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "src_optical",
+      "label": "SRC_OPTICAL",
+      "ir": {
+        "code": "0E F1 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "src_aux",
+      "label": "SRC_AUX",
+      "ir": {
+        "code": "0D F2 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "movie_mode",
+      "label": "Movie_mode",
+      "ir": {
+        "code": "77 88 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sports_mode",
+      "label": "Sports_mode",
+      "ir": {
+        "code": "79 86 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "music_mode",
+      "label": "Music_mode",
+      "ir": {
+        "code": "78 87 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "moon",
+      "label": "Moon",
+      "ir": {
+        "code": "71 8E 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tv_arc",
+      "label": "Tv_ARC",
+      "ir": {
+        "code": "0F F0 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "opt",
+      "label": "OPT",
+      "ir": {
+        "code": "0E F1 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "aux",
+      "label": "AUX",
+      "ir": {
+        "code": "0D F2 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "main_up",
+      "label": "Main_Up",
+      "ir": {
+        "code": "1E E1 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "main_down",
+      "label": "Main_Down",
+      "ir": {
+        "code": "1F E0 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "bas_down",
+      "label": "Bas_Down",
+      "ir": {
+        "code": "5D A2 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "back",
+      "label": "Back",
+      "ir": {
+        "code": "26 D9 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "media_pause",
+      "label": "Pause",
+      "ir": {
+        "code": "21 DE 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "forward",
+      "label": "Forward",
+      "ir": {
+        "code": "24 DB 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema",
+      "ir": {
+        "code": "77 88 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sports",
+      "label": "Sports",
+      "ir": {
+        "code": "79 86 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "music",
+      "label": "Music",
+      "ir": {
+        "code": "78 87 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

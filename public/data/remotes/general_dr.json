@@ -1,0 +1,54 @@
+{
+  "categoryId": "general",
+  "brandId": "dr",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "1A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_down",
+      "label": "Down",
+      "ir": {
+        "code": "01 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_up",
+      "label": "Up",
+      "ir": {
+        "code": "03 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "timer",
+      "label": "Timer",
+      "ir": {
+        "code": "07 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "temperature",
+      "label": "Temperature",
+      "ir": {
+        "code": "09 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

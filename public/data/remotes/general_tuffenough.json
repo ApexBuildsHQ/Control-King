@@ -1,0 +1,54 @@
+{
+  "categoryId": "general",
+  "brandId": "tuffenough",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "1",
+      "label": "1",
+      "ir": {
+        "code": "07 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "2",
+      "label": "2",
+      "ir": {
+        "code": "16 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "3",
+      "label": "3",
+      "ir": {
+        "code": "0C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "power_on",
+      "label": "Power_on",
+      "ir": {
+        "code": "45 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "power",
+      "label": "Power_off",
+      "ir": {
+        "code": "47 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

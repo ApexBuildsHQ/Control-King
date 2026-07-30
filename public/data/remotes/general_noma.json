@@ -1,0 +1,297 @@
+{
+  "categoryId": "general",
+  "brandId": "noma",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "on",
+      "label": "On",
+      "ir": {
+        "code": "1C E3 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "off",
+      "label": "Off",
+      "ir": {
+        "code": "1D E2 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "auto",
+      "label": "Auto",
+      "ir": {
+        "code": "1E E1 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sleep",
+      "label": "Sleep",
+      "ir": {
+        "code": "1F E0 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "btn_red",
+      "label": "Red",
+      "ir": {
+        "code": "00 FF 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "btn_green",
+      "label": "Green",
+      "ir": {
+        "code": "01 FE 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "btn_blue",
+      "label": "Blue",
+      "ir": {
+        "code": "02 FD 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "white",
+      "label": "White",
+      "ir": {
+        "code": "03 FC 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "light_red",
+      "label": "Light Red",
+      "ir": {
+        "code": "04 FB 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "light_green",
+      "label": "Light Green",
+      "ir": {
+        "code": "05 FA 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "navy_blue",
+      "label": "Navy Blue",
+      "ir": {
+        "code": "06 F9 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "rainbow",
+      "label": "Rainbow",
+      "ir": {
+        "code": "07 F8 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "dark_orange",
+      "label": "Dark Orange",
+      "ir": {
+        "code": "08 F7 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ice_blue",
+      "label": "Ice Blue",
+      "ir": {
+        "code": "09 F6 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "purple",
+      "label": "Purple",
+      "ir": {
+        "code": "0A F5 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "fade",
+      "label": "Fade",
+      "ir": {
+        "code": "0B F4 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "orange",
+      "label": "Orange",
+      "ir": {
+        "code": "0C F3 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "alt_blue",
+      "label": "Alt Blue",
+      "ir": {
+        "code": "0D F2 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "indego",
+      "label": "Indego",
+      "ir": {
+        "code": "0E F1 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "jump",
+      "label": "Jump",
+      "ir": {
+        "code": "0F F0 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "btn_yellow",
+      "label": "Yellow",
+      "ir": {
+        "code": "10 EF 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "dark_green",
+      "label": "Dark Green",
+      "ir": {
+        "code": "11 EE 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "pink",
+      "label": "Pink",
+      "ir": {
+        "code": "12 ED 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "asyn_fade",
+      "label": "Asyn Fade",
+      "ir": {
+        "code": "13 EC 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "in_waves",
+      "label": "In Waves",
+      "ir": {
+        "code": "14 EB 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "strobe",
+      "label": "Strobe",
+      "ir": {
+        "code": "15 EA 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "twinkle",
+      "label": "Twinkle",
+      "ir": {
+        "code": "16 E9 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "asyn_jump",
+      "label": "Asyn Jump",
+      "ir": {
+        "code": "17 E8 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "4h_timer",
+      "label": "4H Timer",
+      "ir": {
+        "code": "18 E7 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "6h_timer",
+      "label": "6H Timer",
+      "ir": {
+        "code": "19 E6 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "8h_timer",
+      "label": "8H Timer",
+      "ir": {
+        "code": "1A E5 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "timer_off",
+      "label": "Timer Off",
+      "ir": {
+        "code": "1B E4 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

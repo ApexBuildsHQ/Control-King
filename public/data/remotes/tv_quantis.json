@@ -1,0 +1,81 @@
+{
+  "categoryId": "tv",
+  "brandId": "quantis",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "12 ED 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_up",
+      "label": "Vol_up",
+      "ir": {
+        "code": "1D E2 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_dn",
+      "label": "Vol_dn",
+      "ir": {
+        "code": "1A E5 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mute",
+      "label": "Mute",
+      "ir": {
+        "code": "03 FC 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "input",
+      "label": "Source",
+      "ir": {
+        "code": "14 EB 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "profile_music",
+      "label": "Profile_music",
+      "ir": {
+        "code": "06 F9 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "profile_movie",
+      "label": "Profile_movie",
+      "ir": {
+        "code": "0F F0 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "profile_voice",
+      "label": "Profile_voice",
+      "ir": {
+        "code": "04 FB 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

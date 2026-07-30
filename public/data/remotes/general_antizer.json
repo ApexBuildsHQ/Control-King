@@ -1,0 +1,63 @@
+{
+  "categoryId": "general",
+  "brandId": "antizer",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "on",
+      "label": "On",
+      "ir": {
+        "code": "00 FF 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "off",
+      "label": "Off",
+      "ir": {
+        "code": "02 FD 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "dimmer",
+      "label": "Dimmer",
+      "ir": {
+        "code": "10 EF 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "brighter",
+      "label": "Brighter",
+      "ir": {
+        "code": "12 ED 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "candle_mode",
+      "label": "Candle_mode",
+      "ir": {
+        "code": "0C F3 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "light_mode",
+      "label": "Light_mode",
+      "ir": {
+        "code": "0E F1 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

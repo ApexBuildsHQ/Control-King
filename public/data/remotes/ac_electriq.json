@@ -1,0 +1,63 @@
+{
+  "categoryId": "ac",
+  "brandId": "electriq",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "on_off",
+      "label": "On_off",
+      "ir": {
+        "code": "43 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "temp_plus",
+      "label": "Temp_plus",
+      "ir": {
+        "code": "44 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "temp_down",
+      "label": "Temp_down",
+      "ir": {
+        "code": "16 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "fan_speed",
+      "label": "Speed",
+      "ir": {
+        "code": "0D 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ac_mode",
+      "label": "Mode",
+      "ir": {
+        "code": "08 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sleep",
+      "label": "Sleep",
+      "ir": {
+        "code": "5A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

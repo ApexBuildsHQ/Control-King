@@ -1,0 +1,153 @@
+{
+  "categoryId": "general",
+  "brandId": "hxweiye",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "on",
+      "label": "ON",
+      "ir": {
+        "code": "45 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "off",
+      "label": "OFF",
+      "ir": {
+        "code": "47 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "2h_timer",
+      "label": "2H TIMER",
+      "ir": {
+        "code": "46 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "4h_timer",
+      "label": "4H TIMER",
+      "ir": {
+        "code": "44 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "6h_timer",
+      "label": "6H TIMER",
+      "ir": {
+        "code": "40 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "8h_timer",
+      "label": "8H TIMER",
+      "ir": {
+        "code": "43 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "comb",
+      "label": "Comb",
+      "ir": {
+        "code": "07 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "in_wave",
+      "label": "In Wave",
+      "ir": {
+        "code": "15 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "seq",
+      "label": "Seq",
+      "ir": {
+        "code": "09 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "slo_glo",
+      "label": "Slo-glo",
+      "ir": {
+        "code": "16 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "chasing",
+      "label": "Chasing",
+      "ir": {
+        "code": "0D 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "fade",
+      "label": "Fade",
+      "ir": {
+        "code": "0C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "twinkle",
+      "label": "Twinkle",
+      "ir": {
+        "code": "18 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "steady",
+      "label": "Steady",
+      "ir": {
+        "code": "5E 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "dim__",
+      "label": "Dim -",
+      "ir": {
+        "code": "5A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "dim_half",
+      "label": "Dim Half",
+      "ir": {
+        "code": "1C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

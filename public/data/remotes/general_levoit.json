@@ -1,0 +1,90 @@
+{
+  "categoryId": "general",
+  "brandId": "levoit",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "on_off",
+      "label": "On-Off",
+      "ir": {
+        "code": "00 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "display",
+      "label": "Display",
+      "ir": {
+        "code": "02 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mist",
+      "label": "Mist",
+      "ir": {
+        "code": "08 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "auto",
+      "label": "Auto",
+      "ir": {
+        "code": "09 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sleep",
+      "label": "Sleep",
+      "ir": {
+        "code": "05 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "humidity",
+      "label": "Humidity",
+      "ir": {
+        "code": "1E 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "timer",
+      "label": "Timer",
+      "ir": {
+        "code": "0A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "01 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "warm",
+      "label": "Warm",
+      "ir": {
+        "code": "1A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

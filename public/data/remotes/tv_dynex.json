@@ -1,0 +1,414 @@
+{
+  "categoryId": "tv",
+  "brandId": "dynex",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "0F F0 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "input",
+      "label": "Input",
+      "ir": {
+        "code": "50 AF 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_up",
+      "label": "Vol_up",
+      "ir": {
+        "code": "0C F3 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_dn",
+      "label": "Vol_dn",
+      "ir": {
+        "code": "0D F2 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ch_next",
+      "label": "Ch_next",
+      "ir": {
+        "code": "0A F5 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ch_prev",
+      "label": "Ch_prev",
+      "ir": {
+        "code": "0B F4 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mute",
+      "label": "Mute",
+      "ir": {
+        "code": "0E F1 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "menu",
+      "label": "Menu",
+      "ir": {
+        "code": "14 EB 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "exit",
+      "label": "Exit",
+      "ir": {
+        "code": "1B E4 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "info",
+      "label": "Info",
+      "ir": {
+        "code": "17 E8 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "guide",
+      "label": "Guide",
+      "ir": {
+        "code": "45 BA 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ok",
+      "label": "Enter",
+      "ir": {
+        "code": "18 E7 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_up",
+      "label": "Up",
+      "ir": {
+        "code": "42 BD 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "dn",
+      "label": "Dn",
+      "ir": {
+        "code": "8990 3428 197 822 619 543 590 1670 596 1663 592 545 588 550 593 544 589 549 594 1665 590 1668 587 550 593 1666 589 548 595 543 590 548 595 542 591 547 596 1663 592 1666 589 548 595 542 591 547 596 541 592 1668 587 549 594 544 589 548 595 1665 590 1668 587 1671 595 1665 590 547 596 1663 592 42384 8983 2211 621",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_left",
+      "label": "Left",
+      "ir": {
+        "code": "16 E9 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_right",
+      "label": "Right",
+      "ir": {
+        "code": "15 EA 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "favorite",
+      "label": "Favorite",
+      "ir": {
+        "code": "4B B4 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "video",
+      "label": "Video",
+      "ir": {
+        "code": "4C B3 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tv",
+      "label": "Tv",
+      "ir": {
+        "code": "4F B0 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "comp",
+      "label": "Comp",
+      "ir": {
+        "code": "4D B2 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mts_sap",
+      "label": "Mts_sap",
+      "ir": {
+        "code": "11 EE 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vga",
+      "label": "Vga",
+      "ir": {
+        "code": "4E B1 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "zoom",
+      "label": "Zoom",
+      "ir": {
+        "code": "44 BB 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sleep",
+      "label": "Sleep",
+      "ir": {
+        "code": "13 EC 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ch_list",
+      "label": "Ch_list",
+      "ir": {
+        "code": "86 79 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "picture",
+      "label": "Picture",
+      "ir": {
+        "code": "49 B6 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "audio",
+      "label": "Audio",
+      "ir": {
+        "code": "48 B7 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ccd",
+      "label": "Ccd",
+      "ir": {
+        "code": "1C E3 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "1",
+      "label": "1",
+      "ir": {
+        "code": "00 FF 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "2",
+      "label": "2",
+      "ir": {
+        "code": "01 FE 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "3",
+      "label": "3",
+      "ir": {
+        "code": "02 FD 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "4",
+      "label": "4",
+      "ir": {
+        "code": "03 FC 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "5",
+      "label": "5",
+      "ir": {
+        "code": "04 FB 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "6",
+      "label": "6",
+      "ir": {
+        "code": "05 FA 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "7",
+      "label": "7",
+      "ir": {
+        "code": "06 F9 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "8",
+      "label": "8",
+      "ir": {
+        "code": "07 F8 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "9",
+      "label": "9",
+      "ir": {
+        "code": "08 F7 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "0",
+      "label": "0",
+      "ir": {
+        "code": "09 F6 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "dot",
+      "label": "Dot",
+      "ir": {
+        "code": "41 BE 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "recall",
+      "label": "Recall",
+      "ir": {
+        "code": "10 EF 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "decimal",
+      "label": "Decimal",
+      "ir": {
+        "code": "41 BE 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_down",
+      "label": "Down",
+      "ir": {
+        "code": "43 BC 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "time",
+      "label": "Time",
+      "ir": {
+        "code": "9A 65 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "_",
+      "label": ".",
+      "ir": {
+        "code": "41 BE 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "composite",
+      "label": "Composite",
+      "ir": {
+        "code": "4D B2 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

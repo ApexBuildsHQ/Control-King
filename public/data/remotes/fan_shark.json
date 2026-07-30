@@ -1,0 +1,63 @@
+{
+  "categoryId": "fan",
+  "brandId": "shark",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "55 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sleep_timer",
+      "label": "Sleep timer",
+      "ir": {
+        "code": "13 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "fan__",
+      "label": "Fan +",
+      "ir": {
+        "code": "4A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "oscillation__",
+      "label": "Oscillation +",
+      "ir": {
+        "code": "68 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_left",
+      "label": "Left",
+      "ir": {
+        "code": "1C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_right",
+      "label": "Right",
+      "ir": {
+        "code": "34 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

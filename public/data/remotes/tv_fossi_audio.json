@@ -1,0 +1,126 @@
+{
+  "categoryId": "tv",
+  "brandId": "fossi_audio",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "72 8D 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "lcd_change",
+      "label": "Lcd_Change",
+      "ir": {
+        "code": "73 8C 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mute",
+      "label": "Mute",
+      "ir": {
+        "code": "75 8A 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_up",
+      "label": "Vol_up",
+      "ir": {
+        "code": "76 89 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_dn",
+      "label": "Vol_dn",
+      "ir": {
+        "code": "79 86 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_left",
+      "label": "Left",
+      "ir": {
+        "code": "77 88 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_right",
+      "label": "Right",
+      "ir": {
+        "code": "78 87 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ok",
+      "label": "Ok",
+      "ir": {
+        "code": "86 79 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "change_input",
+      "label": "Change_Input",
+      "ir": {
+        "code": "80 7F 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "change_output",
+      "label": "Change_Output",
+      "ir": {
+        "code": "81 7E 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "change_filter",
+      "label": "Change_Filter",
+      "ir": {
+        "code": "82 7D 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "change_auto",
+      "label": "Change_Auto",
+      "ir": {
+        "code": "83 7C 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "home",
+      "label": "Home",
+      "ir": {
+        "code": "85 7A 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

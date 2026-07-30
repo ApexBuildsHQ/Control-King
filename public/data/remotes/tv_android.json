@@ -1,0 +1,171 @@
+{
+  "categoryId": "tv",
+  "brandId": "android",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "40 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "kd",
+      "label": "Kd",
+      "ir": {
+        "code": "44 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "menu",
+      "label": "Setup",
+      "ir": {
+        "code": "4C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "app",
+      "label": "App",
+      "ir": {
+        "code": "0F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_dn",
+      "label": "Vol_dn",
+      "ir": {
+        "code": "10 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_up",
+      "label": "Vol_up",
+      "ir": {
+        "code": "18 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_up",
+      "label": "Up",
+      "ir": {
+        "code": "9040 4479 596 1648 597 538 589 572 566 569 569 540 598 564 563 571 567 568 570 566 572 1671 564 1680 565 1653 592 1679 566 1677 568 1676 569 1675 570 565 573 1645 590 1654 591 570 568 1676 569 566 571 564 563 571 1674 1676 567 571 564 563 1679 566 570 568 1675 570 1648 597 1673 572 39801 9042 2231 598",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_down",
+      "label": "Down",
+      "ir": {
+        "code": "1A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_right",
+      "label": "Right",
+      "ir": {
+        "code": "50 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_left",
+      "label": "Left",
+      "ir": {
+        "code": "51 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ok",
+      "label": "Ok",
+      "ir": {
+        "code": "13 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "home",
+      "label": "Home",
+      "ir": {
+        "code": "11 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "back",
+      "label": "Back",
+      "ir": {
+        "code": "19 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "play_pause",
+      "label": "Play_pause",
+      "ir": {
+        "code": "5A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "media_stop",
+      "label": "Stop",
+      "ir": {
+        "code": "52 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "run",
+      "label": "Run",
+      "ir": {
+        "code": "54 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mute",
+      "label": "Mute",
+      "ir": {
+        "code": "41 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mouse",
+      "label": "Mouse",
+      "ir": {
+        "code": "00 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "categoryId": "audio",
+  "brandId": "adcom",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "00 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_up",
+      "label": "Vol_up",
+      "ir": {
+        "code": "1F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_dn",
+      "label": "Vol_dn",
+      "ir": {
+        "code": "1E 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "cd",
+      "label": "CD",
+      "ir": {
+        "code": "0D 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "phono",
+      "label": "PHONO",
+      "ir": {
+        "code": "0C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tape1",
+      "label": "TAPE1",
+      "ir": {
+        "code": "10 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "video_tape2",
+      "label": "VIDEO/TAPE2",
+      "ir": {
+        "code": "0E 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tuner",
+      "label": "TUNER",
+      "ir": {
+        "code": "11 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "fm_am",
+      "label": "FM/AM",
+      "ir": {
+        "code": "19 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "1",
+      "label": "1",
+      "ir": {
+        "code": "04 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "2",
+      "label": "2",
+      "ir": {
+        "code": "05 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "3",
+      "label": "3",
+      "ir": {
+        "code": "06 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "4",
+      "label": "4",
+      "ir": {
+        "code": "07 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "5",
+      "label": "5",
+      "ir": {
+        "code": "08 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "6",
+      "label": "6",
+      "ir": {
+        "code": "09 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "7",
+      "label": "7",
+      "ir": {
+        "code": "0A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "8",
+      "label": "8",
+      "ir": {
+        "code": "0B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tuning_",
+      "label": "TUNING-",
+      "ir": {
+        "code": "1F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "cd_stop",
+      "label": "CD_stop",
+      "ir": {
+        "code": "17 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "cd_play",
+      "label": "CD_play",
+      "ir": {
+        "code": "12 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "cd_previous",
+      "label": "CD_previous",
+      "ir": {
+        "code": "1A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "cd_next",
+      "label": "CD_next",
+      "ir": {
+        "code": "1B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "cd_pause",
+      "label": "CD_pause",
+      "ir": {
+        "code": "13 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

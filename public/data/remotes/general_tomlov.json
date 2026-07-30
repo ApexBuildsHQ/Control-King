@@ -1,0 +1,36 @@
+{
+  "categoryId": "general",
+  "brandId": "tomlov",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "nav_left",
+      "label": "Left",
+      "ir": {
+        "code": "01 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ok",
+      "label": "OK",
+      "ir": {
+        "code": "02 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_right",
+      "label": "Right",
+      "ir": {
+        "code": "03 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

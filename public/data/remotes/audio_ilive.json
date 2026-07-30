@@ -1,0 +1,63 @@
+{
+  "categoryId": "audio",
+  "brandId": "ilive",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "9028 3517 173 801 573 559 573 559 573 557 575 583 539 565 567 1676 568 590 542 563 569 1674 570 1675 569 1676 568 1677 567 1678 576 556 566 1679 575 1669 575 557 575 556 566 1678 576 1696 548 557 575 556 566 565 567 564 568 1675 569 1676 568 564 568 563 569 1674 570 1702 542 1703 541 1678 576 40469 9030 2232 568 96806 9035 2229 571 96799 9033 2230 570",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_up",
+      "label": "Vol_up",
+      "ir": {
+        "code": "14 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_dn",
+      "label": "Vol_dn",
+      "ir": {
+        "code": "10 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "aux",
+      "label": "Aux",
+      "ir": {
+        "code": "0A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "optical",
+      "label": "Optical",
+      "ir": {
+        "code": "16 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "bt",
+      "label": "BT",
+      "ir": {
+        "code": "0F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

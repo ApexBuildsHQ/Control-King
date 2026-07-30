@@ -1,0 +1,189 @@
+{
+  "categoryId": "audio",
+  "brandId": "geneva",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "00 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_up",
+      "label": "Vol_up",
+      "ir": {
+        "code": "03 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_dn",
+      "label": "Vol_dn",
+      "ir": {
+        "code": "06 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "bass_",
+      "label": "Bass+",
+      "ir": {
+        "code": "04 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "treble_",
+      "label": "Treble+",
+      "ir": {
+        "code": "05 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ipod",
+      "label": "IPod",
+      "ir": {
+        "code": "07 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "cd",
+      "label": "CD",
+      "ir": {
+        "code": "08 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "fm",
+      "label": "FM",
+      "ir": {
+        "code": "09 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "air",
+      "label": "Air",
+      "ir": {
+        "code": "0E 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "linein",
+      "label": "LineIn",
+      "ir": {
+        "code": "10 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "play_pause",
+      "label": "Play_Pause",
+      "ir": {
+        "code": "0A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "next_track",
+      "label": "Next",
+      "ir": {
+        "code": "0C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "prev_track",
+      "label": "Prev",
+      "ir": {
+        "code": "0B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "media_stop",
+      "label": "Stop",
+      "ir": {
+        "code": "0D 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "eject",
+      "label": "Eject",
+      "ir": {
+        "code": "0F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "p",
+      "label": "P",
+      "ir": {
+        "code": "11 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "r",
+      "label": "R",
+      "ir": {
+        "code": "12 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "e",
+      "label": "E",
+      "ir": {
+        "code": "15 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "s",
+      "label": "S",
+      "ir": {
+        "code": "14 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "t",
+      "label": "T",
+      "ir": {
+        "code": "16 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

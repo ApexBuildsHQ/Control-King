@@ -1,0 +1,72 @@
+{
+  "categoryId": "general",
+  "brandId": "coretec",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "f1",
+      "label": "F1",
+      "ir": {
+        "code": "3486 10251 1706",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "f2",
+      "label": "F2",
+      "ir": {
+        "code": "1760 1701 1733 8573 1677",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "f3",
+      "label": "F3",
+      "ir": {
+        "code": "1701 3470 1677 6892 1702",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "f4",
+      "label": "F4",
+      "ir": {
+        "code": "1733 5120 1736 5123 1707",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "f5",
+      "label": "F5",
+      "ir": {
+        "code": "1732 6860 1707 3411 1708",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "c1",
+      "label": "C1",
+      "ir": {
+        "code": "1733 8543 1735 1701 1707",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "media_pause",
+      "label": "PAUSE",
+      "ir": {
+        "code": "1733 10256 3432",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

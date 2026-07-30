@@ -1,0 +1,81 @@
+{
+  "categoryId": "fan",
+  "brandId": "quads",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "88 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "dry_clothing",
+      "label": "Dry_clothing",
+      "ir": {
+        "code": "86 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "osc_vert",
+      "label": "Osc_vert",
+      "ir": {
+        "code": "95 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "osc_horiz",
+      "label": "Osc_horiz",
+      "ir": {
+        "code": "83 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "speed_up",
+      "label": "Speed_up",
+      "ir": {
+        "code": "8C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "speed_down",
+      "label": "Speed_down",
+      "ir": {
+        "code": "87 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "on_timer",
+      "label": "On_timer",
+      "ir": {
+        "code": "85 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "off_timer",
+      "label": "Off_timer",
+      "ir": {
+        "code": "9C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

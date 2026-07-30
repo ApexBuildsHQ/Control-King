@@ -1,0 +1,90 @@
+{
+  "categoryId": "ac",
+  "brandId": "boulanger",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "POWER",
+      "ir": {
+        "code": "6B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "temp_up",
+      "label": "TEMP+",
+      "ir": {
+        "code": "65 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "temp_down",
+      "label": "TEMP-",
+      "ir": {
+        "code": "68 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "fanspeed",
+      "label": "Fanspeed",
+      "ir": {
+        "code": "64 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "openangle",
+      "label": "Openangle",
+      "ir": {
+        "code": "67 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "timer",
+      "label": "Timer",
+      "ir": {
+        "code": "69 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ac_mode",
+      "label": "MODE",
+      "ir": {
+        "code": "66 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nightmode",
+      "label": "Nightmode",
+      "ir": {
+        "code": "6A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "celsiufarenheight",
+      "label": "Celsiufarenheight",
+      "ir": {
+        "code": "6C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

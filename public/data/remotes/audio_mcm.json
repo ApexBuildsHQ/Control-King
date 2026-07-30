@@ -1,0 +1,36 @@
+{
+  "categoryId": "audio",
+  "brandId": "mcm",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "mute",
+      "label": "Mute",
+      "ir": {
+        "code": "47 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_up",
+      "label": "Vol_up",
+      "ir": {
+        "code": "0D 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_dn",
+      "label": "Vol_dn",
+      "ir": {
+        "code": "16 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

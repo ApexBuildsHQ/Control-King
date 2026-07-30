@@ -1,0 +1,234 @@
+{
+  "categoryId": "general",
+  "brandId": "ami",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "ami",
+      "label": "Ami",
+      "ir": {
+        "code": "0C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ch_1_vol_up",
+      "label": "Ch_1_vol_up",
+      "ir": {
+        "code": "0B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ch_1_vol_down",
+      "label": "Ch_1_vol_down",
+      "ir": {
+        "code": "28 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ch_2_vol_up",
+      "label": "Ch_2_vol_up",
+      "ir": {
+        "code": "11 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ch_2_vol_down",
+      "label": "Ch_2_vol_down",
+      "ir": {
+        "code": "23 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "power",
+      "label": "POWER",
+      "ir": {
+        "code": "0C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "reject",
+      "label": "Reject",
+      "ir": {
+        "code": "36 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "media_play",
+      "label": "Play",
+      "ir": {
+        "code": "30 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "media_pause",
+      "label": "Pause",
+      "ir": {
+        "code": "35 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ch1_vol_up",
+      "label": "Ch1_Vol_Up",
+      "ir": {
+        "code": "0B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ch1_vol_dn",
+      "label": "Ch1_Vol_Dn",
+      "ir": {
+        "code": "28 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ch2_vol_up",
+      "label": "Ch2_Vol_Up",
+      "ir": {
+        "code": "11 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ch2_vol_dn",
+      "label": "Ch2_Vol_Dn",
+      "ir": {
+        "code": "23 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ch3_vol_up",
+      "label": "Ch3_Vol_Up",
+      "ir": {
+        "code": "10 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ch3_vol_dn",
+      "label": "Ch3_Vol_Dn",
+      "ir": {
+        "code": "22 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ch4_vol_up",
+      "label": "Ch4_Vol_Up",
+      "ir": {
+        "code": "3B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ch4_vol_dn",
+      "label": "Ch4_Vol_Dn",
+      "ir": {
+        "code": "37 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ap_on",
+      "label": "AP_On",
+      "ir": {
+        "code": "2B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ap_off",
+      "label": "AP_Off",
+      "ir": {
+        "code": "1C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "future",
+      "label": "Future",
+      "ir": {
+        "code": "2C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vid_sel",
+      "label": "Vid_Sel",
+      "ir": {
+        "code": "12 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "input_sel",
+      "label": "Input_Sel",
+      "ir": {
+        "code": "0D 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "skip",
+      "label": "Skip",
+      "ir": {
+        "code": "36 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_up",
+      "label": "VOL+",
+      "ir": {
+        "code": "0B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_dn",
+      "label": "Vol_dn",
+      "ir": {
+        "code": "28 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

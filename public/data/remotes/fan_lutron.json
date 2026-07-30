@@ -1,0 +1,54 @@
+{
+  "categoryId": "fan",
+  "brandId": "lutron",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "full_on",
+      "label": "FULL ON",
+      "ir": {
+        "code": "20592 6863 2288 9152 2288 6863 2288 4576 2288 2288 11440 11440",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "off",
+      "label": "OFF",
+      "ir": {
+        "code": "20592 6864 2288 9152 11440 2288 2288 6864 2288 2288 2288 13728",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "raise",
+      "label": "Raise",
+      "ir": {
+        "code": "20592 6864 2288 9152 2288 9152 2288 6864 2288 4576 2288 13728",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "lower",
+      "label": "Lower",
+      "ir": {
+        "code": "20592 6864 2288 9152 2288 9152 2288 9152 2288 4576 2288 11440",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "favorite",
+      "label": "Favorite",
+      "ir": {
+        "code": "20592 6864 2288 9152 2288 6864 2288 4576 2288 2288 4576 6864 2288 9152",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

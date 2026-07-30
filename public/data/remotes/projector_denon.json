@@ -1,0 +1,36 @@
+{
+  "categoryId": "projector",
+  "brandId": "denon",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "05 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "volume_p",
+      "label": "Volume_p",
+      "ir": {
+        "code": "70 01 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "volume_m",
+      "label": "Volume_m",
+      "ir": {
+        "code": "71 01 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

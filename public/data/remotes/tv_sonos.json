@@ -1,0 +1,45 @@
+{
+  "categoryId": "tv",
+  "brandId": "sonos",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "vol_up",
+      "label": "Vol_up",
+      "ir": {
+        "code": "8A 75 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_dn",
+      "label": "Vol_dn",
+      "ir": {
+        "code": "88 77 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mute",
+      "label": "Mute",
+      "ir": {
+        "code": "8C 73 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "input",
+      "label": "Input",
+      "ir": {
+        "code": "86 79 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

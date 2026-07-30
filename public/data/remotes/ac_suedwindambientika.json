@@ -1,0 +1,153 @@
+{
+  "categoryId": "ac",
+  "brandId": "suedwindambientika",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "automatic",
+      "label": "Automatic",
+      "ir": {
+        "code": "28 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "survillance",
+      "label": "Survillance",
+      "ir": {
+        "code": "29 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "manual",
+      "label": "Manual",
+      "ir": {
+        "code": "2A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "40percent",
+      "label": "40percent",
+      "ir": {
+        "code": "4A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "60percent",
+      "label": "60percent",
+      "ir": {
+        "code": "4B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "70percent",
+      "label": "70percent",
+      "ir": {
+        "code": "4C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "speed1",
+      "label": "Speed1",
+      "ir": {
+        "code": "6C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "speed2",
+      "label": "Speed2",
+      "ir": {
+        "code": "6D 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "speed3",
+      "label": "Speed3",
+      "ir": {
+        "code": "6E 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sleepmode",
+      "label": "SleepMode",
+      "ir": {
+        "code": "4F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "extractmode",
+      "label": "ExtractMode",
+      "ir": {
+        "code": "2C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "intakemode",
+      "label": "IntakeMode",
+      "ir": {
+        "code": "2D 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "masterslaveextract",
+      "label": "MasterSlaveExtract",
+      "ir": {
+        "code": "2E 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "slavemasterextract",
+      "label": "SlaveMasterExtract",
+      "ir": {
+        "code": "2F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "20minextractburst",
+      "label": "20minExtractBurst",
+      "ir": {
+        "code": "48 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "resetfilter",
+      "label": "ResetFilter",
+      "ir": {
+        "code": "40 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

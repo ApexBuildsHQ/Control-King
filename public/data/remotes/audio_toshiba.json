@@ -1,57 +1,286 @@
 {
   "categoryId": "audio",
   "brandId": "toshiba",
-  "protocol": "RAW",
-  "frequency": 38000,
-  "ipEndpoint": null,
+  "supportedModes": [
+    "IR",
+    "WIFI"
+  ],
   "buttons": [
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "12 ED 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_up",
+      "label": "Vol_up",
+      "ir": {
+        "code": "11 EE 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_dn",
+      "label": "Vol_dn",
+      "ir": {
+        "code": "10 EF 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mute",
+      "label": "Mute",
+      "ir": {
+        "code": "13 EC 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      },
+      "wifi": {
+        "endpoint": "JgBQAAABJ5QSExIUEhITEhISExISOBMSEzYTNxE4EjcSOBA5ERQROBMSERQSExETFDUSFBMSERMSNxM3ETgTNhMSEjgSNxM2EwAFKwABJkoTAA0FAAAAAAAAAAA=",
+        "method": "POST"
+      }
+    },
+    {
+      "id": "tune_",
+      "label": "TUNE-",
+      "ir": {
+        "code": "08 F7 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "1",
+      "label": "1",
+      "ir": {
+        "code": "41 BE 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "2",
+      "label": "2",
+      "ir": {
+        "code": "42 BD 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "3",
+      "label": "3",
+      "ir": {
+        "code": "43 BC 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "4",
+      "label": "4",
+      "ir": {
+        "code": "44 BB 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "5",
+      "label": "5",
+      "ir": {
+        "code": "45 BA 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "6",
+      "label": "6",
+      "ir": {
+        "code": "46 B9 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "7",
+      "label": "7",
+      "ir": {
+        "code": "47 B8 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "8",
+      "label": "8",
+      "ir": {
+        "code": "48 B7 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "9",
+      "label": "9",
+      "ir": {
+        "code": "49 B6 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "0",
+      "label": "0",
+      "ir": {
+        "code": "40 BF 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "_10",
+      "label": ">10",
+      "ir": {
+        "code": "4A B5 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "intro_scan",
+      "label": "INTRO_SCAN",
+      "ir": {
+        "code": "02 FD 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "repeat",
+      "label": "REPEAT",
+      "ir": {
+        "code": "4E B1 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "memory",
+      "label": "MEMORY",
+      "ir": {
+        "code": "04 FB 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "media_stop",
+      "label": "STOP",
+      "ir": {
+        "code": "03 FC 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "play_pause",
+      "label": "PLAY_PAUSE",
+      "ir": {
+        "code": "00 FF 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "eject",
+      "label": "EJECT",
+      "ir": {
+        "code": "01 FE 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "prev_track",
+      "label": "PREV",
+      "ir": {
+        "code": "07 F8 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "next_track",
+      "label": "NEXT",
+      "ir": {
+        "code": "06 F9 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
     {
       "id": "off",
       "label": "off",
-      "code": "JgBQAAABKJQRFBEUERQRExEUERQSOBEUETkSOBE4EjgRORI4ERQROREUEjgRFBAUETkRFBEUERQROREUEjcSOBITETkRORE5EQAFIgABJkwRAA0FAAAAAAAAAAA=",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgBQAAABKJQRFBEUERQRExEUERQSOBEUETkSOBE4EjgRORI4ERQROREUEjgRFBAUETkRFBEUERQROREUEjcSOBITETkRORE5EQAFIgABJkwRAA0FAAAAAAAAAAA=",
+        "method": "POST"
+      }
     },
     {
       "id": "on",
       "label": "on",
-      "code": "JgBQAAABKJQRFBEUERQRExEUERQSOBEUETkSOBE4EjgRORI4ERQROREUEjgRFBAUETkRFBEUERQROREUEjcSOBITETkRORE5EQAFIgABJkwRAA0FAAAAAAAAAAA=",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgBQAAABKJQRFBEUERQRExEUERQSOBEUETkSOBE4EjgRORI4ERQROREUEjgRFBAUETkRFBEUERQROREUEjcSOBITETkRORE5EQAFIgABJkwRAA0FAAAAAAAAAAA=",
+        "method": "POST"
+      }
     },
     {
       "id": "previouschannel",
       "label": "previousChannel",
-      "code": "JgBUAAABJpMVEhITEhMRFBEUERQQOREUETkRORE5ETkROBE5ERQRORE5ETkSOBA5ETkRFBEUEhQRExITERQQFRAVEDkRORI4EwAFIAABJ0sRAAFdBQANBQAAAAA=",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgBUAAABJpMVEhITEhMRFBEUERQQOREUETkRORE5ETkROBE5ERQRORE5ETkSOBA5ETkRFBEUEhQRExITERQQFRAVEDkRORI4EwAFIAABJ0sRAAFdBQANBQAAAAA=",
+        "method": "POST"
+      }
     },
     {
       "id": "nextchannel",
       "label": "nextChannel",
-      "code": "JgBQAAABKJMRFBEUEhMRFBEUERQRORISEjgSOBI4ETkSOBM2ERQSOBE5ETkRFBE5ETkSEhEUEhMRFBITETkRFBEVEDkQORI4EQAFIgABJkwSAA0FAAAAAAAAAAA=",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgBQAAABKJMRFBEUEhMRFBEUERQRORISEjgSOBI4ETkSOBM2ERQSOBE5ETkRFBE5ETkSEhEUEhMRFBITETkRFBEVEDkQORI4EQAFIgABJkwSAA0FAAAAAAAAAAA=",
+        "method": "POST"
+      }
     },
     {
       "id": "volumedown",
       "label": "volumeDown",
-      "code": "JgBUAAoAAdsAASaWERMTExEUEBQRFRAUEDkRFBI3EzcSNw87EDkROBEUETgSFQ85EDkRORE4ERQQFREUEDkSExAUERUQFg84ETkROBIABSsAASZMEQANBQAAAAA=",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgBUAAoAAdsAASaWERMTExEUEBQRFRAUEDkRFBI3EzcSNw87EDkROBEUETgSFQ85EDkRORE4ERQQFREUEDkSExAUERUQFg84ETkROBIABSsAASZMEQANBQAAAAA=",
+        "method": "POST"
+      }
     },
     {
       "id": "volumeup",
       "label": "volumeUp",
-      "code": "JgBQAAABJZcQFRAVDxYSEBIWEBUQOBEUEDkSNxE4EzcRORA5ERUMPBETETgSFBI4EDYTFRESEhQRORAUETkSExAUEToPORA5EQAFLAABKUkQAA0FAAAAAAAAAAA=",
-      "type": "WIFI"
-    },
-    {
-      "id": "mute",
-      "label": "mute",
-      "code": "JgBQAAABJ5QSExIUEhITEhISExISOBMSEzYTNxE4EjcSOBA5ERQROBMSERQSExETFDUSFBMSERMSNxM3ETgTNhMSEjgSNxM2EwAFKwABJkoTAA0FAAAAAAAAAAA=",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgBQAAABJZcQFRAVDxYSEBIWEBUQOBEUEDkSNxE4EzcRORA5ERUMPBETETgSFBI4EDYTFRESEhQRORAUETkSExAUEToPORA5EQAFLAABKUkQAA0FAAAAAAAAAAA=",
+        "method": "POST"
+      }
     },
     {
       "id": "sources",
       "label": "sources",
-      "code": "{\"VGA\":\"JgBQAAABJ5QUEhETEhMTEhITEhITNxMSEzUUNxI3EzYSOBI3EhMTNhMSEhQSNhI4ETgUNRMSEhMROBM2EhQSExETExITNhI4EQAFLAABJ0oSAA0FAAAAAAAAAAA=\",\"HDMI1\":\"JgBQAAABKZURExITEhMSEhMSEhQROBMSEjcRORI3ETgSOBI3ERMTNxITExISEhM3ETgSNxITEhMRNhU3EzcSEhITEhMTNhI4EwAFKgABJ0kTAA0FAAAAAAAAAAA=\",\"HDMI2\":\"JgBQAAABJ5MUEhIUERMRFBMSEhMROBITEjcUNRI4ETgUNRM3ExISNxQ2ERQSEhI3EjgSNxITExMQFBE4EzYTEhMSEhMSNxM2EgAFKwABKEoTAA0FAAAAAAAAAAA=\",\"AV Side\":\"JgBQAAABKZMTEhIUEhISExMSEhITNxEUEjcTNhM3EzYSOBI3ExISNxE5ETcSFBETEzcSNxITEhMTEhEVETcSNxIUEBURNxI4EQAFLAABJksTAA0FAAAAAAAAAAA=\",\"Channel 0\":\"JgBQAAABJ5UUEBITExISEhIUERQROBMREjgTNhM2EzcTNhI3EhQSNxITEhMSEhMSFRASExITEhMROBI4ETgSNxM3ETgROBI4EgAFKwABJkkTAA0FAAAAAAAAAAA=\",\"Channel 1\":\"JgBQAAABJ5MTExIUERISExMSEhQQORETFDUTNxE4EjcTNxE4EhMTNhU1ExISEhITEhMTEhITEhMRFBI3EjgTNRI4ETgSNxI4EQAFLAABKEkSAA0FAAAAAAAAAAA=\",\"Channel 2\":\"JgBQAAABKJUTEhETEhMUERMSEhMROBMSEzYTNxI3EjcSOBM2EhMRORISEzYTEhITEhMTEhITERQSNxITETgTNhI4EjcTNhI4EgAFKwABJ0oSAA0FAAAAAAAAAAA=\",\"Channel 3\":\"JgBQAAABKZQTEhITEhMSExISEhMSOBITETgRORM0FTYRORI3EhISOBI3EjcTExEUERMTEhITERMTEhIUETgTNhI4EjcSNxM3EgAFKwABJ0kSAA0FAAAAAAAAAAA=\",\"Channel 4\":\"JgBQAAABJpUSExITEhMSExISEhQQORETEjcTNxM2EzYSOBM2EhMSOBITERMTNhMSExMQFBITExISNxI4ExISNxE5EjcROBE5EgAFKwABJkoTAA0FAAAAAAAAAAA=\",\"Channel 5\":\"JgBQAAABJpMUEhEVEhMRExMSEhITNxMSEjcSNxM3EzYSNxI4ExISNxI4ERMSNxITExIRFBITExISExI3EhMSNxM2EjgSNxI3EwAFKQABKEsSAA0FAAAAAAAAAAA=\",\"Channel 6\":\"JgBQAAABJ5QRFBITEhMSExISExITNxITETgROBI4EjcSNhI5ERMUNRIUETgTNhITERQSExEUEhMROBITEhMSNxI3EjgSNxM2EgAFKwABKEkTAA0FAAAAAAAAAAA=\",\"Channel 7\":\"JgBQAAABJ5USEhMTERMSExETExMQORETEzYTNxM2EjgSNxM2EhQROBI3EjcSOBITERMTEhMSExIRFBMSExMOOhE5ETgSNxI4EQAFLAABJkoTAA0FAAAAAAAAAAA=\",\"Channel 8\":\"JgBQAAABJ5QSExITEhMSExITERMSNxIUETgUNRI4ETgTNhQ2ERQROBETExISFBI3ExIRExMSEhQRNxI4EzcRExQ1EjgROBI3EwAFKgABKEoSAA0FAAAAAAAAAAA=\",\"Channel 9\":\"JgBQAAABKJQTEhISExISExMSEhMTNhITEjgSNxI3EjgSNhM3EhMSNxM2ExMTEhI3ExISEhITEhQQFBI3EzcRFBI3EjcTNxI3EgAFKwABJksSAA0FAAAAAAAAAAA=\"}",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "{\"VGA\":\"JgBQAAABJ5QUEhETEhMTEhITEhITNxMSEzUUNxI3EzYSOBI3EhMTNhMSEhQSNhI4ETgUNRMSEhMROBM2EhQSExETExITNhI4EQAFLAABJ0oSAA0FAAAAAAAAAAA=\",\"HDMI1\":\"JgBQAAABKZURExITEhMSEhMSEhQROBMSEjcRORI3ETgSOBI3ERMTNxITExISEhM3ETgSNxITEhMRNhU3EzcSEhITEhMTNhI4EwAFKgABJ0kTAA0FAAAAAAAAAAA=\",\"HDMI2\":\"JgBQAAABJ5MUEhIUERMRFBMSEhMROBITEjcUNRI4ETgUNRM3ExISNxQ2ERQSEhI3EjgSNxITExMQFBE4EzYTEhMSEhMSNxM2EgAFKwABKEoTAA0FAAAAAAAAAAA=\",\"AV Side\":\"JgBQAAABKZMTEhIUEhISExMSEhITNxEUEjcTNhM3EzYSOBI3ExISNxE5ETcSFBETEzcSNxITEhMTEhEVETcSNxIUEBURNxI4EQAFLAABJksTAA0FAAAAAAAAAAA=\",\"Channel 0\":\"JgBQAAABJ5UUEBITExISEhIUERQROBMREjgTNhM2EzcTNhI3EhQSNxITEhMSEhMSFRASExITEhMROBI4ETgSNxM3ETgROBI4EgAFKwABJkkTAA0FAAAAAAAAAAA=\",\"Channel 1\":\"JgBQAAABJ5MTExIUERISExMSEhQQORETFDUTNxE4EjcTNxE4EhMTNhU1ExISEhITEhMTEhITEhMRFBI3EjgTNRI4ETgSNxI4EQAFLAABKEkSAA0FAAAAAAAAAAA=\",\"Channel 2\":\"JgBQAAABKJUTEhETEhMUERMSEhMROBMSEzYTNxI3EjcSOBM2EhMRORISEzYTEhITEhMTEhITERQSNxITETgTNhI4EjcTNhI4EgAFKwABJ0oSAA0FAAAAAAAAAAA=\",\"Channel 3\":\"JgBQAAABKZQTEhITEhMSExISEhMSOBITETgRORM0FTYRORI3EhISOBI3EjcTExEUERMTEhITERMTEhIUETgTNhI4EjcSNxM3EgAFKwABJ0kSAA0FAAAAAAAAAAA=\",\"Channel 4\":\"JgBQAAABJpUSExITEhMSExISEhQQORETEjcTNxM2EzYSOBM2EhMSOBITERMTNhMSExMQFBITExISNxI4ExISNxE5EjcROBE5EgAFKwABJkoTAA0FAAAAAAAAAAA=\",\"Channel 5\":\"JgBQAAABJpMUEhEVEhMRExMSEhITNxMSEjcSNxM3EzYSNxI4ExISNxI4ERMSNxITExIRFBITExISExI3EhMSNxM2EjgSNxI3EwAFKQABKEsSAA0FAAAAAAAAAAA=\",\"Channel 6\":\"JgBQAAABJ5QRFBITEhMSExISExITNxITETgROBI4EjcSNhI5ERMUNRIUETgTNhITERQSExEUEhMROBITEhMSNxI3EjgSNxM2EgAFKwABKEkTAA0FAAAAAAAAAAA=\",\"Channel 7\":\"JgBQAAABJ5USEhMTERMSExETExMQORETEzYTNxM2EjgSNxM2EhQROBI3EjcSOBITERMTEhMSExIRFBMSExMOOhE5ETgSNxI4EQAFLAABJkoTAA0FAAAAAAAAAAA=\",\"Channel 8\":\"JgBQAAABJ5QSExITEhMSExITERMSNxIUETgUNRI4ETgTNhQ2ERQROBETExISFBI3ExIRExMSEhQRNxI4EzcRExQ1EjgROBI3EwAFKgABKEoSAA0FAAAAAAAAAAA=\",\"Channel 9\":\"JgBQAAABKJQTEhISExISExMSEhMTNhITEjgSNxI3EjgSNhM3EhMSNxM2ExMTEhI3ExISEhITEhQQFBI3EzcRFBI3EjcTNxI3EgAFKwABJksSAA0FAAAAAAAAAAA=\"}",
+        "method": "POST"
+      }
     }
   ]
 }

@@ -1,0 +1,270 @@
+{
+  "categoryId": "general",
+  "brandId": "lutron",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "full_on",
+      "label": "FULL ON",
+      "ir": {
+        "code": "20592 6864 2288 6864 2288 9152 2288 4576 2288 2288 6864 10016",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "off",
+      "label": "OFF",
+      "ir": {
+        "code": "20592 6864 2288 6864 2288 2288 9152 2288 2288 6864 2288 4576 2288 11440",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "raise",
+      "label": "Raise",
+      "ir": {
+        "code": "18304 2288 11440 2288 2288 4576 2288 6864 2288 6864 2288 6864 2288 11440",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "lower",
+      "label": "Lower",
+      "ir": {
+        "code": "18304 2288 11440 2288 2288 4576 2288 6864 2288 9152 2288 2288 2288 13728",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "scene_1",
+      "label": "Scene 1",
+      "ir": {
+        "code": "20592 6864 2288 6864 2288 2288 9152 2288 2288 6864 6864 2288 2288 9152",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "scene_2",
+      "label": "Scene 2",
+      "ir": {
+        "code": "20592 6864 2288 6864 2288 2288 9152 2288 2288 4576 2288 4576 2288 13728",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "scene_3",
+      "label": "Scene 3",
+      "ir": {
+        "code": "20592 6864 2288 6864 2288 2288 9152 2288 2288 4576 2288 2288 2288 2288 4576 9152",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "scene_4",
+      "label": "Scene 4",
+      "ir": {
+        "code": "20592 6864 2288 6864 2288 2288 9152 2288 2288 2288 6864 6864 2288 9152",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "scene_5__spacer_on_",
+      "label": "Scene 5 (Spacer On)",
+      "ir": {
+        "code": "20592 6864 2288 6864 2288 2288 9152 2288 2288 2288 13728 11440",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "scene_6",
+      "label": "Scene 6",
+      "ir": {
+        "code": "20592 6864 2288 6864 2288 2288 9152 2288 2288 2288 2288 6864 6864 9152",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "scene_7",
+      "label": "Scene 7",
+      "ir": {
+        "code": "20592 6864 2288 6864 2288 2288 9152 2288 2288 4576 2288 2288 2288 2288 4576 2288 16016",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "scene_8",
+      "label": "Scene 8",
+      "ir": {
+        "code": "20592 6864 2288 6864 2288 2288 9152 2288 2288 4576 2288 2288 2288 2288 13728",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "scene_9",
+      "label": "Scene 9",
+      "ir": {
+        "code": "20592 6864 2288 6864 2288 2288 9152 2288 6864 2288 4576 2288 4576 9152",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "scene_10",
+      "label": "Scene 10",
+      "ir": {
+        "code": "20592 6864 2288 6864 2288 2288 9152 2288 9152 6864 2288 11440",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "scene_11",
+      "label": "Scene 11",
+      "ir": {
+        "code": "20592 6864 2288 6864 2288 2288 9152 2288 9152 2288 4576 2288 2288 9152",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "scene_12__favorite_",
+      "label": "Scene 12 (Favorite)",
+      "ir": {
+        "code": "20592 6864 2288 6864 2288 2288 9152 2288 4576 2288 4576 2288 6864 9152",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "scene_13",
+      "label": "Scene 13",
+      "ir": {
+        "code": "20592 6864 2288 6864 2288 2288 9152 2288 4576 2288 6864 10016",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "scene_14",
+      "label": "Scene 14",
+      "ir": {
+        "code": "20592 6864 2288 6864 2288 2288 9152 2288 4576 13728 2288 9152",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "scene_15",
+      "label": "Scene 15",
+      "ir": {
+        "code": "20592 6864 2288 6864 2288 2288 9152 2288 4576 6864 6864 11440",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "scene_16",
+      "label": "Scene 16",
+      "ir": {
+        "code": "20592 6864 2288 6864 2288 2288 11440 9152 2288 6864 2288 9152",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "close",
+      "label": "Close",
+      "ir": {
+        "code": "18304 2288 11440 2288 2288 6864 6864 2288 2288 6864 2288 4576 2288 11440",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "open",
+      "label": "Open",
+      "ir": {
+        "code": "18304 2288 11440 2288 2288 6864 6864 2288 2288 6864 6864 2288 2288 9152",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "preset_1",
+      "label": "Preset 1",
+      "ir": {
+        "code": "18304 2288 11440 2288 2288 6864 6864 2288 2288 4576 2288 4576 2288 11440",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "preset_2",
+      "label": "Preset 2",
+      "ir": {
+        "code": "18304 2288 11440 2288 2288 6864 6864 2288 2288 4576 2288 2288 2288 2288 4576 9152",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "preset_3",
+      "label": "Preset 3",
+      "ir": {
+        "code": "18304 2288 11440 2288 2288 6864 6864 2288 2288 2288 6864 6864 2288 9152",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "programming_mode",
+      "label": "Programming Mode",
+      "ir": {
+        "code": "18304 2288 11440 2288 2288 4576 2288 2288 2288 11440 2288 2288 2288 16016",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "set_limits",
+      "label": "Set Limits",
+      "ir": {
+        "code": "18304 2288 11440 2288 2288 4576 2288 2288 2288 9152 6864 4576 2288 11440",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ind_lvl_adj_mode",
+      "label": "Ind Lvl Adj Mode",
+      "ir": {
+        "code": "18304 2288 11440 2288 2288 4576 2288 2288 2288 9152 11440 2288 2288 9152",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "preset_lock",
+      "label": "Preset Lock",
+      "ir": {
+        "code": "18304 2288 11440 2288 2288 4576 2288 2288 2288 9152 2288 6864 2288 13728",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoryId": "projector",
+  "brandId": "hitachi",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "POWER",
+      "ir": {
+        "code": "17 E8 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "freeze_frame",
+      "label": "FREEZE",
+      "ir": {
+        "code": "B4 4B 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "v_",
+      "label": "V+",
+      "ir": {
+        "code": "50 AF 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mute",
+      "label": "MUTE",
+      "ir": {
+        "code": "9034 4385 638 1587 664 1562 663 1587 637 476 635 478 634 478 635 478 635 1591 634 1591 634 478 635 1591 635 478 634 478 635 478 635 1591 635 478 634 478 634 1591 634 478 635 479 634 1591 635 478 634 1591 635 478 634 1592 634 478 634 1591 635 1591 635 478 634 1592 634 478 634 1591 634 40958 9033 2144 635",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

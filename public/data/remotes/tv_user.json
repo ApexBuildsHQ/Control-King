@@ -1,0 +1,360 @@
+{
+  "categoryId": "tv",
+  "brandId": "user",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "02 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "hub_source",
+      "label": "Hub/Source",
+      "ir": {
+        "code": "01 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "hub_home",
+      "label": "Hub/Home",
+      "ir": {
+        "code": "76 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "volumeup",
+      "label": "VolumeUP",
+      "ir": {
+        "code": "07 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "volumedown",
+      "label": "VolumeDown",
+      "ir": {
+        "code": "0B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mute",
+      "label": "Mute",
+      "ir": {
+        "code": "0F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "select_ok",
+      "label": "Select/OK",
+      "ir": {
+        "code": "68 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_up",
+      "label": "UP",
+      "ir": {
+        "code": "60 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_down",
+      "label": "Down",
+      "ir": {
+        "code": "61 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_right",
+      "label": "Right",
+      "ir": {
+        "code": "62 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_left",
+      "label": "Left",
+      "ir": {
+        "code": "65 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "back",
+      "label": "Back",
+      "ir": {
+        "code": "58 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "source_tv_",
+      "label": "Source(TV)",
+      "ir": {
+        "code": "2D 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "channelup",
+      "label": "ChannelUp",
+      "ir": {
+        "code": "12 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "channeldown",
+      "label": "ChannelDown",
+      "ir": {
+        "code": "10 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "last_channel",
+      "label": "Last~Channel",
+      "ir": {
+        "code": "13 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tvguide",
+      "label": "TVGuide",
+      "ir": {
+        "code": "4F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tvguidefull",
+      "label": "TVGuideFull",
+      "ir": {
+        "code": "6B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "hdmi1",
+      "label": "HDMI1",
+      "ir": {
+        "code": "8B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "hdmi2",
+      "label": "HDMI2",
+      "ir": {
+        "code": "BE 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "hdmi3",
+      "label": "HDMI3",
+      "ir": {
+        "code": "C2 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "netflix",
+      "label": "Netflix",
+      "ir": {
+        "code": "F3 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "hulu",
+      "label": "Hulu",
+      "ir": {
+        "code": "BB 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "youtube",
+      "label": "Youtube",
+      "ir": {
+        "code": "FA 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "picturemode",
+      "label": "PictureMode",
+      "ir": {
+        "code": "28 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ambient_mode",
+      "label": "Ambient Mode",
+      "ir": {
+        "code": "F6 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "numpad_menu",
+      "label": "NumPad Menu",
+      "ir": {
+        "code": "9C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "internet",
+      "label": "Internet",
+      "ir": {
+        "code": "37 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "search",
+      "label": "Search",
+      "ir": {
+        "code": "73 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "voiceassist",
+      "label": "VoiceAssist",
+      "ir": {
+        "code": "A0 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "remoteaccess",
+      "label": "RemoteAccess",
+      "ir": {
+        "code": "AF 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "colorpad",
+      "label": "ColorPad",
+      "ir": {
+        "code": "CE 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "remotepairing",
+      "label": "RemotePairing",
+      "ir": {
+        "code": "D1 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "prime_video",
+      "label": "Prime Video",
+      "ir": {
+        "code": "F4 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tvguideshort",
+      "label": "TVGuideShort",
+      "ir": {
+        "code": "B4 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "soundsettings",
+      "label": "SoundSettings",
+      "ir": {
+        "code": "2B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "source_av_",
+      "label": "Source(AV)",
+      "ir": {
+        "code": "84 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "poweroff",
+      "label": "PowerOff",
+      "ir": {
+        "code": "98 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "poweron",
+      "label": "PowerOn",
+      "ir": {
+        "code": "99 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

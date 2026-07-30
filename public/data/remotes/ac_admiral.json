@@ -1,0 +1,90 @@
+{
+  "categoryId": "ac",
+  "brandId": "admiral",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "POWER",
+      "ir": {
+        "code": "02 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ac_mode",
+      "label": "Mode",
+      "ir": {
+        "code": "09 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "fan_auto",
+      "label": "Fan_auto",
+      "ir": {
+        "code": "0B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "fan_3",
+      "label": "Fan_3",
+      "ir": {
+        "code": "13 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "fan_2",
+      "label": "Fan_2",
+      "ir": {
+        "code": "8983 3497 180 797 563 567 570 560 567 563 543 560 567 563 564 1669 565 565 562 541 565 1694 561 1673 571 1662 572 1688 567 1667 567 563 564 1670 564 1669 565 565 572 558 569 561 545 558 569 1690 544 560 567 563 564 565 541 1692 563 1671 563 1671 563 1670 595 562 544 1689 566 1668 566 1667 567 39806 8977 2247 649",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "fan_1",
+      "label": "Fan_1",
+      "ir": {
+        "code": "00 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "temp_up",
+      "label": "TEMP+",
+      "ir": {
+        "code": "0A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "temp_down",
+      "label": "TEMP-",
+      "ir": {
+        "code": "11 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "timer",
+      "label": "Timer",
+      "ir": {
+        "code": "19 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "categoryId": "fan",
+  "brandId": "toshiba",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "POWER",
+      "ir": {
+        "code": "80 7F 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ac_mode",
+      "label": "MODE",
+      "ir": {
+        "code": "20 DF 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "swing_v",
+      "label": "SWING",
+      "ir": {
+        "code": "C0 3F 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "timer",
+      "label": "TIMER",
+      "ir": {
+        "code": "A0 5F 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "categoryId": "fan",
+  "brandId": "sencor",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "on_speed",
+      "label": "ON_Speed",
+      "ir": {
+        "code": "84 7B 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "off",
+      "label": "OFF",
+      "ir": {
+        "code": "80 7F 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mode_1",
+      "label": "Mode_1",
+      "ir": {
+        "code": "85 7A 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "swing_2",
+      "label": "Swing_2",
+      "ir": {
+        "code": "81 7E 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "timer_3",
+      "label": "Timer_3",
+      "ir": {
+        "code": "86 79 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "shift",
+      "label": "Shift",
+      "ir": {
+        "code": "82 7D 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "categoryId": "general",
+  "brandId": "no_touch",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "take_temp",
+      "label": "Take_Temp",
+      "ir": {
+        "code": "182 50235 180",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

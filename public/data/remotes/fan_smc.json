@@ -1,21 +1,25 @@
 {
   "categoryId": "fan",
   "brandId": "smc",
-  "protocol": "RAW",
-  "frequency": 38000,
-  "ipEndpoint": null,
+  "supportedModes": [
+    "WIFI"
+  ],
   "buttons": [
     {
       "id": "off",
       "label": "off",
-      "code": "JgBOACoNKg4OKg4pDioOKQ4pKg8NKg4pDykOAAEHKw0qDg4pDykOKQ8pDioqDQ8oDykOKg4AAQgqDSoNDykOKg4pDioOKSoODioOKQ8oDwANBQAAAAAAAAAAAAA=",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgBOACoNKg4OKg4pDioOKQ4pKg8NKg4pDykOAAEHKw0qDg4pDykOKQ8pDioqDQ8oDykOKg4AAQgqDSoNDykOKg4pDioOKSoODioOKQ8oDwANBQAAAAAAAAAAAAA=",
+        "method": "POST"
+      }
     },
     {
       "id": "default",
       "label": "default",
-      "code": "{\"low\":\"JgBKACwMKg4OKQ8oDyksDA4pDykOKQ8pKg4s6iwLKg0PKQ8pDygrDQ8oDikPKg4pKwwr6ysMKw4PKA4pDyksCw8pDioOKQ8oKw0sAA0FAAAAAAAAAAAAAAAAAAA=\",\"medium\":\"JgBOACsNKg0PKQ4qDikPKA8pDioOKSoODikPAAEHKg4pDg8pDikPKA8qDikPKA8pKg4OKg4AAQcqDioNDikPKQ8pDikPKQ4pDioqDg4pDgANBQAAAAAAAAAAAAA=\",\"high\":\"JgBKACsNKg0PKQ4pDioOKg4pDikPKQ4qDikq7CoNKg4OKg4pDioOKQ8oDyoOKQ8oDykq6ysOKwwPKQ4pDikPKQ8pDikPKQ4pDiorAA0FAAAAAAAAAAAAAAAAAAA=\"}",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "{\"low\":\"JgBKACwMKg4OKQ8oDyksDA4pDykOKQ8pKg4s6iwLKg0PKQ8pDygrDQ8oDikPKg4pKwwr6ysMKw4PKA4pDyksCw8pDioOKQ8oKw0sAA0FAAAAAAAAAAAAAAAAAAA=\",\"medium\":\"JgBOACsNKg0PKQ4qDikPKA8pDioOKSoODikPAAEHKg4pDg8pDikPKA8qDikPKA8pKg4OKg4AAQcqDioNDikPKQ8pDikPKQ4pDioqDg4pDgANBQAAAAAAAAAAAAA=\",\"high\":\"JgBKACsNKg0PKQ4pDioOKg4pDikPKQ4qDikq7CoNKg4OKg4pDioOKQ8oDyoOKQ8oDykq6ysOKwwPKQ4pDikPKQ8pDikPKQ4pDiorAA0FAAAAAAAAAAAAAAAAAAA=\"}",
+        "method": "POST"
+      }
     }
   ]
 }

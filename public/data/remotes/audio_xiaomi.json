@@ -1,39 +1,158 @@
 {
   "categoryId": "audio",
   "brandId": "xiaomi",
-  "protocol": "RAW",
-  "frequency": 38000,
-  "ipEndpoint": null,
+  "supportedModes": [
+    "IR",
+    "WIFI"
+  ],
   "buttons": [
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "41 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mute",
+      "label": "Mute",
+      "ir": {
+        "code": "50 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_up",
+      "label": "Vol_up",
+      "ir": {
+        "code": "42 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_dn",
+      "label": "Vol_dn",
+      "ir": {
+        "code": "43 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "play_pause",
+      "label": "Play_Pause",
+      "ir": {
+        "code": "1B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "previous",
+      "label": "Previous",
+      "ir": {
+        "code": "1A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "skip",
+      "label": "Skip",
+      "ir": {
+        "code": "4F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "bt_pair",
+      "label": "BT_pair",
+      "ir": {
+        "code": "9092 4308 681 429 570 539 571 540 570 539 626 484 626 1587 626 484 626 487 571 1643 571 1642 572 1642 572 1642 572 1641 572 537 573 1641 572 1644 573 537 573 537 573 1641 572 538 596 1618 596 514 596 514 596 518 595 1619 595 1619 595 515 595 1619 595 516 594 1619 594 1619 594 1620 594 40068 8986 2194 571 94260 8984 2193 572 94257 9006 2171 596 94207 9029 2176 594 94223 9026 2178 592 94212 9027 2176 593",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "input_choice",
+      "label": "Input_choice",
+      "ir": {
+        "code": "4D 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "eq_news",
+      "label": "EQ_News",
+      "ir": {
+        "code": "56 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "eq_movie",
+      "label": "EQ_Movie",
+      "ir": {
+        "code": "5A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "eq_music",
+      "label": "EQ_Music",
+      "ir": {
+        "code": "51 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
     {
       "id": "off",
       "label": "off",
-      "code": "JgA0ACMRFhEWLRYtFhEWLRYRFi0WERUuFi0WAAFTIhEWERYtFi0WERYtFhEVLhYRFS4VLhYADQUAAAAA",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgA0ACMRFhEWLRYtFhEWLRYRFi0WERUuFi0WAAFTIhEWERYtFi0WERYtFhEVLhYRFS4VLhYADQUAAAAA",
+        "method": "POST"
+      }
     },
     {
       "id": "on",
       "label": "on",
-      "code": "JgA0ACMRFhEWLRYtFhEWLRYRFi0WERUuFi0WAAFTIhEWERYtFi0WERYtFhEVLhYRFS4VLhYADQUAAAAA",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgA0ACMRFhEWLRYtFhEWLRYRFi0WERUuFi0WAAFTIhEWERYtFi0WERYtFhEVLhYRFS4VLhYADQUAAAAA",
+        "method": "POST"
+      }
     },
     {
       "id": "volumedown",
       "label": "volumeDown",
-      "code": "JgA0ACMRFSUVERYaFiQWERYRFS4VLhYRFRsWAAGOIxEVJBYRFhoWJBYRFREWLRYuFREWGhYADQUAAAAA",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgA0ACMRFSUVERYaFiQWERYRFS4VLhYRFRsWAAGOIxEVJBYRFhoWJBYRFREWLRYuFREWGhYADQUAAAAA",
+        "method": "POST"
+      }
     },
     {
       "id": "volumeup",
       "label": "volumeUp",
-      "code": "JgA0ACMRFSUVERYaFiQWERYRGikVJBYRFhEVAAGhIxEVJBYRFhoWJBYRFREWLhUkFhEWERUADQUAAAAA",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgA0ACMRFSUVERYaFiQWERYRGikVJBYRFhEVAAGhIxEVJBYRFhoWJBYRFREWLhUkFhEWERUADQUAAAAA",
+        "method": "POST"
+      }
     },
     {
       "id": "sources",
       "label": "sources",
-      "code": "{\"UP\":\"JgA0ACISFSQWERUbFiQWERURFhoWGxUkFi0WAAGMJREWJBYRFRsWIxYRFhEWGhYaFiQWLRYADQUAAAAA\",\"DOWN\":\"JgA0ACISFSQWERUbFiQWERURFhoWGxUkFi0WAAGMJREWJBYRFRsWIxYRFhEWGhYaFiQWLRYADQUAAAAA\",\"LEFT\":\"JgA2ABQmExQTHRMmFBMUExMnEzATHRMdFAABkCETEycTExQdEyYUExMUEyYULxQdEx0TAAioDQAN\",\"RIGHT\":\"JgA0ACQRFSQWERYaFiQWERYQFi4VERYRFiQVAAGhIxEVJBYRFhoWJBYRFREWLRYRFhEWJBUADQUAAAAA\",\"OK\":\"JgA0ACMRFiQVERYbFSQWERYRFS4WGhYRFi0WAAGOIxEVJBYRFhoWJBYRFhAWLhUbFREWLhUADQUAAAAA\",\"HOME\":\"JgA0ACYSFSQWERUbFiQWERURFiQWERUbFiMWAAGhIhEWJBYRFRsWJBURFhEWJBYQFhsVJBYADQUAAAAA\",\"BACK\":\"JgA0ACMRFSQWERUbFiQWERURFhoWLhUkFhoWAAGPIhEWJBYRFRsWIxYRFhEWGhYtFiQWGhYADQUAAAAA\"}",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "{\"UP\":\"JgA0ACISFSQWERUbFiQWERURFhoWGxUkFi0WAAGMJREWJBYRFRsWIxYRFhEWGhYaFiQWLRYADQUAAAAA\",\"DOWN\":\"JgA0ACISFSQWERUbFiQWERURFhoWGxUkFi0WAAGMJREWJBYRFRsWIxYRFhEWGhYaFiQWLRYADQUAAAAA\",\"LEFT\":\"JgA2ABQmExQTHRMmFBMUExMnEzATHRMdFAABkCETEycTExQdEyYUExMUEyYULxQdEx0TAAioDQAN\",\"RIGHT\":\"JgA0ACQRFSQWERYaFiQWERYQFi4VERYRFiQVAAGhIxEVJBYRFhoWJBYRFREWLRYRFhEWJBUADQUAAAAA\",\"OK\":\"JgA0ACMRFiQVERYbFSQWERYRFS4WGhYRFi0WAAGOIxEVJBYRFhoWJBYRFhAWLhUbFREWLhUADQUAAAAA\",\"HOME\":\"JgA0ACYSFSQWERUbFiQWERURFiQWERUbFiMWAAGhIhEWJBYRFRsWJBURFhEWJBYQFhsVJBYADQUAAAAA\",\"BACK\":\"JgA0ACMRFSQWERUbFiQWERURFhoWLhUkFhoWAAGPIhEWJBYRFRsWIxYRFhEWGhYtFiQWGhYADQUAAAAA\"}",
+        "method": "POST"
+      }
     }
   ]
 }

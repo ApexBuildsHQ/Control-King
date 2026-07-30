@@ -1,57 +1,889 @@
 {
   "categoryId": "audio",
   "brandId": "philips",
-  "protocol": "RAW",
-  "frequency": 38000,
-  "ipEndpoint": null,
+  "supportedModes": [
+    "IR",
+    "WIFI"
+  ],
   "buttons": [
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "C7 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "reset",
+      "label": "Reset",
+      "ir": {
+        "code": "0E 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mute",
+      "label": "Mute",
+      "ir": {
+        "code": "0D 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      },
+      "wifi": {
+        "endpoint": "JgAoAFUcDhsPDg8OKioODg8ODQ4PDg8NDg4PDg0ODw4ODQ8OHA4OHBwADQU=",
+        "method": "POST"
+      }
+    },
+    {
+      "id": "play_pause",
+      "label": "Play_Pause",
+      "ir": {
+        "code": "35 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_up",
+      "label": "Vol_up",
+      "ir": {
+        "code": "10 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_dn",
+      "label": "Vol_dn",
+      "ir": {
+        "code": "11 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "prev_track",
+      "label": "Prev",
+      "ir": {
+        "code": "21 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "next_track",
+      "label": "Next",
+      "ir": {
+        "code": "20 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "bt",
+      "label": "BT",
+      "ir": {
+        "code": "69 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "arc",
+      "label": "ARC",
+      "ir": {
+        "code": "7D 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "opt",
+      "label": "OPT",
+      "ir": {
+        "code": "6C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "aud",
+      "label": "AUD",
+      "ir": {
+        "code": "39 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "usb",
+      "label": "USB",
+      "ir": {
+        "code": "7E 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "time",
+      "label": "Time",
+      "ir": {
+        "code": "0B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "program",
+      "label": "Program",
+      "ir": {
+        "code": "24 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "fade",
+      "label": "Fade",
+      "ir": {
+        "code": "38 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "shuffle",
+      "label": "Shuffle",
+      "ir": {
+        "code": "1C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "1",
+      "label": "1",
+      "ir": {
+        "code": "01 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "2",
+      "label": "2",
+      "ir": {
+        "code": "02 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "3",
+      "label": "3",
+      "ir": {
+        "code": "03 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "4",
+      "label": "4",
+      "ir": {
+        "code": "04 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "5",
+      "label": "5",
+      "ir": {
+        "code": "05 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "6",
+      "label": "6",
+      "ir": {
+        "code": "06 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "7",
+      "label": "7",
+      "ir": {
+        "code": "07 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "8",
+      "label": "8",
+      "ir": {
+        "code": "08 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "9",
+      "label": "9",
+      "ir": {
+        "code": "09 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "0",
+      "label": "0",
+      "ir": {
+        "code": "00 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "highlight",
+      "label": "Highlight",
+      "ir": {
+        "code": "2B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "repeat",
+      "label": "Repeat",
+      "ir": {
+        "code": "1D 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "media_play",
+      "label": "Play",
+      "ir": {
+        "code": "2C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "media_stop",
+      "label": "Stop",
+      "ir": {
+        "code": "36 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "media_pause",
+      "label": "Pause",
+      "ir": {
+        "code": "30 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "rewind",
+      "label": "Rewind",
+      "ir": {
+        "code": "32 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "forward",
+      "label": "Forward",
+      "ir": {
+        "code": "34 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "cd_1_2_3",
+      "label": "CD_1/2/3",
+      "ir": {
+        "code": "3F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "aux",
+      "label": "Aux",
+      "ir": {
+        "code": "6B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tuner",
+      "label": "Tuner",
+      "ir": {
+        "code": "3F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tape",
+      "label": "Tape",
+      "ir": {
+        "code": "3F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "cd_play_pause",
+      "label": "CD_Play/Pause",
+      "ir": {
+        "code": "35 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "cd_stop",
+      "label": "CD_Stop",
+      "ir": {
+        "code": "36 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "cd_next",
+      "label": "CD_Next",
+      "ir": {
+        "code": "20 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "cd_prev",
+      "label": "CD_Prev",
+      "ir": {
+        "code": "21 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "cd_ff",
+      "label": "CD_FF",
+      "ir": {
+        "code": "34 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "cd_rew",
+      "label": "CD_REW",
+      "ir": {
+        "code": "32 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tape_play",
+      "label": "Tape_Play",
+      "ir": {
+        "code": "35 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tape_stop",
+      "label": "Tape_Stop",
+      "ir": {
+        "code": "36 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tape_forward",
+      "label": "Tape_Forward",
+      "ir": {
+        "code": "20 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tape_backward",
+      "label": "Tape_Backward",
+      "ir": {
+        "code": "21 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tape_ff",
+      "label": "Tape_FF",
+      "ir": {
+        "code": "34 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tape_rew",
+      "label": "Tape_REW",
+      "ir": {
+        "code": "32 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tuner_next_preset",
+      "label": "Tuner_Next_preset",
+      "ir": {
+        "code": "20 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tuner_prev_preset",
+      "label": "Tuner_Prev_preset",
+      "ir": {
+        "code": "21 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tune_",
+      "label": "Tune+",
+      "ir": {
+        "code": "1F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sleep",
+      "label": "Sleep",
+      "ir": {
+        "code": "26 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "prog",
+      "label": "Prog",
+      "ir": {
+        "code": "24 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "dbb",
+      "label": "DBB",
+      "ir": {
+        "code": "06 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "dsc",
+      "label": "DSC",
+      "ir": {
+        "code": "0F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "album_",
+      "label": "Album+",
+      "ir": {
+        "code": "31 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "title_",
+      "label": "Title+",
+      "ir": {
+        "code": "3A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "album_display",
+      "label": "Album_display",
+      "ir": {
+        "code": "2F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "title_display",
+      "label": "Title_display",
+      "ir": {
+        "code": "2D 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "incrediblesurround",
+      "label": "IncredibleSurround",
+      "ir": {
+        "code": "00 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "fast_fo",
+      "label": "Fast_fo",
+      "ir": {
+        "code": "34 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "fast_ba",
+      "label": "Fast_ba",
+      "ir": {
+        "code": "32 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "cd",
+      "label": "CD",
+      "ir": {
+        "code": "3F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_dwn",
+      "label": "Vol_dwn",
+      "ir": {
+        "code": "11 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "eject",
+      "label": "Eject",
+      "ir": {
+        "code": "2D 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "poweroff",
+      "label": "PowerOff",
+      "ir": {
+        "code": "0C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "surround",
+      "label": "Surround",
+      "ir": {
+        "code": "52 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "disc_select",
+      "label": "Disc_Select",
+      "ir": {
+        "code": "2C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "timer",
+      "label": "Timer",
+      "ir": {
+        "code": "19 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "cdr",
+      "label": "Cdr",
+      "ir": {
+        "code": "3F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "incr_surr_",
+      "label": "Incr.surr.",
+      "ir": {
+        "code": "00 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "news_ta",
+      "label": "News_ta",
+      "ir": {
+        "code": "1A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "back",
+      "label": "Back",
+      "ir": {
+        "code": "21 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "rew",
+      "label": "Rew",
+      "ir": {
+        "code": "32 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "fwd",
+      "label": "Fwd",
+      "ir": {
+        "code": "34 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "band",
+      "label": "Band",
+      "ir": {
+        "code": "2E 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol__",
+      "label": "Vol +",
+      "ir": {
+        "code": "11 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sound",
+      "label": "Sound",
+      "ir": {
+        "code": "51 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "bass__",
+      "label": "Bass +",
+      "ir": {
+        "code": "17 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "treble__",
+      "label": "Treble +",
+      "ir": {
+        "code": "19 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "coax_in",
+      "label": "Coax IN",
+      "ir": {
+        "code": "39 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "opical_in",
+      "label": "Opical IN",
+      "ir": {
+        "code": "6C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "audio_in",
+      "label": "Audio IN",
+      "ir": {
+        "code": "86 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "hdmi_arc",
+      "label": "HDMI ARC",
+      "ir": {
+        "code": "87 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "stereo",
+      "label": "Stereo",
+      "ir": {
+        "code": "50 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "bt_pair_",
+      "label": "BT(Pair)",
+      "ir": {
+        "code": "69 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "hdmi_arc_",
+      "label": "HDMI(ARC)",
+      "ir": {
+        "code": "87 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "eq",
+      "label": "EQ",
+      "ir": {
+        "code": "51 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "optical",
+      "label": "Optical",
+      "ir": {
+        "code": "6C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
     {
       "id": "off",
       "label": "off",
-      "code": "JgAsAFUdDxsODg8NDh0cDg4PDg0PDg4NDw4PDg4NDw4ODQ8ODw0cDg8bDw4OAA0F",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgAsAFUdDxsODg8NDh0cDg4PDg0PDg4NDw4PDg4NDw4ODQ8ODw0cDg8bDw4OAA0F",
+        "method": "POST"
+      }
     },
     {
       "id": "on",
       "label": "on",
-      "code": "JgAqAFUcDhwODg4OKyoODg8ODQ4ODw4NDg8ODw0ODw4ODQ8OHQ0OHA8NDgANBQ==",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgAqAFUcDhwODg4OKyoODg8ODQ4ODw4NDg8ODw0ODw4ODQ8OHQ0OHA8NDgANBQ==",
+        "method": "POST"
+      }
     },
     {
       "id": "previouschannel",
       "label": "previousChannel",
-      "code": "JgAqAFUcDhwPDQ8ODhwdDg4NDw4PDg0ODw4ODQ8ODg4ODh0bDw4ODQ8OHQANBQ==",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgAqAFUcDhwPDQ8ODhwdDg4NDw4PDg0ODw4ODQ8ODg4ODh0bDw4ODQ8OHQANBQ==",
+        "method": "POST"
+      }
     },
     {
       "id": "nextchannel",
       "label": "nextChannel",
-      "code": "JgAqAFQeDRwPDg0OLCkPDg4ODg4PDQ4ODw0ODg8ODg0dGw8ODw4NDg4PDgANBQ==",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgAqAFQeDRwPDg0OLCkPDg4ODg4PDQ4ODw0ODg8ODg0dGw8ODw4NDg4PDgANBQ==",
+        "method": "POST"
+      }
     },
     {
       "id": "volumedown",
       "label": "volumeDown",
-      "code": "JgAoAFUcDhwODg4OKysNDg8ODg0PDg4ODQ8ODg8NDw4ODRwdDg4ODhwADQU=",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgAoAFUcDhwODg4OKysNDg8ODg0PDg4ODQ8ODg8NDw4ODRwdDg4ODhwADQU=",
+        "method": "POST"
+      }
     },
     {
       "id": "volumeup",
       "label": "volumeUp",
-      "code": "JgAsAFUbDxwNDw4ODxwdDQ4ODw4ODQ8ODg4ODg4PDg0PDg4NHRwODg4PDg0PAA0F",
-      "type": "WIFI"
-    },
-    {
-      "id": "mute",
-      "label": "mute",
-      "code": "JgAoAFUcDhsPDg8OKioODg8ODQ4PDg8NDg4PDg0ODw4ODQ8OHA4OHBwADQU=",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgAsAFUbDxwNDw4ODxwdDQ4ODw4ODQ8ODg4ODg4PDg0PDg4NHRwODg4PDg0PAA0F",
+        "method": "POST"
+      }
     },
     {
       "id": "sources",
       "label": "sources",
-      "code": "{\"Up\":\"JgAqAFQcDxsPDg4ODhwdDQ8ODw4NDg8ODg0PDg4ODQ8dGxwPDhwODg8NDgANBQ==\",\"Down\":\"JgAmAFUcDxwODQ8OKisPDQ4ODw0ODg8ODg0PDg4NHRwcDg8bDw4dAA0F\",\"Left\":\"JgAmAFUcDhwODg8OKisNDg4PDg0PDg8NDg4PDg0OHRscDw8bHRsOAA0F\",\"Right\":\"JgAoAFUcDxsPDgwPDx0cDQ8ODg4ODg8NDg4PDg0PDg4bHR0NDxwcDg4ADQU=\",\"OK\":\"JgAqAFQdDhsPDg8ODR0cDg4ODw4NDg4PDw0ODg8ODQ4dGx0ODw0OHQ4NDwANBQ==\",\"TV\":\"JgAoAFUdDhwODg4OKisPDg0ODg8ODQ8ODg0PDh0bDw0cDg8ODw0ODg8ADQU=\",\"VGA\":\"\",\"HDMI\":\"\",\"HDMI Side\":\"\",\"AV Side\":\"\",\"Channel 1\":\"JgAwAAYABRBWHA4bDg8PDgweHQ0NDw8ODg4NDw8NDg4ODw0ODw4PDQ0PDw4NDg8OGwANBQ==\",\"Channel 2\":\"JgAqAFUdDxsODg8NKyoPDQ8NDw4ODg4ODg4PDQ4ODg8NDg8ODwwPDhwcDwANBQ==\",\"Channel 3\":\"JgAqAFUdDhsPDg4NLCkPDg4ODg4PDQ4ODw4NDg8ODwwPDg8ODQ4PDhwODgANBQ==\",\"Channel 4\":\"JgAsAFYcDhwODg4ODxwcDg8ODQ4PDg8NDQ8PDg0ODw4PDQ4ODw0ODh0bDw4PAA0F\",\"Channel 5\":\"JgAoAFQdDhsPDg4NLCoODg8NDg4PDQ4ODw4NDg8ODwwPDg8ODQ4dGx0ADQU=\",\"Channel 6\":\"JgAsAFUbDxwODg4ODxsdDg4ODw4ODg4ODg4ODg4ODw0PDg4ODg4ODhwODxwOAA0F\",\"Channel 7\":\"JgAqAFUdDRwPDQ4OKysODQ8ODg4ODg4ODw0ODg8ODg0PDg8NDg4dDQ8ODgANBQ==\",\"Channel 8\":\"JgAsAFUcDxwODQ8ODhwdDg4ODg4PDQ4ODw4PDA8ODw0ODg8ODQ4dGw8ODw4NAA0F\",\"Channel 9\":\"JgAoAFQdDhwODg8NKisODw4NDg8ODg0PDg4PDQ4ODw4NDg4PHBwPDR0ADQU=\",\"Channel 0\":\"JgAuAFQdDxsODg8ODR0cDg4PDg4ODg4ODw0ODg8NDw4NDw4ODg4PDQ4ODw4ODg4ADQU=\",\"Play\":\"JgAoAFUcDh0ODQ8OKisODQ8ODg4ODg4PDg0ODw4ODg4dGx0ODhsPDg4ADQU=\",\"Pause\":\"JgAqAFUcDxsPDg0PKioODw4ODg4ODg0PDg8NDw4ODQ8cDg8bDg4PDg0PDgANBQ==\",\"Stop\":\"JgAqAFUcDxwODQ4PDhwdDg0PDg4PDg0ODg8PDQ4ODw4NDhwPDhwPDQ0PHQANBQ==\",\"FastForward\":\"JgB+AFQdDhwODg4ODxwdDQ4ODw4ODQ8ODw4NDg8ODg0PDhwcHRsPDg4NDwAKeVUdDxsODg8NDh0cDg4PDg0PDg8ODQ4PDg4NDw4ODhsdHB0ODQ8ODQAKe1UdDRwPDg4ODhwdDg4NDw4PDgwPDw4ODQ8ODw4NDh0bHRwODg4ODgANBQ==\",\"Rearward\":\"JgByAFUcDhwODg8OKisNDg8ODg0PDg4ODg4PDg0ODw4cHB0bHQ4NAAqIVR0PGw4ODw0rKg8ODg0PDg4ODg4ODg0PDg8ODR0cHBwcDg8ACodWGw8cDg0PDiorDw0ODg8ODQ4PDg4ODg4ODg0PHRsdGx0ODwANBQ==\",\"Source\":\"JgAqAFQdDxsODg8OKioODg8ODg4ODg8NDg4PDg0ODw4cDg4ODxsPDg4NDwANBQ==\",\"Home\":\"JgAoAFYbDhwODg4ODh0dDA8ODg8NDg8ODg0PDg8ODQ4dGx0bHRwODg4ADQU=\",\"Red\":\"JgAoAFMdDxsODw0PDR0dDQ8ODg8MDw8ODg0PDg4ODg4dDg0dHA4OHBwADQU=\",\"Green\":\"JgAoAFQcDxsPDg4OKioODw4ODg4ODg4ODg8ODg0PHQ4MHR0NDw4OGw8ADQU=\",\"Yellow\":\"JgAqAFUdDhsODw4NDh4cDQ8ODw0ODg8ODQ4PDg8NDQ8cDg8cHA4ODg8NDgANBQ==\",\"Blue\":\"JgAqAFYcDxsODg4OKyoPDg4NDw4ODQ8ODg4ODg8NHA4PDg8bDQ8PDQ4ODwANBQ==\",\"Info\":\"JgAsAFQdDhsPDg4ODh0dDA4PDw4NDg8ODw0ODg8ODQ4ODw4NDw4dDQ4ODw4OAA0F\",\"Options\":\"JgAsAFUcDxsODw4ODhwdDQ8ODg4NDw8ODg0PDg4ODg4dGw4PDg4NDw4ODw0OAA0F\",\"List\":\"JgAoAFUdDB0PDg4NDx0cDQ8ODw0ODg8NDw0ODw8NHQ4OGx0bDg8cHA4ADQU=\",\"Back\":\"JgAoAFUdDRwPDg8NKyoODg8NDg4PDQ8ODg4PDQ4ODw0ODg8OHBwcHA4ADQU=\"}",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "{\"Up\":\"JgAqAFQcDxsPDg4ODhwdDQ8ODw4NDg8ODg0PDg4ODQ8dGxwPDhwODg8NDgANBQ==\",\"Down\":\"JgAmAFUcDxwODQ8OKisPDQ4ODw0ODg8ODg0PDg4NHRwcDg8bDw4dAA0F\",\"Left\":\"JgAmAFUcDhwODg8OKisNDg4PDg0PDg8NDg4PDg0OHRscDw8bHRsOAA0F\",\"Right\":\"JgAoAFUcDxsPDgwPDx0cDQ8ODg4ODg8NDg4PDg0PDg4bHR0NDxwcDg4ADQU=\",\"OK\":\"JgAqAFQdDhsPDg8ODR0cDg4ODw4NDg4PDw0ODg8ODQ4dGx0ODw0OHQ4NDwANBQ==\",\"TV\":\"JgAoAFUdDhwODg4OKisPDg0ODg8ODQ8ODg0PDh0bDw0cDg8ODw0ODg8ADQU=\",\"VGA\":\"\",\"HDMI\":\"\",\"HDMI Side\":\"\",\"AV Side\":\"\",\"Channel 1\":\"JgAwAAYABRBWHA4bDg8PDgweHQ0NDw8ODg4NDw8NDg4ODw0ODw4PDQ0PDw4NDg8OGwANBQ==\",\"Channel 2\":\"JgAqAFUdDxsODg8NKyoPDQ8NDw4ODg4ODg4PDQ4ODg8NDg8ODwwPDhwcDwANBQ==\",\"Channel 3\":\"JgAqAFUdDhsPDg4NLCkPDg4ODg4PDQ4ODw4NDg8ODwwPDg8ODQ4PDhwODgANBQ==\",\"Channel 4\":\"JgAsAFYcDhwODg4ODxwcDg8ODQ4PDg8NDQ8PDg0ODw4PDQ4ODw0ODh0bDw4PAA0F\",\"Channel 5\":\"JgAoAFQdDhsPDg4NLCoODg8NDg4PDQ4ODw4NDg8ODwwPDg8ODQ4dGx0ADQU=\",\"Channel 6\":\"JgAsAFUbDxwODg4ODxsdDg4ODw4ODg4ODg4ODg4ODw0PDg4ODg4ODhwODxwOAA0F\",\"Channel 7\":\"JgAqAFUdDRwPDQ4OKysODQ8ODg4ODg4ODw0ODg8ODg0PDg8NDg4dDQ8ODgANBQ==\",\"Channel 8\":\"JgAsAFUcDxwODQ8ODhwdDg4ODg4PDQ4ODw4PDA8ODw0ODg8ODQ4dGw8ODw4NAA0F\",\"Channel 9\":\"JgAoAFQdDhwODg8NKisODw4NDg8ODg0PDg4PDQ4ODw4NDg4PHBwPDR0ADQU=\",\"Channel 0\":\"JgAuAFQdDxsODg8ODR0cDg4PDg4ODg4ODw0ODg8NDw4NDw4ODg4PDQ4ODw4ODg4ADQU=\",\"Play\":\"JgAoAFUcDh0ODQ8OKisODQ8ODg4ODg4PDg0ODw4ODg4dGx0ODhsPDg4ADQU=\",\"Pause\":\"JgAqAFUcDxsPDg0PKioODw4ODg4ODg0PDg8NDw4ODQ8cDg8bDg4PDg0PDgANBQ==\",\"Stop\":\"JgAqAFUcDxwODQ4PDhwdDg0PDg4PDg0ODg8PDQ4ODw4NDhwPDhwPDQ0PHQANBQ==\",\"FastForward\":\"JgB+AFQdDhwODg4ODxwdDQ4ODw4ODQ8ODw4NDg8ODg0PDhwcHRsPDg4NDwAKeVUdDxsODg8NDh0cDg4PDg0PDg8ODQ4PDg4NDw4ODhsdHB0ODQ8ODQAKe1UdDRwPDg4ODhwdDg4NDw4PDgwPDw4ODQ8ODw4NDh0bHRwODg4ODgANBQ==\",\"Rearward\":\"JgByAFUcDhwODg8OKisNDg8ODg0PDg4ODg4PDg0ODw4cHB0bHQ4NAAqIVR0PGw4ODw0rKg8ODg0PDg4ODg4ODg0PDg8ODR0cHBwcDg8ACodWGw8cDg0PDiorDw0ODg8ODQ4PDg4ODg4ODg0PHRsdGx0ODwANBQ==\",\"Source\":\"JgAqAFQdDxsODg8OKioODg8ODg4ODg8NDg4PDg0ODw4cDg4ODxsPDg4NDwANBQ==\",\"Home\":\"JgAoAFYbDhwODg4ODh0dDA8ODg8NDg8ODg0PDg8ODQ4dGx0bHRwODg4ADQU=\",\"Red\":\"JgAoAFMdDxsODw0PDR0dDQ8ODg8MDw8ODg0PDg4ODg4dDg0dHA4OHBwADQU=\",\"Green\":\"JgAoAFQcDxsPDg4OKioODw4ODg4ODg4ODg8ODg0PHQ4MHR0NDw4OGw8ADQU=\",\"Yellow\":\"JgAqAFUdDhsODw4NDh4cDQ8ODw0ODg8ODQ4PDg8NDQ8cDg8cHA4ODg8NDgANBQ==\",\"Blue\":\"JgAqAFYcDxsODg4OKyoPDg4NDw4ODQ8ODg4ODg8NHA4PDg8bDQ8PDQ4ODwANBQ==\",\"Info\":\"JgAsAFQdDhsPDg4ODh0dDA4PDw4NDg8ODw0ODg8ODQ4ODw4NDw4dDQ4ODw4OAA0F\",\"Options\":\"JgAsAFUcDxsODw4ODhwdDQ8ODg4NDw8ODg0PDg4ODg4dGw4PDg4NDw4ODw0OAA0F\",\"List\":\"JgAoAFUdDB0PDg4NDx0cDQ8ODw0ODg8NDw0ODw8NHQ4OGx0bDg8cHA4ADQU=\",\"Back\":\"JgAoAFUdDRwPDg8NKyoODg8NDg4PDQ8ODg4PDQ4ODw0ODg8OHBwcHA4ADQU=\"}",
+        "method": "POST"
+      }
     }
   ]
 }

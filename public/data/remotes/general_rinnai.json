@@ -1,0 +1,45 @@
+{
+  "categoryId": "general",
+  "brandId": "rinnai",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "on",
+      "label": "On",
+      "ir": {
+        "code": "1078 59695 1055 59690 1055 59679 1086 59654 1060",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "off",
+      "label": "Off",
+      "ir": {
+        "code": "1113 59654 1087 59667 1087",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "temp_up",
+      "label": "Temp+",
+      "ir": {
+        "code": "1135 59703 1088 59656 1117",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "temp_down",
+      "label": "Temp-",
+      "ir": {
+        "code": "1134 59686 1080 59699 1080",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

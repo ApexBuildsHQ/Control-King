@@ -1,0 +1,270 @@
+{
+  "categoryId": "projector",
+  "brandId": "infocus",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "p0wer",
+      "label": "P0wer",
+      "ir": {
+        "code": "9055 4338 672 1551 669 1553 618 1603 619 481 617 482 616 481 617 507 591 1605 645 479 619 1577 645 1578 644 1578 644 479 619 480 618 1581 641 480 617 1605 617 1606 616 1606 615 483 615 1608 614 484 614 484 614 484 614 484 614 484 614 484 614 1609 614 484 614 1609 614 1609 613 1609 613 40058 9000 2068 614 95467 9022 2068 614",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "menu",
+      "label": "Menu",
+      "ir": {
+        "code": "02 FD 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_up",
+      "label": "Up",
+      "ir": {
+        "code": "13 EC 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_down",
+      "label": "Down",
+      "ir": {
+        "code": "14 EB 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_left",
+      "label": "Left",
+      "ir": {
+        "code": "11 EE 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_right",
+      "label": "Right",
+      "ir": {
+        "code": "12 ED 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ok",
+      "label": "Select",
+      "ir": {
+        "code": "32 CD 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "freeze_frame",
+      "label": "Freeze",
+      "ir": {
+        "code": "0E F1 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mute",
+      "label": "Mute",
+      "ir": {
+        "code": "29 D6 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_up",
+      "label": "Vol_up",
+      "ir": {
+        "code": "08 F7 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_down",
+      "label": "Vol_down",
+      "ir": {
+        "code": "04 FB 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "zoom_in",
+      "label": "Zoom_in",
+      "ir": {
+        "code": "9004 4393 618 1605 618 1604 619 1604 673 428 669 428 617 482 616 482 617 1605 618 482 616 1605 618 1605 618 1605 618 506 592 506 592 1607 616 506 617 481 617 1606 617 482 615 483 615 1609 614 484 614 1610 613 485 614 1610 613 485 613 1610 613 1610 588 510 588 1635 588 510 588 1636 587 40093 8996 2075 614",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "zoom_out",
+      "label": "Zoom_out",
+      "ir": {
+        "code": "53 AC 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "blank_screen",
+      "label": "Blank",
+      "ir": {
+        "code": "31 CE 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sorce",
+      "label": "Sorce",
+      "ir": {
+        "code": "10 EF 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "video",
+      "label": "Video",
+      "ir": {
+        "code": "1A E5 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "pc",
+      "label": "Pc",
+      "ir": {
+        "code": "19 E6 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "av_mute",
+      "label": "Av_mute",
+      "ir": {
+        "code": "51 AE 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "resize",
+      "label": "Resize",
+      "ir": {
+        "code": "34 CB 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "overscan",
+      "label": "Overscan",
+      "ir": {
+        "code": "9007 4392 619 1605 618 1605 673 1551 672 428 668 429 618 482 616 482 617 1605 619 482 616 1605 618 1605 619 1605 618 506 592 506 592 1631 592 506 617 1607 616 482 616 1608 615 483 615 1609 614 1610 614 484 615 484 615 484 614 1610 614 485 614 1610 614 484 615 485 589 1635 613 1611 612 40077 8979 2094 590",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "keystone",
+      "label": "Keystone",
+      "ir": {
+        "code": "9059 4339 672 1550 672 1552 618 1605 618 482 616 481 617 481 618 482 616 1605 619 483 615 1605 618 1605 618 1605 618 506 592 506 618 1582 642 480 618 480 618 481 617 482 616 483 616 484 614 1609 615 484 614 484 615 1609 615 1609 614 1609 615 1609 615 1610 613 485 613 1610 614 1610 614 40077 9004 2069 615",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "help",
+      "label": "Help",
+      "ir": {
+        "code": "0A F5 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "esc",
+      "label": "Esc",
+      "ir": {
+        "code": "50 AF 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "auto_image",
+      "label": "Auto_image",
+      "ir": {
+        "code": "33 CC 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "custom",
+      "label": "Custom",
+      "ir": {
+        "code": "2B D4 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "17 E8 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_dn",
+      "label": "Vol_dn",
+      "ir": {
+        "code": "04 FB 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "input",
+      "label": "Source",
+      "ir": {
+        "code": "10 EF 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "presets",
+      "label": "Presets",
+      "ir": {
+        "code": "2C D3 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

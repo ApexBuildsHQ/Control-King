@@ -1,0 +1,36 @@
+{
+  "categoryId": "general",
+  "brandId": "canon",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "shutter",
+      "label": "Shutter",
+      "ir": {
+        "code": "558 7421 558 41630 559 7420 559",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "2sec_shutter",
+      "label": "2sec_Shutter",
+      "ir": {
+        "code": "566 5044 561",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "trigger",
+      "label": "Trigger",
+      "ir": {
+        "code": "502 7213 290 67972 463",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

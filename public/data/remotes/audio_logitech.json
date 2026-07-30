@@ -1,45 +1,214 @@
 {
   "categoryId": "audio",
   "brandId": "logitech",
-  "protocol": "RAW",
-  "frequency": 38000,
-  "ipEndpoint": null,
+  "supportedModes": [
+    "IR",
+    "WIFI"
+  ],
   "buttons": [
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "10 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_up",
+      "label": "Vol_up",
+      "ir": {
+        "code": "1A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_dn",
+      "label": "Vol_dn",
+      "ir": {
+        "code": "0E 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mute",
+      "label": "Mute",
+      "ir": {
+        "code": "16 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      },
+      "wifi": {
+        "endpoint": "JgBQAAABJJURFBEUEBURORAVERMSFBAVEDkRORM3ERQTNxE5EDkUNxAUEjkQOREUETkQFRITERQQORITERUQOREVEDkRORE5EQAFIQABJUsUAA0FAAAAAAAA",
+        "method": "POST"
+      }
+    },
+    {
+      "id": "direct",
+      "label": "Direct",
+      "ir": {
+        "code": "0A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "optical",
+      "label": "Optical",
+      "ir": {
+        "code": "0B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "coax",
+      "label": "Coax",
+      "ir": {
+        "code": "0C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "effect",
+      "label": "Effect",
+      "ir": {
+        "code": "1D 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "setting",
+      "label": "Setting",
+      "ir": {
+        "code": "1F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sub_up",
+      "label": "Sub_up",
+      "ir": {
+        "code": "03 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sub_dn",
+      "label": "Sub_dn",
+      "ir": {
+        "code": "01 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "center_up",
+      "label": "Center_up",
+      "ir": {
+        "code": "02 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "center_dn",
+      "label": "Center_dn",
+      "ir": {
+        "code": "06 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "surround_up",
+      "label": "Surround_up",
+      "ir": {
+        "code": "00 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "surround_dn",
+      "label": "Surround_dn",
+      "ir": {
+        "code": "04 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "testing",
+      "label": "Testing",
+      "ir": {
+        "code": "05 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
     {
       "id": "off",
       "label": "off",
-      "code": "JgBQAAABI5YRExITERUQOREUERQRFBEUETkQORI5ERMSORA5ETkROREUERQQFRETEjkQFBITERUQORE5ETkRORAVETkQORI5EQAFIQABJUsRAA0FAAAAAAAA",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgBQAAABI5YRExITERUQOREUERQRFBEUETkQORI5ERMSORA5ETkROREUERQQFRETEjkQFBITERUQORE5ETkRORAVETkQORI5EQAFIQABJUsRAA0FAAAAAAAA",
+        "method": "POST"
+      }
     },
     {
       "id": "on",
       "label": "on",
-      "code": "JgBQAAABI5YRExITERUQOREUERQRFBEUETkQORI5ERMSORA5ETkROREUERQQFRETEjkQFBITERUQORE5ETkRORAVETkQORI5EQAFIQABJUsRAA0FAAAAAAAA",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgBQAAABI5YRExITERUQOREUERQRFBEUETkQORI5ERMSORA5ETkROREUERQQFRETEjkQFBITERUQORE5ETkRORAVETkQORI5EQAFIQABJUsRAA0FAAAAAAAA",
+        "method": "POST"
+      }
+    },
+    {
+      "id": "nextchannel",
+      "label": "nextChannel",
+      "wifi": {
+        "endpoint": "",
+        "method": "POST"
+      }
     },
     {
       "id": "volumedown",
       "label": "volumeDown",
-      "code": "JgBQAAABJJYRExITERUQOREUERQRFBEUETkQORI5EBQSORA5ETkROREUETkRORA6ERMRFRAUERQROREUERQRExI5ETgRORI4EQAFIQABJksRAA0FAAAAAAAA",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgBQAAABJJYRExITERUQOREUERQRFBEUETkQORI5EBQSORA5ETkROREUETkRORA6ERMRFRAUERQROREUERQRExI5ETgRORI4EQAFIQABJksRAA0FAAAAAAAA",
+        "method": "POST"
+      }
     },
     {
       "id": "volumeup",
       "label": "volumeUp",
-      "code": "JgBQAAABJpQSEhMSERQROREUExITEhAVETkQORI5EBQRORE5ETkRORETEjkQFBI5EDkRFBEUERQROREUEDkSFBAVEDkRORE5EQAFIQABJ0oTAA0FAAAAAAAA",
-      "type": "WIFI"
-    },
-    {
-      "id": "mute",
-      "label": "mute",
-      "code": "JgBQAAABJJURFBEUEBURORAVERMSFBAVEDkRORM3ERQTNxE5EDkUNxAUEjkQOREUETkQFRITERQQORITERUQOREVEDkRORE5EQAFIQABJUsUAA0FAAAAAAAA",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgBQAAABJpQSEhMSERQROREUExITEhAVETkQORI5EBQRORE5ETkRORETEjkQFBI5EDkRFBEUERQROREUEDkSFBAVEDkRORE5EQAFIQABJ0oTAA0FAAAAAAAA",
+        "method": "POST"
+      }
     },
     {
       "id": "sources",
       "label": "sources",
-      "code": "{\"Stereo 1\":\"JgBQAAABJJYSEhMSERQTNxEUExITEhAVEzcQORQ3EhITOBI3ETkTNxM3EDkTEhEVEjcRFBMSExIRFBMSEzcSOBAVEjcRORM3EwAFHwABJksTAA0FAAAAAAAA\",\"Stereo 2\":\"JgBQAAABJJUSExEUEBURORAVEBQSExEVEDkRORE5ERQRORE4ETkSOBE5ETkRFBA5EjkRExITERUQFBITETkRFBEUETkQORI5EAAFIgABJUsSAA0FAAAAAAAA\",\"Stereo 3\":\"JgBQAAABJJYRExITERQROREUERQRFBAVETkQORI5EBQSOBE5ETkRORETEhQQFRA5ETkRFBEVEBQRORE5EDkSFBAVEDkRORE5EQAFIQABJUwRAA0FAAAAAAAA\",\"Optical 1\":\"JgBQAAABJJUSExEUEBURORAVEBQSExEVEDkRORE5ERQRORE4ETkSORA5ERQRFBEUETkRFBAVERMSFBA5EjgROREUETkRORE5EQAFIQABJUsSAA0FAAAAAAAA\",\"Optical 2\":\"JgBQAAABJZQSEhQRERUSNxEUExITEhEUEzcQORQ3EhIUNxI3ETkTNxM3EBUTERQ3EjcRFRISExIRFBM3ETkUERAVEzcQORQ3EgAFHwABKEkTAA0FAAAAAAAA\",\"Coaxial\":\"JgBQAAABJJUSExEUEBURORAVERMSExEVEDkRORE5ERQRORE5EDkSORAUERQRORE5ERQRFBAVERMSORA5ERUQFBE5ETkRORE5EQAFIQABJUsSAA0FAAAAAAAA\"}",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "{\"Stereo 1\":\"JgBQAAABJJYSEhMSERQTNxEUExITEhAVEzcQORQ3EhITOBI3ETkTNxM3EDkTEhEVEjcRFBMSExIRFBMSEzcSOBAVEjcRORM3EwAFHwABJksTAA0FAAAAAAAA\",\"Stereo 2\":\"JgBQAAABJJUSExEUEBURORAVEBQSExEVEDkRORE5ERQRORE4ETkSOBE5ETkRFBA5EjkRExITERUQFBITETkRFBEUETkQORI5EAAFIgABJUsSAA0FAAAAAAAA\",\"Stereo 3\":\"JgBQAAABJJYRExITERQROREUERQRFBAVETkQORI5EBQSOBE5ETkRORETEhQQFRA5ETkRFBEVEBQRORE5EDkSFBAVEDkRORE5EQAFIQABJUwRAA0FAAAAAAAA\",\"Optical 1\":\"JgBQAAABJJUSExEUEBURORAVEBQSExEVEDkRORE5ERQRORE4ETkSORA5ERQRFBEUETkRFBAVERMSFBA5EjgROREUETkRORE5EQAFIQABJUsSAA0FAAAAAAAA\",\"Optical 2\":\"JgBQAAABJZQSEhQRERUSNxEUExITEhEUEzcQORQ3EhIUNxI3ETkTNxM3EBUTERQ3EjcRFRISExIRFBM3ETkUERAVEzcQORQ3EgAFHwABKEkTAA0FAAAAAAAA\",\"Coaxial\":\"JgBQAAABJJUSExEUEBURORAVERMSExEVEDkRORE5ERQRORE5EDkSORAUERQRORE5ERQRFBAVERMSORA5ERUQFBE5ETkRORE5EQAFIQABJUsSAA0FAAAAAAAA\"}",
+        "method": "POST"
+      }
+    },
+    {
+      "id": "previouschannel",
+      "label": "previousChannel",
+      "wifi": {
+        "endpoint": "",
+        "method": "POST"
+      }
     }
   ]
 }

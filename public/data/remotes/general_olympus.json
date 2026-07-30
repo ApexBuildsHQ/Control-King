@@ -1,0 +1,18 @@
+{
+  "categoryId": "general",
+  "brandId": "olympus",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "shutter",
+      "label": "Shutter",
+      "ir": {
+        "code": "01 FE 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

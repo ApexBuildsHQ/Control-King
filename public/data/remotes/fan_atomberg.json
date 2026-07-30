@@ -1,21 +1,116 @@
 {
   "categoryId": "fan",
   "brandId": "atomberg",
-  "protocol": "RAW",
-  "frequency": 38000,
-  "ipEndpoint": null,
+  "supportedModes": [
+    "IR",
+    "WIFI"
+  ],
   "buttons": [
+    {
+      "id": "power",
+      "label": "POWER",
+      "ir": {
+        "code": "91 6E 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "1",
+      "label": "1",
+      "ir": {
+        "code": "8B 74 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "2",
+      "label": "2",
+      "ir": {
+        "code": "90 6F 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "3",
+      "label": "3",
+      "ir": {
+        "code": "8A 75 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "4",
+      "label": "4",
+      "ir": {
+        "code": "93 6C 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "5",
+      "label": "5",
+      "ir": {
+        "code": "88 77 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "boost",
+      "label": "BOOST",
+      "ir": {
+        "code": "8F 70 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "timer",
+      "label": "TIMER",
+      "ir": {
+        "code": "96 69 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "led",
+      "label": "LED",
+      "ir": {
+        "code": "97 68 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sleep",
+      "label": "SLEEP",
+      "ir": {
+        "code": "8E 71 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
     {
       "id": "off",
       "label": "off",
-      "code": "JgBQAAABJZITExMSExITEhMSExITExMSEzcTNhMTExITNxM2EzcTNxM3ExkMEhMSEzcTEhMTEjcTEhM3EzcTNxMSEzcTNxMSEwAFYQABJkkTAA0F",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "JgBQAAABJZITExMSExITEhMSExITExMSEzcTNhMTExITNxM2EzcTNxM3ExkMEhMSEzcTEhMTEjcTEhM3EzcTNxMSEzcTNxMSEwAFYQABJkkTAA0F",
+        "method": "POST"
+      }
     },
     {
       "id": "default",
       "label": "default",
-      "code": "{\"1\":\"JgBQAAABJJMVEBQRFBEUEhQRFBEUERQRFDYUNhQRFRAUNhQ2FDYUNRQSFBEVEBQRFDYUERQRFDYUNhQ2FDYTNhQSEzYUNhQRFAAFYgABJUoVAA0F\",\"2\":\"JgBQAAABJZMUERURFBEUERQRFBEUERURFDUUNhUQFREVNBQ2FDYUNhQRFTUUERU1FBEUERURFDUVNRUQFTUUERU1FTUUNhQRFQAFYAABJkkUAA0F\",\"3\":\"JgBQAAABJZMTEhMTEhMTEhMSExITEhMTEzYTNxMSExMTNhM3EzcTNxM3EzcTEhMSEzcTEhMSEzcTEhMSEzcTNxMSEzcTNxMSEwAFYgABJkkTAA0F\",\"4\":\"JgBQAAABJJMTEhMSExITExMSExITEhMSEzcTNxMWDxITNxM3EzcTNxITExITEhM3ExITEhMSEzcTNxM3EzcTEhM3EzYTNxMSEwAFYgABJkkTAA0F\",\"5\":\"JgBQAAABJpITEhMSExITEhMTExITEhMSEzcTNxMSExITNxM3EzYTNxM3EzcTNxM2ExMTEhMSEzcTEhMSExITEhM3EzcTNxMSEwAFYQABJ0kTAA0F\"}",
-      "type": "WIFI"
+      "wifi": {
+        "endpoint": "{\"1\":\"JgBQAAABJJMVEBQRFBEUEhQRFBEUERQRFDYUNhQRFRAUNhQ2FDYUNRQSFBEVEBQRFDYUERQRFDYUNhQ2FDYTNhQSEzYUNhQRFAAFYgABJUoVAA0F\",\"2\":\"JgBQAAABJZMUERURFBEUERQRFBEUERURFDUUNhUQFREVNBQ2FDYUNhQRFTUUERU1FBEUERURFDUVNRUQFTUUERU1FTUUNhQRFQAFYAABJkkUAA0F\",\"3\":\"JgBQAAABJZMTEhMTEhMTEhMSExITEhMTEzYTNxMSExMTNhM3EzcTNxM3EzcTEhMSEzcTEhMSEzcTEhMSEzcTNxMSEzcTNxMSEwAFYgABJkkTAA0F\",\"4\":\"JgBQAAABJJMTEhMSExITExMSExITEhMSEzcTNxMWDxITNxM3EzcTNxITExITEhM3ExITEhMSEzcTNxM3EzcTEhM3EzYTNxMSEwAFYgABJkkTAA0F\",\"5\":\"JgBQAAABJpITEhMSExITEhMTExITEhMSEzcTNxMSExITNxM3EzYTNxM3EzcTNxM2ExMTEhMSEzcTEhMSExITEhM3EzcTNxMSEwAFYQABJ0kTAA0F\"}",
+        "method": "POST"
+      }
     }
   ]
 }
