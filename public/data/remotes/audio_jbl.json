@@ -2,8 +2,7 @@
   "categoryId": "audio",
   "brandId": "jbl",
   "supportedModes": [
-    "IR",
-    "WIFI"
+    "IR"
   ],
   "buttons": [
     {
@@ -19,7 +18,7 @@
       "id": "vol_up",
       "label": "Vol_up",
       "ir": {
-        "code": "14 EB 00 00",
+        "code": "03 FC 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }
@@ -37,13 +36,9 @@
       "id": "mute",
       "label": "Mute",
       "ir": {
-        "code": "2A D5 00 00",
+        "code": "19 E6 00 00",
         "protocol": "NEC",
         "frequency": 38000
-      },
-      "wifi": {
-        "endpoint": "JgBQAAABH5ATEhIRExISEhISExISEhM1EhISEhISExIRNhM1EjYSEhI2EhISEhMSERITEhM0EzUSEhM1EjYTNRI1EjYSEhISEwAFhgABH0gSAA0F",
-        "method": "POST"
       }
     },
     {
@@ -104,7 +99,7 @@
       "id": "vol_down",
       "label": "Vol-",
       "ir": {
-        "code": "28 D7 00 00",
+        "code": "01 FE 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }
@@ -113,7 +108,7 @@
       "id": "next_track",
       "label": "Next",
       "ir": {
-        "code": "27 D8 00 00",
+        "code": "05 FA 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }
@@ -227,59 +222,57 @@
       }
     },
     {
-      "id": "off",
-      "label": "off",
-      "wifi": {
-        "endpoint": "JgBYAAABH5ATEhMREjYRExISExIREhM2ERITEhI1ExISNRM1EjYTERI2ETYTNRI1EzYSNRI1EzYREhMSEhISEhITEhISEhISEwAFPgABH0kSAAv9AAEgSBIADQU=",
-        "method": "POST"
+      "id": "play_pause",
+      "label": "Play_pause",
+      "ir": {
+        "code": "02 FD 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
       }
     },
     {
-      "id": "on",
-      "label": "on",
-      "wifi": {
-        "endpoint": "JgBQAAABIJASERMSEjUTEhISExETEhI1ExISEhM1EhISNhI1EjYSEhI2EjYSNRI1EzYSNRM0EzYREhMSEhMREhMSEhISEhISEwAFPwABIEcTAA0F",
-        "method": "POST"
+      "id": "prev_track",
+      "label": "Prev",
+      "ir": {
+        "code": "12 ED 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
       }
     },
     {
-      "id": "volumeup",
-      "label": "volumeUp",
-      "wifi": {
-        "endpoint": "JgBQAAABII8SEhMSEhISEhMSEhETEhI1ExISEhMREhMSNRI2EzUSEhM1EjUSNhMREhITEhM0EzUSEhMSEhISNhE2EzUSEhMSEQAFhgABIUcSAA0F",
-        "method": "POST"
+      "id": "nav_up",
+      "label": "Up",
+      "ir": {
+        "code": "1E E1 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
       }
     },
     {
-      "id": "volumedown",
-      "label": "volumeDown",
-      "wifi": {
-        "endpoint": "JgBQAAABIJASERMSExISERMSEhITERI2ExESEhMSExESNhI1EzUSEhMSEhETEhI1ExISEhI2EjUTNRI2EjUTEhI1EjUTEhISEwAFhQABIEcSAA0F=",
-        "method": "POST"
+      "id": "nav_down",
+      "label": "Down",
+      "ir": {
+        "code": "0F F0 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
       }
     },
     {
-      "id": "previouschannel",
-      "label": "previousChannel",
-      "wifi": {
-        "endpoint": "JgBUABUQFTQVEBURFBEVEBUQFRAVNRUQFDUVNRU0FjUUEBU0FTUVEBU0FREUERU0FREUERQRFTQVEBU1FTQVEBU1FTQVAAU7AAEoSBUADEkAASlIFQANBQ==",
-        "method": "POST"
+      "id": "menu",
+      "label": "Menu",
+      "ir": {
+        "code": "1A E5 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
       }
     },
     {
-      "id": "nextchannel",
-      "label": "nextChannel",
-      "wifi": {
-        "endpoint": "JgBYAAABKJEUERU0FBEUEhMSFBEUERUQFTUVEBQ1FTUVNBQ2FRAUNRU1FTUUNRUQFRAVNRQRFBEVEBQRFBEUNhU0FRAVNRU0FQAFOgABKUgVAAxJAAEpSBUADQU=",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "sources",
-      "label": "sources",
-      "wifi": {
-        "endpoint": "{\"TV\":\"JgBYAAABII8SEhMSExESEhMSEhETEhM0ExITEhIRExISNRM1EjYSEhI2EhISEhI2EjYSNRMSEjUTEhI1EzQTEhMSEhETNhIREwAFhQABIUcTAAv+AAEgSBIADQU=\",\"BLUETOOTH\":\"JgBQAAABII8TEhIRExISExIRExISEhM1EhITERISExITNBM1EjYTERISEzUSEhM1EjYSNRMSETYTNRISEzUSEhMREhMSNRISEwAFhgABH0kRAA0F\"}",
-        "method": "POST"
+      "id": "ok",
+      "label": "Enter",
+      "ir": {
+        "code": "06 F9 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
       }
     }
   ]

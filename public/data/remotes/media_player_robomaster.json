@@ -1,0 +1,18 @@
+{
+  "categoryId": "media_player",
+  "brandId": "robomaster",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "bot",
+      "label": "Bot",
+      "ir": {
+        "code": "1788 1174 643 1183 644 1153 643 1182 624 1173 644 651 1145 731 1127 647 1119",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

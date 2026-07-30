@@ -1,0 +1,18 @@
+{
+  "categoryId": "gaming",
+  "brandId": "nintendo",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "pkmnslvrmystgftlink",
+      "label": "PkmnSlvrMystGftLink",
+      "ir": {
+        "code": "241 551 340",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

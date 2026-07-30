@@ -123,7 +123,7 @@
       }
     },
     {
-      "id": "auto",
+      "id": "mode_auto",
       "label": "Auto",
       "ir": {
         "code": "24 DB 00 00",

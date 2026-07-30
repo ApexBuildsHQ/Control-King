@@ -2,8 +2,7 @@
   "categoryId": "audio",
   "brandId": "jvc",
   "supportedModes": [
-    "IR",
-    "WIFI"
+    "IR"
   ],
   "buttons": [
     {
@@ -40,10 +39,6 @@
         "code": "AD 52 00 00",
         "protocol": "NEC",
         "frequency": 38000
-      },
-      "wifi": {
-        "endpoint": "JgBMAAABF4kQMxEzERAREREQETMQERA0EREREBA0EDQQNBEQEREQEhAAAr0PNBEzEBIRERAQETMRERA0EREQEBEzETMRMxEREREPExAADQUAAAAAAAAAAAAAAAA=",
-        "method": "POST"
       }
     },
     {
@@ -206,46 +201,6 @@
         "code": "25 DA 00 00",
         "protocol": "NEC",
         "frequency": 38000
-      }
-    },
-    {
-      "id": "off",
-      "label": "off",
-      "wifi": {
-        "endpoint": "JgBMAAABGYoPNBEzEREQExARETMREREzETMRMxA0ERERMxATEREREBAAAp8RMxEzEREQEw8SETMREREzETMSMhEzERERMxESEREREhEADQUAAAAAAAAAAAAAAAA=",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "on",
-      "label": "on",
-      "wifi": {
-        "endpoint": "JgBMAAABGYoPNBEzEREQExARETMREREzETMRMxA0ERERMxATEREREBAAAp8RMxEzEREQEw8SETMREREzETMSMhEzERERMxESEREREhEADQUAAAAAAAAAAAAAAAA=",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "volumeup",
-      "label": "volumeUp",
-      "wifi": {
-        "endpoint": "JgBMAAABFokPNBEzERAREREQEjISDxIyERESMhEzETMQNBERERAREREAApoQMxEzERARERAQETMREREzEBERMxEzETMRMxEREREREREADQUAAAAAAAAAAAAAAAA=",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "volumedown",
-      "label": "volumeDown",
-      "wifi": {
-        "endpoint": "JgBMAAABF4sQMxA0EREQEhEREDQRERA0ETMRMxEzETMRMxESEBEQEhEAAnwQMxEzEREQEhERDzUQEhA0ETMRMxEzETMQNBERERIQEhAADQUAAAAAAAAAAAAAAAA=",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "sources",
-      "label": "sources",
-      "wifi": {
-        "endpoint": "{}",
-        "method": "POST"
       }
     }
   ]

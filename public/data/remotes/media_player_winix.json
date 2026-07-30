@@ -1,0 +1,72 @@
+{
+  "categoryId": "media_player",
+  "brandId": "winix",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "POWER",
+      "ir": {
+        "code": "13 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_up",
+      "label": "Up",
+      "ir": {
+        "code": "11 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_down",
+      "label": "Down",
+      "ir": {
+        "code": "9206 4497 603 540 602 1699 576 540 602 539 603 1697 578 538 604 537 595 546 596 1676 599 543 599 1674 601 1674 601 542 600 1672 603 1671 603 1670 605 538 604 536 596 545 597 543 599 1699 576 540 602 540 602 539 603 1669 606 1669 606 1669 606 1669 606 537 595 1677 598 1676 599 1675 599 39787 9160 2255 601 96422 9163 2248 598 96412 9164 2252 604 96401 9164 2252 604 96398 9166 2250 596 96413 9154 2252 594",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mode_auto",
+      "label": "Auto",
+      "ir": {
+        "code": "16 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "turbo",
+      "label": "Turbo",
+      "ir": {
+        "code": "12 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "fan_slow",
+      "label": "Fan_slow",
+      "ir": {
+        "code": "10 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "fan_fast",
+      "label": "Fan_fast",
+      "ir": {
+        "code": "11 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

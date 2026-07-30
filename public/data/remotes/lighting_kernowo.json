@@ -1,0 +1,54 @@
+{
+  "categoryId": "lighting",
+  "brandId": "kernowo",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "On",
+      "ir": {
+        "code": "47 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mode1",
+      "label": "Mode1",
+      "ir": {
+        "code": "07 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mode2",
+      "label": "Mode2",
+      "ir": {
+        "code": "9204 4469 600 564 600 564 626 540 624 541 623 544 620 571 593 572 593 572 593 1649 593 1649 593 1649 593 1649 593 1649 593 1649 593 1649 593 1649 593 1649 593 572 593 1649 593 572 593 1649 593 572 593 572 593 572 593 572 593 1649 593 572 593 1649 593 572 593 1649 593 1649 593 1649 593 39370 9196 2218 592 95848 9195 2217 593",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mode3",
+      "label": "Mode3",
+      "ir": {
+        "code": "09 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mode4",
+      "label": "Mode4",
+      "ir": {
+        "code": "18 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

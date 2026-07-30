@@ -1,57 +1,162 @@
 {
   "categoryId": "media_player",
   "brandId": "bauhn",
-  "protocol": "RAW",
-  "frequency": 38000,
-  "ipEndpoint": null,
+  "supportedModes": [
+    "IR"
+  ],
   "buttons": [
     {
-      "id": "off",
+      "id": "power",
       "label": "off",
-      "code": "JgCQAAABKZMTNhQSFBESFBMSExISExMTExITNxMSExISOBQ3EzcRFBQSEzcTNxM3EzcSFBEUExISOBQSExITEhMSEzcUNxE5EwAHuAABKZMTNxMSFBEUEhEUExITEhIUExIUNhMSExIVNhM3EzcUERQSEzcTNxM3FDYUEhMSExIUNhQSFBETEhMSFDYVNhQ2FAANBQAAAAAAAAAA",
-      "type": "WIFI"
-    },
-    {
-      "id": "on",
-      "label": "on",
-      "code": "JgCQAAABKZMTNhQSFBESFBMSExISExMTExITNxMSExISOBQ3EzcRFBQSEzcTNxM3EzcSFBEUExISOBQSExITEhMSEzcUNxE5EwAHuAABKZMTNxMSFBEUEhEUExITEhIUExIUNhMSExIVNhM3EzcUERQSEzcTNxM3FDYUEhMSExIUNhQSFBETEhMSFDYVNhQ2FAANBQAAAAAAAAAA",
-      "type": "WIFI"
+      "ir": {
+        "code": "JgCQAAABKZMTNhQSFBESFBMSExISExMTExITNxMSExISOBQ3EzcRFBQSEzcTNxM3EzcSFBEUExISOBQSExITEhMSEzcUNxE5EwAHuAABKZMTNxMSFBEUEhEUExITEhIUExIUNhMSExIVNhM3EzcUERQSEzcTNxM3FDYUEhMSExIUNhQSFBETEhMSFDYVNhQ2FAANBQAAAAAAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
     },
     {
       "id": "previouschannel",
       "label": "previousChannel",
-      "code": "JgBQAAABKJQSOBITEhQRFBEUERQSExIUEhMRORMSEhMSORI4EjgSFBITEhMSOBMSEhQRFBE5EhMSORI4EhMSOBQ3EjgSExI4EwAFdwABKEkTAA0FAAAAAAAAAAA=",
-      "type": "WIFI"
+      "ir": {
+        "code": "JgBQAAABKJQSOBITEhQRFBEUERQSExIUEhMRORMSEhMSORI4EjgSFBITEhMSOBMSEhQRFBE5EhMSORI4EhMSOBQ3EjgSExI4EwAFdwABKEkTAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
     },
     {
       "id": "nextchannel",
       "label": "nextChannel",
-      "code": "JgBQAAABKJQSOBITEhMSFBITERQSExMTEhMSOBITExISORI4ETkSExMTERQRFBI4ExISFBI4EhMSOBM4EjgSExI4EzgSExE5EgAFdwABKEkSAA0FAAAAAAAAAAA=",
-      "type": "WIFI"
+      "ir": {
+        "code": "JgBQAAABKJQSOBITEhMSFBITERQSExMTEhMSOBITExISORI4ETkSExMTERQRFBI4ExISFBI4EhMSOBM4EjgSExI4EzgSExE5EgAFdwABKEkSAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
     },
     {
       "id": "volumedown",
       "label": "volumeDown",
-      "code": "JgBQAAABKZMTNxITFBEUERQSExITEhMSFBITNxITFBEUNhQ3EzcTEhQREjkTNxMSExITEhQSEhMTNxITExMRORI4EjgTNxQ3EwAFdgABKUgSAA0FAAAAAAAAAAA=",
-      "type": "WIFI"
+      "ir": {
+        "code": "JgBQAAABKZMTNxITFBEUERQSExITEhMSFBITNxITFBEUNhQ3EzcTEhQREjkTNxMSExITEhQSEhMTNxITExMRORI4EjgTNxQ3EwAFdgABKUgSAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
     },
     {
       "id": "volumeup",
       "label": "volumeUp",
-      "code": "JgBQAAABKJMUNhQSExIUERMSFBEUERQSExIUNhQRFBIUNhM3FDYUEhMSEzcUERU2FBERFBMSFBIRORMSEzcVEBQ1FTcUNhQ2FAAFdQABKUkTAA0FAAAAAAAAAAA=",
-      "type": "WIFI"
+      "ir": {
+        "code": "JgBQAAABKJMUNhQSExIUERMSFBEUERQSExIUNhQRFBIUNhM3FDYUEhMSEzcUERU2FBERFBMSFBIRORMSEzcVEBQ1FTcUNhQ2FAAFdQABKUkTAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
     },
     {
       "id": "mute",
       "label": "mute",
-      "code": "JgBQAAABJ5QTNxIUERQSExEUEhMTEhIUEhMSOBMSEhQSOBI4EjgSFBEUEhMSOBM4EzcSExI4FBITNxI4EhMSExMTETkTEhM3FAAFdgABKEkTAA0FAAAAAAAAAAA=",
-      "type": "WIFI"
+      "ir": {
+        "code": "JgBQAAABJ5QTNxIUERQSExEUEhMTEhIUEhMSOBMSEhQSOBI4EjgSFBEUEhMSOBM4EzcSExI4FBITNxI4EhMSExMTETkTEhM3FAAFdgABKEkTAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
     },
     {
-      "id": "sources",
-      "label": "sources",
-      "code": "{\"Channel 0\":\"JgBQAAABKZIUNxQRFBEUERQRFBEUERQSFBETNxURExITNxQ2FDYUEhM3EzcUERUQFDcUERQRFBEUEhMSEzcTNxQRFTUVNhM3EwAFdgABKUgTAA0FAAAAAAAAAAA=\",\"Channel 1\":\"JgBQAAABJ5QSOREUERQRFBITEhMSFBEUEhMSOBIUERQRORI4EjgSFBEUEjgSExI5ETkRFBEUEhQROREUEjgSExQSEzcRORM3EwAFdgABKUgTAA0FAAAAAAAAAAA=\",\"Channel 2\":\"JgBQAAABKZMUNhUQFBIRFBMSExIUERQSExITNxQRFRAUNxQ2FDYTExM3EzcUNhQ2FDcTEhQRExIUEhMSExITEhUQFDcTNxM3FAAFdQABKUgUAA0FAAAAAAAAAAA=\",\"Channel 3\":\"JgBQAAABKJMTOBITEhMSExQRExMSExITExISOREUEhMSOBI4EzcTExITEhMTEhM4ETkSExI4ExMSOBI4EjgTEhIUEjgSExI4EwAFdgABKEkSAA0FAAAAAAAAAAA=\",\"Channel 4\":\"JgBQAAABKJMTNxUQFBIUERQRExIUERURFBESOBQRFBIUNhQ2EzcUEhQRFDYUNhQRFTYRFBMSFBEUNxQRExITNxQRFDYVNhM3EwAFdgABKEkTAA0FAAAAAAAAAAA=\",\"Channel 5\":\"JgBQAAABJpUUNxMSExITEhMSExIUERIUEhMTNxQRFBITNxM3EzcTExE5EzcSExQ2FDcTEhMSExIUEhEUETkTEhQRFDcRORE5EgAFdwABJ0oUAA0FAAAAAAAAAAA=\",\"Channel 6\":\"JgBQAAABKZMUNhQSExITEhMSFBEUEhMSExITNxQSExITNxM3EjgUEhMSExITNxQRFDcSExM3EhQTNxM3ExISOBQSEzcTEhE5EwAFdgABKEkSAA0FAAAAAAAAAAA=\",\"Channel 7\":\"JgBQAAABKJQRORMSExIUERQSExITEhMSFBESORMSExITNxQ2FDcTEhITFDcTEhMSEzcTEhQSExITNxITFDcTNxMSEzcUNhQ3EwAFdgABJ0oRAA0FAAAAAAAAAAA=\",\"Channel 8\":\"JgBQAAABJ5UTNxQRFBITEhMSExITEhQSERQTNxMSExIUNxE5EzcTEhQ3EzcTNxMSFDYUEhEUExIUERQSExITNxITEjgUNxM3EgAFdwABJ0oTAA0FAAAAAAAAAAA=\",\"Channel 9\":\"JgBQAAABJpUTNxQSERQRFBITEhMSFBEUERQSOBITEhQRORE5EjgSFBEUERQSExITEjkRFBE5EhMSORE5ETkSOBITEjkTEhE5EwAFdgABJ0oTAA0FAAAAAAAAAAA=\",\"Input\":\"JgBQAAABKJMVNhMSExITEhMSFBEUEhMSEhMUNhQSExITNxM3FDYUEhM3FDYSORQRExIUERQRFBITEhMSFBEUNxM3FDYTNxU1FAAFdgABKEkTAA0FAAAAAAAAAAA=\"}",
-      "type": "WIFI"
+      "id": "sources_channel_0",
+      "label": "sources_Channel 0",
+      "ir": {
+        "code": "JgBQAAABKZIUNxQRFBEUERQRFBEUERQSFBETNxURExITNxQ2FDYUEhM3EzcUERUQFDcUERQRFBEUEhMSEzcTNxQRFTUVNhM3EwAFdgABKUgTAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_channel_1",
+      "label": "sources_Channel 1",
+      "ir": {
+        "code": "JgBQAAABJ5QSOREUERQRFBITEhMSFBEUEhMSOBIUERQRORI4EjgSFBEUEjgSExI5ETkRFBEUEhQROREUEjgSExQSEzcRORM3EwAFdgABKUgTAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_channel_2",
+      "label": "sources_Channel 2",
+      "ir": {
+        "code": "JgBQAAABKZMUNhUQFBIRFBMSExIUERQSExITNxQRFRAUNxQ2FDYTExM3EzcUNhQ2FDcTEhQRExIUEhMSExITEhUQFDcTNxM3FAAFdQABKUgUAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_channel_3",
+      "label": "sources_Channel 3",
+      "ir": {
+        "code": "JgBQAAABKJMTOBITEhMSExQRExMSExITExISOREUEhMSOBI4EzcTExITEhMTEhM4ETkSExI4ExMSOBI4EjgTEhIUEjgSExI4EwAFdgABKEkSAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_channel_4",
+      "label": "sources_Channel 4",
+      "ir": {
+        "code": "JgBQAAABKJMTNxUQFBIUERQRExIUERURFBESOBQRFBIUNhQ2EzcUEhQRFDYUNhQRFTYRFBMSFBEUNxQRExITNxQRFDYVNhM3EwAFdgABKEkTAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_channel_5",
+      "label": "sources_Channel 5",
+      "ir": {
+        "code": "JgBQAAABJpUUNxMSExITEhMSExIUERIUEhMTNxQRFBITNxM3EzcTExE5EzcSExQ2FDcTEhMSExIUEhEUETkTEhQRFDcRORE5EgAFdwABJ0oUAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_channel_6",
+      "label": "sources_Channel 6",
+      "ir": {
+        "code": "JgBQAAABKZMUNhQSExITEhMSFBEUEhMSExITNxQSExITNxM3EjgUEhMSExITNxQRFDcSExM3EhQTNxM3ExISOBQSEzcTEhE5EwAFdgABKEkSAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_channel_7",
+      "label": "sources_Channel 7",
+      "ir": {
+        "code": "JgBQAAABKJQRORMSExIUERQSExITEhMSFBESORMSExITNxQ2FDcTEhITFDcTEhMSEzcTEhQSExITNxITFDcTNxMSEzcUNhQ3EwAFdgABJ0oRAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_channel_8",
+      "label": "sources_Channel 8",
+      "ir": {
+        "code": "JgBQAAABJ5UTNxQRFBITEhMSExITEhQSERQTNxMSExIUNxE5EzcTEhQ3EzcTNxMSFDYUEhEUExIUERQSExITNxITEjgUNxM3EgAFdwABJ0oTAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_channel_9",
+      "label": "sources_Channel 9",
+      "ir": {
+        "code": "JgBQAAABJpUTNxQSERQRFBITEhMSFBEUERQSOBITEhQRORE5EjgSFBEUERQSExITEjkRFBE5EhMSORE5ETkSOBITEjkTEhE5EwAFdgABJ0oTAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_input",
+      "label": "sources_Input",
+      "ir": {
+        "code": "JgBQAAABKJMVNhMSExITEhMSFBEUEhMSEhMUNhQSExITNxM3FDYUEhM3FDYSORQRExIUERQRFBITEhMSFBEUNxM3FDYTNxU1FAAFdgABKEkTAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
     }
   ]
 }

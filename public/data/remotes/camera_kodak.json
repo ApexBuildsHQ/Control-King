@@ -1,0 +1,18 @@
+{
+  "categoryId": "camera",
+  "brandId": "kodak",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "shutter_release",
+      "label": "SHUTTER",
+      "ir": {
+        "code": "0A 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

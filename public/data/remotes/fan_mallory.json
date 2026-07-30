@@ -2,23 +2,43 @@
   "categoryId": "fan",
   "brandId": "mallory",
   "supportedModes": [
-    "WIFI"
+    "IR"
   ],
   "buttons": [
     {
-      "id": "off",
+      "id": "power",
       "label": "off",
-      "wifi": {
-        "endpoint": "JgCcACkOKQ8NKykPKQ4NKw0rKQ8NKw0rDSoOAAEVKQ8pDg0rKQ8pDw0rDSopDw0rDioNKw4AARMpDygPDiopDykPDSoOKikPDSsNKw0rDgABFCkPKQ8OKigPKQ8OKg0rKA8OKg0rDioNAAEUKQ8oDw4qKQ8pDg4qDSspDw4qDioNKg4AARUpDygPDiopDykPDSoNKykPDioNKw0rDQANBQ==",
-        "method": "POST"
+      "ir": {
+        "code": "JgCcACkOKQ8NKykPKQ4NKw0rKQ8NKw0rDSoOAAEVKQ8pDg0rKQ8pDw0rDSopDw0rDioNKw4AARMpDygPDiopDykPDSoOKikPDSsNKw0rDgABFCkPKQ8OKigPKQ8OKg0rKA8OKg0rDioNAAEUKQ8oDw4qKQ8pDg4qDSspDw4qDioNKg4AARUpDygPDiopDykPDSoNKykPDioNKw0rDQANBQ==",
+        "protocol": "RAW",
+        "frequency": 38000
       }
     },
     {
-      "id": "default",
-      "label": "default",
-      "wifi": {
-        "endpoint": "{\"low\":\"JgCcACwMKwwOKikPKg4NKw0qDioNKw0rKQ8OAAEVKA8pDw4qKQ8oDw0rECgOKg0rDSsqDQ4AARQpDykOECgpDykPDioNKw4qDSoOKikPEAABEykPKQ4OKioOKQ8NKw0rDSsNKg4qKQ8NAAEUKQ8pDw0rKwwpDw0rECgOKg4qDSsoDxAAARMrDCoODSspDygPDSsNKw4qDioNKykODgANBQ==\",\"medium\":\"JgCcACkPKA8NKykPKQ4OKg4qDSsNKykPDSoOAAEVKQ8oDw0rKQ8pDg4qDioNKw0rKQ8NKg0AARQqDikPDSspDikPDSsNKw4qDSspDg0rDgABFCoOKQ8NKygPKQ8NKw0rDSsNKioODSsNAAEUKQ8pDw0rKA8pDw0rDSsNKg4qKQ8NKw4AARQpDykODSspDykPDSoOKg0rDiopDw0qDgANBQ==\",\"high\":\"JgCSACoNKQ8NKyoOKA8NKw4qDioNKw0qDSsp+SoOKQ8NKykOKQ8NKw4qDSsOKQ0rDioq+CkOKQ8NKygPKQ8NKw4qDSoOKg4qDiop+SkPKA8NKyoOKA8NKw4qDioNKw0rDiks9ikPKA8NKykPKA8NKw0rDioOKg4qDSoq+SkOKQ8NKykPKA8NKw0rDioOKg0qDioqAA0F\"}",
-        "method": "POST"
+      "id": "default_low",
+      "label": "default_low",
+      "ir": {
+        "code": "JgCcACwMKwwOKikPKg4NKw0qDioNKw0rKQ8OAAEVKA8pDw4qKQ8oDw0rECgOKg0rDSsqDQ4AARQpDykOECgpDykPDioNKw4qDSoOKikPEAABEykPKQ4OKioOKQ8NKw0rDSsNKg4qKQ8NAAEUKQ8pDw0rKwwpDw0rECgOKg4qDSsoDxAAARMrDCoODSspDygPDSsNKw4qDioNKykODgANBQ==",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "default_medium",
+      "label": "default_medium",
+      "ir": {
+        "code": "JgCcACkPKA8NKykPKQ4OKg4qDSsNKykPDSoOAAEVKQ8oDw0rKQ8pDg4qDioNKw0rKQ8NKg0AARQqDikPDSspDikPDSsNKw4qDSspDg0rDgABFCoOKQ8NKygPKQ8NKw0rDSsNKioODSsNAAEUKQ8pDw0rKA8pDw0rDSsNKg4qKQ8NKw4AARQpDykODSspDykPDSoOKg0rDiopDw0qDgANBQ==",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "default_high",
+      "label": "default_high",
+      "ir": {
+        "code": "JgCSACoNKQ8NKyoOKA8NKw4qDioNKw0qDSsp+SoOKQ8NKykOKQ8NKw4qDSsOKQ0rDioq+CkOKQ8NKygPKQ8NKw4qDSoOKg4qDiop+SkPKA8NKyoOKA8NKw4qDioNKw0rDiks9ikPKA8NKykPKA8NKw0rDioOKg4qDSoq+SkOKQ8NKykPKA8NKw0rDioOKg0qDioqAA0F",
+        "protocol": "RAW",
+        "frequency": 38000
       }
     }
   ]

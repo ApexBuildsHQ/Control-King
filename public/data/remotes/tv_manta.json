@@ -6,10 +6,10 @@
   ],
   "buttons": [
     {
-      "id": "on",
+      "id": "power",
       "label": "On",
       "ir": {
-        "code": "00 FF 00 00",
+        "code": "5F 00 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }
@@ -136,15 +136,6 @@
       "label": "Menu",
       "ir": {
         "code": "13 00 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
-      "id": "power",
-      "label": "Power",
-      "ir": {
-        "code": "5F 00 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }

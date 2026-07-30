@@ -1,0 +1,117 @@
+{
+  "categoryId": "media_player",
+  "brandId": "connectpro",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "1",
+      "label": "1",
+      "ir": {
+        "code": "02 FD 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "2",
+      "label": "2",
+      "ir": {
+        "code": "05 FA 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "3",
+      "label": "3",
+      "ir": {
+        "code": "08 F7 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "4",
+      "label": "4",
+      "ir": {
+        "code": "1B E4 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "1_kvm",
+      "label": "1_KVM",
+      "ir": {
+        "code": "01 FE 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "2_kvm",
+      "label": "2_KVM",
+      "ir": {
+        "code": "04 FB 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "3_kvm",
+      "label": "3_KVM",
+      "ir": {
+        "code": "07 F8 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "4_kvm",
+      "label": "4_KVM",
+      "ir": {
+        "code": "0A F5 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "1_audio",
+      "label": "1_Audio",
+      "ir": {
+        "code": "03 FC 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "2_audio",
+      "label": "2_Audio",
+      "ir": {
+        "code": "06 F9 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "3_audio",
+      "label": "3_Audio",
+      "ir": {
+        "code": "09 F6 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "4_audio",
+      "label": "4_Audio",
+      "ir": {
+        "code": "9011 4450 596 534 595 1665 573 1662 565 565 575 529 589 541 567 563 1675 1667 1664 595 1640 598 532 597 1663 575 529 589 1671 566 1668 569 560 569 1665 573 1662 597 1638 600 1660 567 1667 592 539 569 561 568 536 593 537 571 559 570 534 595 534 574 557 572 1661 566 1668 591 1644 594 39786 9006 2221 597",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

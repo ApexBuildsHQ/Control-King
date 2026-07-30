@@ -15,6 +15,51 @@
       }
     },
     {
+      "id": "mute",
+      "label": "Mute",
+      "ir": {
+        "code": "4C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tuner",
+      "label": "Tuner",
+      "ir": {
+        "code": "1C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "aux",
+      "label": "AUX",
+      "ir": {
+        "code": "1D 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "cd_play_pause",
+      "label": "CD/play-pause",
+      "ir": {
+        "code": "1F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tape",
+      "label": "Tape",
+      "ir": {
+        "code": "1B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
       "id": "vol_up",
       "label": "Vol_up",
       "ir": {
@@ -28,6 +73,186 @@
       "label": "Vol_dn",
       "ir": {
         "code": "4E 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_up",
+      "label": "UP",
+      "ir": {
+        "code": "86 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "dwn",
+      "label": "DWN",
+      "ir": {
+        "code": "6E 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_left",
+      "label": "Left",
+      "ir": {
+        "code": "43 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_right",
+      "label": "Right",
+      "ir": {
+        "code": "42 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sleep",
+      "label": "Sleep",
+      "ir": {
+        "code": "0E 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ok",
+      "label": "Enter",
+      "ir": {
+        "code": "73 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "1",
+      "label": "1",
+      "ir": {
+        "code": "01 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "2",
+      "label": "2",
+      "ir": {
+        "code": "02 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "3",
+      "label": "3",
+      "ir": {
+        "code": "03 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "4",
+      "label": "4",
+      "ir": {
+        "code": "04 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "5",
+      "label": "5",
+      "ir": {
+        "code": "05 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "6",
+      "label": "6",
+      "ir": {
+        "code": "06 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "7",
+      "label": "7",
+      "ir": {
+        "code": "07 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "8",
+      "label": "8",
+      "ir": {
+        "code": "08 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "9",
+      "label": "9",
+      "ir": {
+        "code": "09 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "clock",
+      "label": "Clock",
+      "ir": {
+        "code": "11 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "timer",
+      "label": "Timer",
+      "ir": {
+        "code": "0C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "tuner_mode",
+      "label": "Tuner mode",
+      "ir": {
+        "code": "12 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "rev_mode",
+      "label": "Rev mode",
+      "ir": {
+        "code": "59 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "clear",
+      "label": "Clear",
+      "ir": {
+        "code": "20 00 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }
@@ -159,87 +384,6 @@
       }
     },
     {
-      "id": "1",
-      "label": "1",
-      "ir": {
-        "code": "01 00 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
-      "id": "2",
-      "label": "2",
-      "ir": {
-        "code": "02 00 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
-      "id": "3",
-      "label": "3",
-      "ir": {
-        "code": "03 00 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
-      "id": "4",
-      "label": "4",
-      "ir": {
-        "code": "04 00 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
-      "id": "5",
-      "label": "5",
-      "ir": {
-        "code": "05 00 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
-      "id": "6",
-      "label": "6",
-      "ir": {
-        "code": "06 00 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
-      "id": "7",
-      "label": "7",
-      "ir": {
-        "code": "07 00 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
-      "id": "8",
-      "label": "8",
-      "ir": {
-        "code": "08 00 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
-      "id": "9",
-      "label": "9",
-      "ir": {
-        "code": "09 00 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
       "id": "0",
       "label": "0",
       "ir": {
@@ -253,33 +397,6 @@
       "label": "10",
       "ir": {
         "code": "0B 00 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
-      "id": "timer",
-      "label": "Timer",
-      "ir": {
-        "code": "0C 00 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
-      "id": "sleep",
-      "label": "Sleep",
-      "ir": {
-        "code": "0E 00 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
-      "id": "clock",
-      "label": "Clock",
-      "ir": {
-        "code": "11 00 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }

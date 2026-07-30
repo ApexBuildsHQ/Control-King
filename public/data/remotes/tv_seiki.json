@@ -366,7 +366,7 @@
       }
     },
     {
-      "id": "auto",
+      "id": "mode_auto",
       "label": "Auto",
       "ir": {
         "code": "52 AD 00 00",

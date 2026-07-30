@@ -2,16 +2,15 @@
   "categoryId": "fan",
   "brandId": "atomberg",
   "supportedModes": [
-    "IR",
-    "WIFI"
+    "IR"
   ],
   "buttons": [
     {
       "id": "power",
       "label": "POWER",
       "ir": {
-        "code": "91 6E 00 00",
-        "protocol": "NEC",
+        "code": "JgBQAAABJZITExMSExITEhMSExITExMSEzcTNhMTExITNxM2EzcTNxM3ExkMEhMSEzcTEhMTEjcTEhM3EzcTNxMSEzcTNxMSEwAFYQABJkkTAA0F",
+        "protocol": "RAW",
         "frequency": 38000
       }
     },
@@ -97,19 +96,57 @@
       }
     },
     {
-      "id": "off",
-      "label": "off",
-      "wifi": {
-        "endpoint": "JgBQAAABJZITExMSExITEhMSExITExMSEzcTNhMTExITNxM2EzcTNxM3ExkMEhMSEzcTEhMTEjcTEhM3EzcTNxMSEzcTNxMSEwAFYQABJkkTAA0F",
-        "method": "POST"
+      "id": "default_1",
+      "label": "default_1",
+      "ir": {
+        "code": "JgBQAAABJJMVEBQRFBEUEhQRFBEUERQRFDYUNhQRFRAUNhQ2FDYUNRQSFBEVEBQRFDYUERQRFDYUNhQ2FDYTNhQSEzYUNhQRFAAFYgABJUoVAA0F",
+        "protocol": "RAW",
+        "frequency": 38000
       }
     },
     {
-      "id": "default",
-      "label": "default",
-      "wifi": {
-        "endpoint": "{\"1\":\"JgBQAAABJJMVEBQRFBEUEhQRFBEUERQRFDYUNhQRFRAUNhQ2FDYUNRQSFBEVEBQRFDYUERQRFDYUNhQ2FDYTNhQSEzYUNhQRFAAFYgABJUoVAA0F\",\"2\":\"JgBQAAABJZMUERURFBEUERQRFBEUERURFDUUNhUQFREVNBQ2FDYUNhQRFTUUERU1FBEUERURFDUVNRUQFTUUERU1FTUUNhQRFQAFYAABJkkUAA0F\",\"3\":\"JgBQAAABJZMTEhMTEhMTEhMSExITEhMTEzYTNxMSExMTNhM3EzcTNxM3EzcTEhMSEzcTEhMSEzcTEhMSEzcTNxMSEzcTNxMSEwAFYgABJkkTAA0F\",\"4\":\"JgBQAAABJJMTEhMSExITExMSExITEhMSEzcTNxMWDxITNxM3EzcTNxITExITEhM3ExITEhMSEzcTNxM3EzcTEhM3EzYTNxMSEwAFYgABJkkTAA0F\",\"5\":\"JgBQAAABJpITEhMSExITEhMTExITEhMSEzcTNxMSExITNxM3EzYTNxM3EzcTNxM2ExMTEhMSEzcTEhMSExITEhM3EzcTNxMSEwAFYQABJ0kTAA0F\"}",
-        "method": "POST"
+      "id": "default_2",
+      "label": "default_2",
+      "ir": {
+        "code": "JgBQAAABJZMUERURFBEUERQRFBEUERURFDUUNhUQFREVNBQ2FDYUNhQRFTUUERU1FBEUERURFDUVNRUQFTUUERU1FTUUNhQRFQAFYAABJkkUAA0F",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "default_3",
+      "label": "default_3",
+      "ir": {
+        "code": "JgBQAAABJZMTEhMTEhMTEhMSExITEhMTEzYTNxMSExMTNhM3EzcTNxM3EzcTEhMSEzcTEhMSEzcTEhMSEzcTNxMSEzcTNxMSEwAFYgABJkkTAA0F",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "default_4",
+      "label": "default_4",
+      "ir": {
+        "code": "JgBQAAABJJMTEhMSExITExMSExITEhMSEzcTNxMWDxITNxM3EzcTNxITExITEhM3ExITEhMSEzcTNxM3EzcTEhM3EzYTNxMSEwAFYgABJkkTAA0F",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "default_5",
+      "label": "default_5",
+      "ir": {
+        "code": "JgBQAAABJpITEhMSExITEhMTExITEhMSEzcTNxMSExITNxM3EzYTNxM3EzcTNxM2ExMTEhMSEzcTEhMSExITEhM3EzcTNxMSEwAFYQABJ0kTAA0F",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "default_boost",
+      "label": "default_boost",
+      "ir": {
+        "code": "JgBQAAABKZIUERQRFBEUEhMSExIUERQRFDYUNRQSExITNhQ2FDUUNhQ2FDUUNhQ2FBEUERQRFDYUERQRFBEUEhM2FDUUNhQSEwAFbwABJ0oUAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
       }
     }
   ]

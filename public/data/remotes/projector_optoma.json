@@ -429,15 +429,6 @@
       }
     },
     {
-      "id": "off",
-      "label": "Off",
-      "ir": {
-        "code": "2E 00 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
       "id": "volup",
       "label": "VolUp",
       "ir": {

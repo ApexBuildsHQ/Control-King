@@ -1,0 +1,63 @@
+{
+  "categoryId": "lighting",
+  "brandId": "nec",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "on",
+      "ir": {
+        "code": "JgBIAAABJ5QVEBI4EhMSExMSExITEhM3EzcTEhM3EzgSExI4EjgSExU1ExITNxM3EzcWNBMTEhMSExI4EhMSExMSExITNxM3EwANBQ==",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "off_0",
+      "label": "off_0",
+      "ir": {
+        "code": "JgBIAAABJ5MUERM4EhMSExITEhMVEBI4EzcTEhM3EzcTEhM3EzgSExI4EhMSOBM3EzcTNxMSExITEhM4EhMSExITEhMSOBI4EwANBQ==",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "off_1",
+      "label": "off_1",
+      "ir": {
+        "code": "JgBIAAABJ5MUERM3ExMSExITEhMSExI4EjgTEhM3EzcTEhM3EzgSExITEjgSOBI4EzcTNxMSExITNxMTEhMSExITEhMSOBI4EwANBQ==",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "brightness_up",
+      "label": "brighten",
+      "ir": {
+        "code": "JgBYAAABJ5MUERM3ExITExITEhMSExI4EjgSExM3EzcTEhM3EzcTEhMTEjgSExI4EjgTNxMSExITNxMSEzcTEhMTEhMSOBI4EgAFYAABJ0kTAAxUAAErSRMADQU=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "brightness_down",
+      "label": "dim",
+      "ir": {
+        "code": "JgBYAAABKpEVEBI4EhMTEhMSExITEhM3FjQTEhM4EjgSExI4EzcTEhM3EzcTEhM4EjgSOBITEhMSExMSEzcTEhMSExITNxM3EwAFYAABJ0kTAAxaAAElShIADQU=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "night",
+      "label": "night",
+      "ir": {
+        "code": "JgBIAAABJpQTEhM3ExITEhMSExITEhM3EzgSExI4EjgTEhM3EzcTEhMSExITOBI4EjgSOBMSExITNxM3ExITEhMSExMSOBI4EgANBQ==",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    }
+  ]
+}

@@ -96,7 +96,7 @@
       }
     },
     {
-      "id": "auto",
+      "id": "mode_auto",
       "label": "Auto",
       "ir": {
         "code": "03 00 00 00",

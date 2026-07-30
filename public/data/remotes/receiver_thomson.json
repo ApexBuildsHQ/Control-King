@@ -303,7 +303,7 @@
       }
     },
     {
-      "id": "dim",
+      "id": "brightness_down",
       "label": "Dim",
       "ir": {
         "code": "0E F1 00 00",

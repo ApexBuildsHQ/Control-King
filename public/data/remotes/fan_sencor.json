@@ -15,7 +15,7 @@
       }
     },
     {
-      "id": "off",
+      "id": "power",
       "label": "OFF",
       "ir": {
         "code": "80 7F 00 00",

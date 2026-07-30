@@ -1,45 +1,135 @@
 {
   "categoryId": "media_player",
   "brandId": "jbl",
-  "protocol": "RAW",
-  "frequency": 38000,
-  "ipEndpoint": null,
+  "supportedModes": [
+    "IR"
+  ],
   "buttons": [
     {
-      "id": "off",
+      "id": "power",
       "label": "off",
-      "code": "JgBYAAABH5ATEhMREjYRExISExIREhM2ERITEhI1ExISNRM1EjYTERI2ETYTNRI1EzYSNRI1EzYREhMSEhISEhITEhISEhISEwAFPgABH0kSAAv9AAEgSBIADQU=",
-      "type": "WIFI"
-    },
-    {
-      "id": "on",
-      "label": "on",
-      "code": "JgBQAAABIJASERMSEjUTEhISExETEhI1ExISEhM1EhISNhI1EjYSEhI2EjYSNRI1EzYSNRM0EzYREhMSEhMREhMSEhISEhISEwAFPwABIEcTAA0F",
-      "type": "WIFI"
-    },
-    {
-      "id": "volumedown",
-      "label": "volumeDown",
-      "code": "JgBQAAABIJASERMSExISERMSEhITERI2ExESEhMSExESNhI1EzUSEhMSEhETEhI1ExISEhI2EjUTNRI2EjUTEhI1EjUTEhISEwAFhQABIEcSAA0F=",
-      "type": "WIFI"
-    },
-    {
-      "id": "volumeup",
-      "label": "volumeUp",
-      "code": "JgBQAAABII8SEhMSEhISEhMSEhETEhI1ExISEhMREhMSNRI2EzUSEhM1EjUSNhMREhITEhM0EzUSEhMSEhISNhE2EzUSEhMSEQAFhgABIUcSAA0F",
-      "type": "WIFI"
+      "ir": {
+        "code": "JgBQAAABIJASERMSEjUTEhISExETEhI1ExISEhM1EhISNhI1EjYSEhI2EjYSNRI1EzYSNRM0EzYREhMSEhMREhMSEhISEhISEwAFPwABIEcTAA0F",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
     },
     {
       "id": "mute",
       "label": "mute",
-      "code": "JgBQAAABH5ATEhIRExISEhISExISEhM1EhISEhISExIRNhM1EjYSEhI2EhISEhMSERITEhM0EzUSEhM1EjYTNRI1EjYSEhISEwAFhgABH0gSAA0F",
-      "type": "WIFI"
+      "ir": {
+        "code": "JgBQAAABH5ATEhIRExISEhISExISEhM1EhISEhISExIRNhM1EjYSEhI2EhISEhMSERITEhM0EzUSEhM1EjYTNRI1EjYSEhISEwAFhgABH0gSAA0F",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
     },
     {
-      "id": "sources",
-      "label": "sources",
-      "code": "{\"TV\":\"JgBYAAABII8SEhMSExESEhMSEhETEhM0ExITEhIRExISNRM1EjYSEhI2EhISEhI2EjYSNRMSEjUTEhI1EzQTEhMSEhETNhIREwAFhQABIUcTAAv+AAEgSBIADQU=\",\"BLUETOOTH\":\"JgBQAAABII8TEhIRExISExIRExISEhM1EhITERISExITNBM1EjYTERISEzUSEhM1EjYSNRMSETYTNRISEzUSEhMREhMSNRISEwAFhgABH0kRAA0F\"}",
-      "type": "WIFI"
+      "id": "volumeup",
+      "label": "volumeUp",
+      "ir": {
+        "code": "JgBQAAABII8SEhMSEhISEhMSEhETEhI1ExISEhMREhMSNRI2EzUSEhM1EjUSNhMREhITEhM0EzUSEhMSEhISNhE2EzUSEhMSEQAFhgABIUcSAA0F",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "volumedown",
+      "label": "volumeDown",
+      "ir": {
+        "code": "JgBQAAABIJASERMSExISERMSEhITERI2ExESEhMSExESNhI1EzUSEhMSEhETEhI1ExISEhI2EjUTNRI2EjUTEhI1EjUTEhISEwAFhQABIEcSAA0F=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "previouschannel",
+      "label": "previousChannel",
+      "ir": {
+        "code": "JgBUABUQFTQVEBURFBEVEBUQFRAVNRUQFDUVNRU0FjUUEBU0FTUVEBU0FREUERU0FREUERQRFTQVEBU1FTQVEBU1FTQVAAU7AAEoSBUADEkAASlIFQANBQ==",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nextchannel",
+      "label": "nextChannel",
+      "ir": {
+        "code": "JgBYAAABKJEUERU0FBEUEhMSFBEUERUQFTUVEBQ1FTUVNBQ2FRAUNRU1FTUUNRUQFRAVNRQRFBEVEBQRFBEUNhU0FRAVNRU0FQAFOgABKUgVAAxJAAEpSBUADQU=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_play",
+      "label": "sources_play",
+      "ir": {
+        "code": "JgBMABUQFTUVEBUQFRAUERQSFBEVNBUQFTUVNBQ2FTUUEBU1FTUUEBU1FTQUEhMSFRAVEBUQFDYVEBUQFDUUNhU0FDYVAAU6AAEpRxUADQU=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_bluetooth",
+      "label": "sources_bluetooth",
+      "ir": {
+        "code": "JgBQAAABII8TEhIRExISExIRExISEhM1EhITERISExITNBM1EjYTERISEzUSEhM1EjYSNRMSETYTNRISEzUSEhMREhMSNRISEwAFhgABH0kRAA0F",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_optical",
+      "label": "sources_optical",
+      "ir": {
+        "code": "JgBUABUQFTQUERURExIVEBUQFRAUNhQRFTQVNRQ1FDYVEBU0FTUUERQ1FTUVEBQRFTUTEhUQFTQVERUQFTQVNRQRFTQVAAU6AAEpSBUADEkAAShIFQANBQ==",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_hdmi",
+      "label": "sources_HDMI",
+      "ir": {
+        "code": "JgBUAAABJ5IVEBU0FREUERUQFRAVEBUQFTUVEBU0FTUVNBU1FRAVNRQ1FBEVNRQ1FRAUNhQ1FBEVEBU1FRAUERU1FBEVEBU0FQAFOgABKkcVAAyBBQANBQ==",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_movie",
+      "label": "sources_movie",
+      "ir": {
+        "code": "JgBMABQRFDUVEBQSFBEVEBUQFBEUNhQRFTQVNRU0FTUVEBU0FREUERQRFTQVERQRFBEUERU0FTUVNBURFDUVNRQ1FTQVAAU6AAEoSRUADQU=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_music",
+      "label": "sources_music",
+      "ir": {
+        "code": "JgBYAAABJ5EVEBQ2FRAUERQSExEVERQRFDUVEBU1FDUVNRQ1FBEVNRUQFRAUERQRFREUNRUQFRAUNhU0FDYVNBU1FRAVNBU1FQAFOgABKkcUAAxKAAEoSRQADQU=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_news",
+      "label": "sources_news",
+      "ir": {
+        "code": "JgBQAAABJpIUERU1FRAVEBQRFBEVERQRFDUUERU1FTQVNRQ1FRAUNhQ1FDYVEBU0Fg8VNRU0FRETEhQSEzUUERQ2FBEVEBQ2FQAFOgABKEgVAA0F",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_tv",
+      "label": "sources_TV",
+      "ir": {
+        "code": "JgBYAAABII8SEhMSExESEhMSEhETEhM0ExITEhIRExISNRM1EjYSEhI2EhISEhI2EjYSNRMSEjUTEhI1EzQTEhMSEhETNhIREwAFhQABIUcTAAv+AAEgSBIADQU=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
     }
   ]
 }

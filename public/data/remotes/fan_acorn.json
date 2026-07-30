@@ -2,23 +2,43 @@
   "categoryId": "fan",
   "brandId": "acorn",
   "supportedModes": [
-    "WIFI"
+    "IR"
   ],
   "buttons": [
     {
-      "id": "off",
+      "id": "power",
       "label": "off",
-      "wifi": {
-        "endpoint": "sgcyABgJCBkZCRkJGQkIGQgZCBkZCQgaCBkIGQgZCBkIGRgJGQkYCRkJCBoIGQj8GQkYCQgaAAAAAAAA",
-        "method": "POST"
+      "ir": {
+        "code": "sgcyABgJCBkZCRkJGQkIGQgZCBkZCQgaCBkIGQgZCBkIGRgJGQkYCRkJCBoIGQj8GQkYCQgaAAAAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
       }
     },
     {
-      "id": "default",
-      "label": "default",
-      "wifi": {
-        "endpoint": "{\"low\":\"sgsyABkJGQkIGRkJCRkZCRkJGQkIGQkZCRkZCQkZCBkJGQgZGAkZCRkJGQkIGQkZGQkZCQn7AAAAAAAA\",\"medium\":\"sgkyABkJCRkZCQgZGQkZCRkJCBkIGQgZGQkJGQgZCRkJGQkZCBoYCRkJCBkJGRkJGQkJ+xkJAAAAAAAA\",\"high\":\"sggyABgJGAoIGRkJCBkZCRkJGAkJGQgaCBkZCQkaCBkIGQgZGQkZCQgaCBkZCRkJCBkJGQj7AAAAAAAA\"}",
-        "method": "POST"
+      "id": "default_low",
+      "label": "default_low",
+      "ir": {
+        "code": "sgsyABkJGQkIGRkJCRkZCRkJGQkIGQkZCRkZCQkZCBkJGQgZGAkZCRkJGQkIGQkZGQkZCQn7AAAAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "default_medium",
+      "label": "default_medium",
+      "ir": {
+        "code": "sgkyABkJCRkZCQgZGQkZCRkJCBkIGQgZGQkJGQgZCRkJGQkZCBoYCRkJCBkJGRkJGQkJ+xkJAAAAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "default_high",
+      "label": "default_high",
+      "ir": {
+        "code": "sggyABgJGAoIGRkJCBkZCRkJGAkJGQgaCBkZCQkaCBkIGQgZGQkZCQgaCBkZCRkJCBkJGQj7AAAAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
       }
     }
   ]

@@ -6,17 +6,8 @@
   ],
   "buttons": [
     {
-      "id": "on",
+      "id": "power",
       "label": "On",
-      "ir": {
-        "code": "40 00 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
-      "id": "off",
-      "label": "Off",
       "ir": {
         "code": "19 00 00 00",
         "protocol": "NEC",

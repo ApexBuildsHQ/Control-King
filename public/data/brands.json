@@ -6,11 +6,6 @@
       "icon": "tv"
     },
     {
-      "id": "aiwa",
-      "name": "AIWA",
-      "icon": "tv"
-    },
-    {
       "id": "auna",
       "name": "AUNA",
       "icon": "tv"
@@ -21,16 +16,6 @@
       "icon": "tv"
     },
     {
-      "id": "denon",
-      "name": "DENON",
-      "icon": "tv"
-    },
-    {
-      "id": "emotiva",
-      "name": "EMOTIVA",
-      "icon": "tv"
-    },
-    {
       "id": "fosi",
       "name": "FOSI",
       "icon": "tv"
@@ -38,11 +23,6 @@
     {
       "id": "fossi_audio",
       "name": "FOSSI AUDIO",
-      "icon": "tv"
-    },
-    {
-      "id": "grundig",
-      "name": "GRUNDIG",
       "icon": "tv"
     },
     {
@@ -58,11 +38,6 @@
     {
       "id": "marantz",
       "name": "MARANTZ",
-      "icon": "tv"
-    },
-    {
-      "id": "onkyo",
-      "name": "ONKYO",
       "icon": "tv"
     },
     {
@@ -86,18 +61,8 @@
       "icon": "tv"
     },
     {
-      "id": "revo",
-      "name": "REVO",
-      "icon": "tv"
-    },
-    {
       "id": "smsl",
       "name": "SMSL",
-      "icon": "tv"
-    },
-    {
-      "id": "siriusxm",
-      "name": "SIRIUSXM",
       "icon": "tv"
     },
     {
@@ -108,11 +73,6 @@
     {
       "id": "technics",
       "name": "TECHNICS",
-      "icon": "tv"
-    },
-    {
-      "id": "terratec",
-      "name": "TERRATEC",
       "icon": "tv"
     },
     {
@@ -138,21 +98,6 @@
     {
       "id": "northern",
       "name": "NORTHERN",
-      "icon": "tv"
-    },
-    {
-      "id": "cd",
-      "name": "CD",
-      "icon": "tv"
-    },
-    {
-      "id": "dvd",
-      "name": "DVD",
-      "icon": "tv"
-    },
-    {
-      "id": "nav",
-      "name": "NAV",
       "icon": "tv"
     },
     {
@@ -186,31 +131,6 @@
       "icon": "tv"
     },
     {
-      "id": "asus",
-      "name": "ASUS",
-      "icon": "tv"
-    },
-    {
-      "id": "dunehd",
-      "name": "DUNEHD",
-      "icon": "tv"
-    },
-    {
-      "id": "fantec",
-      "name": "FANTEC",
-      "icon": "tv"
-    },
-    {
-      "id": "mt_viki",
-      "name": "MT VIKI",
-      "icon": "tv"
-    },
-    {
-      "id": "qnap",
-      "name": "QNAP",
-      "icon": "tv"
-    },
-    {
       "id": "amazon",
       "name": "AMAZON",
       "icon": "tv"
@@ -231,11 +151,6 @@
       "icon": "tv"
     },
     {
-      "id": "canton",
-      "name": "CANTON",
-      "icon": "tv"
-    },
-    {
       "id": "comhear",
       "name": "COMHEAR",
       "icon": "tv"
@@ -248,6 +163,16 @@
     {
       "id": "creative",
       "name": "CREATIVE",
+      "icon": "tv"
+    },
+    {
+      "id": "denon",
+      "name": "DENON",
+      "icon": "tv"
+    },
+    {
+      "id": "grundig",
+      "name": "GRUNDIG",
       "icon": "tv"
     },
     {
@@ -301,11 +226,6 @@
       "icon": "tv"
     },
     {
-      "id": "tcl",
-      "name": "TCL",
-      "icon": "tv"
-    },
-    {
       "id": "teufel",
       "name": "TEUFEL",
       "icon": "tv"
@@ -343,16 +263,6 @@
     {
       "id": "bowers",
       "name": "BOWERS",
-      "icon": "tv"
-    },
-    {
-      "id": "como",
-      "name": "COMO",
-      "icon": "tv"
-    },
-    {
-      "id": "edifier",
-      "name": "EDIFIER",
       "icon": "tv"
     },
     {
@@ -823,6 +733,11 @@
     {
       "id": "syntax_brillian",
       "name": "SYNTAX BRILLIAN",
+      "icon": "tv"
+    },
+    {
+      "id": "tcl",
+      "name": "TCL",
       "icon": "tv"
     },
     {
@@ -1413,6 +1328,46 @@
       "icon": "wind"
     },
     {
+      "id": "ashley",
+      "name": "ASHLEY",
+      "icon": "wind"
+    },
+    {
+      "id": "dimplex",
+      "name": "DIMPLEX",
+      "icon": "wind"
+    },
+    {
+      "id": "royalflame",
+      "name": "ROYALFLAME",
+      "icon": "wind"
+    },
+    {
+      "id": "whalen",
+      "name": "WHALEN",
+      "icon": "wind"
+    },
+    {
+      "id": "arizer",
+      "name": "ARIZER",
+      "icon": "wind"
+    },
+    {
+      "id": "csv",
+      "name": "CSV",
+      "icon": "wind"
+    },
+    {
+      "id": "ir",
+      "name": "IR",
+      "icon": "wind"
+    },
+    {
+      "id": "pronto",
+      "name": "PRONTO",
+      "icon": "wind"
+    },
+    {
       "id": "toyotomi",
       "name": "TOYOTOMI",
       "icon": "wind"
@@ -1570,11 +1525,6 @@
     {
       "id": "aeronik",
       "name": "AERONIK",
-      "icon": "wind"
-    },
-    {
-      "id": "dimplex",
-      "name": "DIMPLEX",
       "icon": "wind"
     },
     {
@@ -1887,192 +1837,302 @@
     {
       "id": "arris",
       "name": "ARRIS",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "amino",
       "name": "AMINO",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "arcadyan",
       "name": "ARCADYAN",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "atlas",
       "name": "ATLAS",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "bouygues",
       "name": "BOUYGUES",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "bell",
       "name": "BELL",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "cahors",
       "name": "CAHORS",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "claro",
       "name": "CLARO",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "cogeco",
       "name": "COGECO",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "comcast",
       "name": "COMCAST",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "cox",
       "name": "COX",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "directv",
       "name": "DIRECTV",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "dstv",
       "name": "DSTV",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "evo",
       "name": "EVO",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "elisa",
       "name": "ELISA",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "eurolan",
       "name": "EUROLAN",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "evolution",
       "name": "EVOLUTION",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "foxtel",
       "name": "FOXTEL",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "get",
       "name": "GET",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "huawei",
       "name": "HUAWEI",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "humax",
       "name": "HUMAX",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "lenson",
       "name": "LENSON",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "mag",
       "name": "MAG",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "meo",
       "name": "MEO",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "micca",
       "name": "MICCA",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "mirage",
       "name": "MIRAGE",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "netgem",
       "name": "NETGEM",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "octagon",
       "name": "OCTAGON",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "orange",
       "name": "ORANGE",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "quasar",
       "name": "QUASAR",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "rostelecom",
       "name": "ROSTELECOM",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "skyq",
       "name": "SKYQ",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "starcom",
       "name": "STARCOM",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "technisat",
       "name": "TECHNISAT",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "telenet",
       "name": "TELENET",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "telus",
       "name": "TELUS",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "thomson",
       "name": "THOMSON",
-      "icon": "tv"
+      "icon": "box"
     },
     {
       "id": "xfinity",
       "name": "XFINITY",
-      "icon": "tv"
+      "icon": "box"
+    },
+    {
+      "id": "dvd",
+      "name": "DVD",
+      "icon": "box"
+    },
+    {
+      "id": "magnavox",
+      "name": "MAGNAVOX",
+      "icon": "box"
+    },
+    {
+      "id": "fransat",
+      "name": "FRANSAT",
+      "icon": "box"
+    },
+    {
+      "id": "msi",
+      "name": "MSI",
+      "icon": "box"
+    },
+    {
+      "id": "storex",
+      "name": "STOREX",
+      "icon": "box"
+    },
+    {
+      "id": "advanced",
+      "name": "ADVANCED",
+      "icon": "box"
+    },
+    {
+      "id": "chunghop",
+      "name": "CHUNGHOP",
+      "icon": "box"
+    },
+    {
+      "id": "contemporary",
+      "name": "CONTEMPORARY",
+      "icon": "box"
+    },
+    {
+      "id": "lg",
+      "name": "LG",
+      "icon": "box"
+    },
+    {
+      "id": "boxlight",
+      "name": "BOXLIGHT",
+      "icon": "box"
+    },
+    {
+      "id": "cleartouch",
+      "name": "CLEARTOUCH",
+      "icon": "box"
+    },
+    {
+      "id": "clevertouch",
+      "name": "CLEVERTOUCH",
+      "icon": "box"
+    },
+    {
+      "id": "viewsonic",
+      "name": "VIEWSONIC",
+      "icon": "box"
+    },
+    {
+      "id": "fisher",
+      "name": "FISHER",
+      "icon": "box"
+    },
+    {
+      "id": "jvc",
+      "name": "JVC",
+      "icon": "box"
+    },
+    {
+      "id": "panasonic",
+      "name": "PANASONIC",
+      "icon": "box"
+    },
+    {
+      "id": "sony",
+      "name": "SONY",
+      "icon": "box"
+    },
+    {
+      "id": "promethean",
+      "name": "PROMETHEAN",
+      "icon": "box"
+    },
+    {
+      "id": "csv",
+      "name": "CSV",
+      "icon": "box"
+    },
+    {
+      "id": "ir",
+      "name": "IR",
+      "icon": "box"
+    },
+    {
+      "id": "other",
+      "name": "OTHER",
+      "icon": "box"
+    },
+    {
+      "id": "pronto",
+      "name": "PRONTO",
+      "icon": "box"
     }
   ],
   "audio": [
@@ -2112,8 +2172,18 @@
       "icon": "speaker"
     },
     {
+      "id": "emotiva",
+      "name": "EMOTIVA",
+      "icon": "speaker"
+    },
+    {
       "id": "gpx",
       "name": "GPX",
+      "icon": "speaker"
+    },
+    {
+      "id": "grundig",
+      "name": "GRUNDIG",
       "icon": "speaker"
     },
     {
@@ -2134,6 +2204,11 @@
     {
       "id": "mcm",
       "name": "MCM",
+      "icon": "speaker"
+    },
+    {
+      "id": "marantz",
+      "name": "MARANTZ",
       "icon": "speaker"
     },
     {
@@ -2177,13 +2252,28 @@
       "icon": "speaker"
     },
     {
+      "id": "revo",
+      "name": "REVO",
+      "icon": "speaker"
+    },
+    {
       "id": "rio",
       "name": "RIO",
       "icon": "speaker"
     },
     {
+      "id": "siriusxm",
+      "name": "SIRIUSXM",
+      "icon": "speaker"
+    },
+    {
       "id": "sony",
       "name": "SONY",
+      "icon": "speaker"
+    },
+    {
+      "id": "terratec",
+      "name": "TERRATEC",
       "icon": "speaker"
     },
     {
@@ -2194,41 +2284,6 @@
     {
       "id": "yamaha",
       "name": "YAMAHA",
-      "icon": "speaker"
-    },
-    {
-      "id": "cd",
-      "name": "CD",
-      "icon": "speaker"
-    },
-    {
-      "id": "dvd",
-      "name": "DVD",
-      "icon": "speaker"
-    },
-    {
-      "id": "evolution",
-      "name": "EVOLUTION",
-      "icon": "speaker"
-    },
-    {
-      "id": "leicke",
-      "name": "LEICKE",
-      "icon": "speaker"
-    },
-    {
-      "id": "ligawo",
-      "name": "LIGAWO",
-      "icon": "speaker"
-    },
-    {
-      "id": "rytaki",
-      "name": "RYTAKI",
-      "icon": "speaker"
-    },
-    {
-      "id": "ugreen",
-      "name": "UGREEN",
       "icon": "speaker"
     },
     {
@@ -2249,6 +2304,11 @@
     {
       "id": "brandunknown",
       "name": "BRANDUNKNOWN",
+      "icon": "speaker"
+    },
+    {
+      "id": "canton",
+      "name": "CANTON",
       "icon": "speaker"
     },
     {
@@ -2322,6 +2382,11 @@
       "icon": "speaker"
     },
     {
+      "id": "tcl",
+      "name": "TCL",
+      "icon": "speaker"
+    },
+    {
       "id": "taotronics",
       "name": "TAOTRONICS",
       "icon": "speaker"
@@ -2354,6 +2419,11 @@
     {
       "id": "bumpboxx",
       "name": "BUMPBOXX",
+      "icon": "speaker"
+    },
+    {
+      "id": "como",
+      "name": "COMO",
       "icon": "speaker"
     },
     {
@@ -2424,101 +2494,6 @@
     {
       "id": "v_tac",
       "name": "V TAC",
-      "icon": "speaker"
-    },
-    {
-      "id": "insignia",
-      "name": "INSIGNIA",
-      "icon": "speaker"
-    },
-    {
-      "id": "rme",
-      "name": "RME",
-      "icon": "speaker"
-    },
-    {
-      "id": "tcl",
-      "name": "TCL",
-      "icon": "speaker"
-    },
-    {
-      "id": "pace",
-      "name": "PACE",
-      "icon": "speaker"
-    },
-    {
-      "id": "silver",
-      "name": "SILVER",
-      "icon": "speaker"
-    },
-    {
-      "id": "turbox",
-      "name": "TURBOX",
-      "icon": "speaker"
-    },
-    {
-      "id": "thomson",
-      "name": "THOMSON",
-      "icon": "speaker"
-    },
-    {
-      "id": "grunding",
-      "name": "GRUNDING",
-      "icon": "speaker"
-    },
-    {
-      "id": "oki",
-      "name": "OKI",
-      "icon": "speaker"
-    },
-    {
-      "id": "bauhn",
-      "name": "BAUHN",
-      "icon": "speaker"
-    },
-    {
-      "id": "optoma",
-      "name": "OPTOMA",
-      "icon": "speaker"
-    },
-    {
-      "id": "kanto",
-      "name": "KANTO",
-      "icon": "speaker"
-    },
-    {
-      "id": "epson",
-      "name": "EPSON",
-      "icon": "speaker"
-    },
-    {
-      "id": "dialog",
-      "name": "DIALOG",
-      "icon": "speaker"
-    },
-    {
-      "id": "kivi",
-      "name": "KIVI",
-      "icon": "speaker"
-    },
-    {
-      "id": "sharp",
-      "name": "SHARP",
-      "icon": "speaker"
-    },
-    {
-      "id": "noblex",
-      "name": "NOBLEX",
-      "icon": "speaker"
-    },
-    {
-      "id": "zte",
-      "name": "ZTE",
-      "icon": "speaker"
-    },
-    {
-      "id": "cambridge_audio",
-      "name": "CAMBRIDGE AUDIO",
       "icon": "speaker"
     }
   ],
@@ -3316,2041 +3291,2294 @@
       "icon": "projector"
     }
   ],
-  "general": [
-    {
-      "id": "3m",
-      "name": "3M",
-      "icon": "tv"
-    },
-    {
-      "id": "blueair",
-      "name": "BLUEAIR",
-      "icon": "tv"
-    },
-    {
-      "id": "dyson",
-      "name": "DYSON",
-      "icon": "tv"
-    },
-    {
-      "id": "iqair",
-      "name": "IQAIR",
-      "icon": "tv"
-    },
-    {
-      "id": "rabbit",
-      "name": "RABBIT",
-      "icon": "tv"
-    },
-    {
-      "id": "rohnson",
-      "name": "ROHNSON",
-      "icon": "tv"
-    },
-    {
-      "id": "shark",
-      "name": "SHARK",
-      "icon": "tv"
-    },
-    {
-      "id": "trotec",
-      "name": "TROTEC",
-      "icon": "tv"
-    },
-    {
-      "id": "wen",
-      "name": "WEN",
-      "icon": "tv"
-    },
-    {
-      "id": "winix",
-      "name": "WINIX",
-      "icon": "tv"
-    },
-    {
-      "id": "biobidet",
-      "name": "BIOBIDET",
-      "icon": "tv"
-    },
-    {
-      "id": "brandell",
-      "name": "BRANDELL",
-      "icon": "tv"
-    },
-    {
-      "id": "insignia",
-      "name": "INSIGNIA",
-      "icon": "tv"
-    },
-    {
-      "id": "jvc",
-      "name": "JVC",
-      "icon": "tv"
-    },
-    {
-      "id": "lg",
-      "name": "LG",
-      "icon": "tv"
-    },
-    {
-      "id": "marantz",
-      "name": "MARANTZ",
-      "icon": "tv"
-    },
-    {
-      "id": "nad",
-      "name": "NAD",
-      "icon": "tv"
-    },
-    {
-      "id": "oppo",
-      "name": "OPPO",
-      "icon": "tv"
-    },
-    {
-      "id": "panasonic",
-      "name": "PANASONIC",
-      "icon": "tv"
-    },
-    {
-      "id": "philips",
-      "name": "PHILIPS",
-      "icon": "tv"
-    },
-    {
-      "id": "pioneer",
-      "name": "PIONEER",
-      "icon": "tv"
-    },
-    {
-      "id": "samsung",
-      "name": "SAMSUNG",
-      "icon": "tv"
-    },
-    {
-      "id": "sanyo",
-      "name": "SANYO",
-      "icon": "tv"
-    },
-    {
-      "id": "sharp",
-      "name": "SHARP",
-      "icon": "tv"
-    },
-    {
-      "id": "soniq",
-      "name": "SONIQ",
-      "icon": "tv"
-    },
-    {
-      "id": "sony",
-      "name": "SONY",
-      "icon": "tv"
-    },
-    {
-      "id": "sylvania",
-      "name": "SYLVANIA",
-      "icon": "tv"
-    },
-    {
-      "id": "toshiba",
-      "name": "TOSHIBA",
-      "icon": "tv"
-    },
-    {
-      "id": "vizio",
-      "name": "VIZIO",
-      "icon": "tv"
-    },
-    {
-      "id": "yamaha",
-      "name": "YAMAHA",
-      "icon": "tv"
-    },
-    {
-      "id": "aeg",
-      "name": "AEG",
-      "icon": "tv"
-    },
-    {
-      "id": "aiwa",
-      "name": "AIWA",
-      "icon": "tv"
-    },
-    {
-      "id": "denon",
-      "name": "DENON",
-      "icon": "tv"
-    },
-    {
-      "id": "fisher",
-      "name": "FISHER",
-      "icon": "tv"
-    },
-    {
-      "id": "gpx",
-      "name": "GPX",
-      "icon": "tv"
-    },
-    {
-      "id": "onkyo",
-      "name": "ONKYO",
-      "icon": "tv"
-    },
-    {
-      "id": "roberts",
-      "name": "ROBERTS",
-      "icon": "tv"
-    },
-    {
-      "id": "rockola",
-      "name": "ROCKOLA",
-      "icon": "tv"
-    },
-    {
-      "id": "teac",
-      "name": "TEAC",
-      "icon": "tv"
-    },
-    {
-      "id": "technics",
-      "name": "TECHNICS",
-      "icon": "tv"
-    },
-    {
-      "id": "unknown",
-      "name": "UNKNOWN",
-      "icon": "tv"
-    },
-    {
-      "id": "winnes",
-      "name": "WINNES",
-      "icon": "tv"
-    },
-    {
-      "id": "aigo",
-      "name": "AIGO",
-      "icon": "tv"
-    },
-    {
-      "id": "canon",
-      "name": "CANON",
-      "icon": "tv"
-    },
-    {
-      "id": "eakins",
-      "name": "EAKINS",
-      "icon": "tv"
-    },
-    {
-      "id": "fujifilm",
-      "name": "FUJIFILM",
-      "icon": "tv"
-    },
-    {
-      "id": "haier",
-      "name": "HAIER",
-      "icon": "tv"
-    },
-    {
-      "id": "hayear",
-      "name": "HAYEAR",
-      "icon": "tv"
-    },
-    {
-      "id": "kodak",
-      "name": "KODAK",
-      "icon": "tv"
-    },
-    {
-      "id": "lifesize",
-      "name": "LIFESIZE",
-      "icon": "tv"
-    },
-    {
-      "id": "logitech",
-      "name": "LOGITECH",
-      "icon": "tv"
-    },
-    {
-      "id": "nikon",
-      "name": "NIKON",
-      "icon": "tv"
-    },
-    {
-      "id": "olympus",
-      "name": "OLYMPUS",
-      "icon": "tv"
-    },
-    {
-      "id": "ordro",
-      "name": "ORDRO",
-      "icon": "tv"
-    },
-    {
-      "id": "ptzoptics",
-      "name": "PTZOPTICS",
-      "icon": "tv"
-    },
-    {
-      "id": "pentax",
-      "name": "PENTAX",
-      "icon": "tv"
-    },
-    {
-      "id": "yealink",
-      "name": "YEALINK",
-      "icon": "tv"
-    },
-    {
-      "id": "xflyee",
-      "name": "XFLYEE",
-      "icon": "tv"
-    },
-    {
-      "id": "apple",
-      "name": "APPLE",
-      "icon": "tv"
-    },
+  "gaming": [
     {
       "id": "microsoft",
       "name": "MICROSOFT",
-      "icon": "tv"
+      "icon": "gamepad"
     },
     {
       "id": "nintendo",
       "name": "NINTENDO",
-      "icon": "tv"
+      "icon": "gamepad"
+    },
+    {
+      "id": "philips",
+      "name": "PHILIPS",
+      "icon": "gamepad"
     },
     {
       "id": "playstation",
       "name": "PLAYSTATION",
-      "icon": "tv"
-    },
-    {
-      "id": "benchmark",
-      "name": "BENCHMARK",
-      "icon": "tv"
-    },
-    {
-      "id": "magnavox",
-      "name": "MAGNAVOX",
-      "icon": "tv"
-    },
-    {
-      "id": "ossc",
-      "name": "OSSC",
-      "icon": "tv"
-    },
-    {
-      "id": "rme",
-      "name": "RME",
-      "icon": "tv"
-    },
-    {
-      "id": "retro_bit",
-      "name": "RETRO BIT",
-      "icon": "tv"
-    },
-    {
-      "id": "retrotink",
-      "name": "RETROTINK",
-      "icon": "tv"
-    },
-    {
-      "id": "socobeta",
-      "name": "SOCOBETA",
-      "icon": "tv"
-    },
-    {
-      "id": "theta",
-      "name": "THETA",
-      "icon": "tv"
-    },
-    {
-      "id": "bulsatcom",
-      "name": "BULSATCOM",
-      "icon": "tv"
-    },
-    {
-      "id": "cyfrowy",
-      "name": "CYFROWY",
-      "icon": "tv"
-    },
-    {
-      "id": "diprogress",
-      "name": "DIPROGRESS",
-      "icon": "tv"
-    },
-    {
-      "id": "fransat",
-      "name": "FRANSAT",
-      "icon": "tv"
-    },
-    {
-      "id": "msi",
-      "name": "MSI",
-      "icon": "tv"
-    },
-    {
-      "id": "manhattan",
-      "name": "MANHATTAN",
-      "icon": "tv"
-    },
-    {
-      "id": "octagon",
-      "name": "OCTAGON",
-      "icon": "tv"
-    },
-    {
-      "id": "storex",
-      "name": "STOREX",
-      "icon": "tv"
-    },
-    {
-      "id": "tesla",
-      "name": "TESLA",
-      "icon": "tv"
-    },
-    {
-      "id": "tilview",
-      "name": "TILVIEW",
-      "icon": "tv"
-    },
-    {
-      "id": "bose",
-      "name": "BOSE",
-      "icon": "tv"
-    },
-    {
-      "id": "brandt",
-      "name": "BRANDT",
-      "icon": "tv"
-    },
-    {
-      "id": "prinz",
-      "name": "PRINZ",
-      "icon": "tv"
-    },
-    {
-      "id": "s2_digital",
-      "name": "S2 DIGITAL",
-      "icon": "tv"
-    },
-    {
-      "id": "strato",
-      "name": "STRATO",
-      "icon": "tv"
-    },
-    {
-      "id": "digi",
-      "name": "DIGI",
-      "icon": "tv"
-    },
-    {
-      "id": "dynascan",
-      "name": "DYNASCAN",
-      "icon": "tv"
-    },
-    {
-      "id": "iiyama",
-      "name": "IIYAMA",
-      "icon": "tv"
-    },
-    {
-      "id": "jet",
-      "name": "JET",
-      "icon": "tv"
-    },
-    {
-      "id": "altraflame",
-      "name": "ALTRAFLAME",
-      "icon": "tv"
-    },
-    {
-      "id": "amerlife",
-      "name": "AMERLIFE",
-      "icon": "tv"
-    },
-    {
-      "id": "ashley",
-      "name": "ASHLEY",
-      "icon": "tv"
-    },
-    {
-      "id": "classicflame",
-      "name": "CLASSICFLAME",
-      "icon": "tv"
-    },
-    {
-      "id": "delmar",
-      "name": "DELMAR",
-      "icon": "tv"
-    },
-    {
-      "id": "dimplex",
-      "name": "DIMPLEX",
-      "icon": "tv"
-    },
-    {
-      "id": "goldenvantage",
-      "name": "GOLDENVANTAGE",
-      "icon": "tv"
-    },
-    {
-      "id": "homday",
-      "name": "HOMDAY",
-      "icon": "tv"
-    },
-    {
-      "id": "longhua",
-      "name": "LONGHUA",
-      "icon": "tv"
-    },
-    {
-      "id": "modernember",
-      "name": "MODERNEMBER",
-      "icon": "tv"
-    },
-    {
-      "id": "pleasant",
-      "name": "PLEASANT",
-      "icon": "tv"
-    },
-    {
-      "id": "royalflame",
-      "name": "ROYALFLAME",
-      "icon": "tv"
-    },
-    {
-      "id": "style",
-      "name": "STYLE",
-      "icon": "tv"
-    },
-    {
-      "id": "twinstar",
-      "name": "TWINSTAR",
-      "icon": "tv"
-    },
-    {
-      "id": "whalen",
-      "name": "WHALEN",
-      "icon": "tv"
-    },
-    {
-      "id": "handi",
-      "name": "HANDI",
-      "icon": "tv"
-    },
-    {
-      "id": "dual",
-      "name": "DUAL",
-      "icon": "tv"
-    },
-    {
-      "id": "poweracoustik",
-      "name": "POWERACOUSTIK",
-      "icon": "tv"
-    },
-    {
-      "id": "arlec",
-      "name": "ARLEC",
-      "icon": "tv"
-    },
-    {
-      "id": "blyss",
-      "name": "BLYSS",
-      "icon": "tv"
-    },
-    {
-      "id": "comfortzone",
-      "name": "COMFORTZONE",
-      "icon": "tv"
-    },
-    {
-      "id": "delonghi",
-      "name": "DELONGHI",
-      "icon": "tv"
-    },
-    {
-      "id": "devola",
-      "name": "DEVOLA",
-      "icon": "tv"
-    },
-    {
-      "id": "dr",
-      "name": "DR",
-      "icon": "tv"
-    },
-    {
-      "id": "dreo",
-      "name": "DREO",
-      "icon": "tv"
-    },
-    {
-      "id": "duraflame",
-      "name": "DURAFLAME",
-      "icon": "tv"
-    },
-    {
-      "id": "edenpure",
-      "name": "EDENPURE",
-      "icon": "tv"
-    },
-    {
-      "id": "flamemore",
-      "name": "FLAMEMORE",
-      "icon": "tv"
-    },
-    {
-      "id": "frico",
-      "name": "FRICO",
-      "icon": "tv"
-    },
-    {
-      "id": "hampton_bay",
-      "name": "HAMPTON BAY",
-      "icon": "tv"
-    },
-    {
-      "id": "holmes",
-      "name": "HOLMES",
-      "icon": "tv"
-    },
-    {
-      "id": "honeywell",
-      "name": "HONEYWELL",
-      "icon": "tv"
-    },
-    {
-      "id": "klarstein",
-      "name": "KLARSTEIN",
-      "icon": "tv"
-    },
-    {
-      "id": "konwin",
-      "name": "KONWIN",
-      "icon": "tv"
-    },
-    {
-      "id": "kopbeauaireplus",
-      "name": "KOPBEAUAIREPLUS",
-      "icon": "tv"
-    },
-    {
-      "id": "lasko",
-      "name": "LASKO",
-      "icon": "tv"
-    },
-    {
-      "id": "lervia",
-      "name": "LERVIA",
-      "icon": "tv"
-    },
-    {
-      "id": "lifesmart",
-      "name": "LIFESMART",
-      "icon": "tv"
-    },
-    {
-      "id": "muskoka",
-      "name": "MUSKOKA",
-      "icon": "tv"
-    },
-    {
-      "id": "orbegozo",
-      "name": "ORBEGOZO",
-      "icon": "tv"
-    },
-    {
-      "id": "rinnai",
-      "name": "RINNAI",
-      "icon": "tv"
-    },
-    {
-      "id": "rolsen",
-      "name": "ROLSEN",
-      "icon": "tv"
-    },
-    {
-      "id": "sencor",
-      "name": "SENCOR",
-      "icon": "tv"
-    },
-    {
-      "id": "silvercrest",
-      "name": "SILVERCREST",
-      "icon": "tv"
-    },
-    {
-      "id": "vornado",
-      "name": "VORNADO",
-      "icon": "tv"
-    },
-    {
-      "id": "deerma",
-      "name": "DEERMA",
-      "icon": "tv"
-    },
-    {
-      "id": "elechome",
-      "name": "ELECHOME",
-      "icon": "tv"
-    },
-    {
-      "id": "homedics",
-      "name": "HOMEDICS",
-      "icon": "tv"
-    },
-    {
-      "id": "levoit",
-      "name": "LEVOIT",
-      "icon": "tv"
-    },
-    {
-      "id": "maxcan",
-      "name": "MAXCAN",
-      "icon": "tv"
-    },
-    {
-      "id": "probreeze",
-      "name": "PROBREEZE",
-      "icon": "tv"
-    },
-    {
-      "id": "qlima",
-      "name": "QLIMA",
-      "icon": "tv"
-    },
-    {
-      "id": "tripp",
-      "name": "TRIPP",
-      "icon": "tv"
-    },
-    {
-      "id": "adj",
-      "name": "ADJ",
-      "icon": "tv"
-    },
-    {
-      "id": "airueek",
-      "name": "AIRUEEK",
-      "icon": "tv"
-    },
-    {
-      "id": "airivo",
-      "name": "AIRIVO",
-      "icon": "tv"
-    },
-    {
-      "id": "amazon",
-      "name": "AMAZON",
-      "icon": "tv"
-    },
-    {
-      "id": "american",
-      "name": "AMERICAN",
-      "icon": "tv"
-    },
-    {
-      "id": "antizer",
-      "name": "ANTIZER",
-      "icon": "tv"
-    },
-    {
-      "id": "aoguerbe",
-      "name": "AOGUERBE",
-      "icon": "tv"
-    },
-    {
-      "id": "artika",
-      "name": "ARTIKA",
-      "icon": "tv"
-    },
-    {
-      "id": "auraglow",
-      "name": "AURAGLOW",
-      "icon": "tv"
-    },
-    {
-      "id": "auraled",
-      "name": "AURALED",
-      "icon": "tv"
-    },
-    {
-      "id": "baltimore",
-      "name": "BALTIMORE",
-      "icon": "tv"
-    },
-    {
-      "id": "bawoo",
-      "name": "BAWOO",
-      "icon": "tv"
-    },
-    {
-      "id": "beamz",
-      "name": "BEAMZ",
-      "icon": "tv"
-    },
-    {
-      "id": "boomtone",
-      "name": "BOOMTONE",
-      "icon": "tv"
-    },
-    {
-      "id": "bower",
-      "name": "BOWER",
-      "icon": "tv"
-    },
-    {
-      "id": "briloner",
-      "name": "BRILONER",
-      "icon": "tv"
-    },
-    {
-      "id": "brizled",
-      "name": "BRIZLED",
-      "icon": "tv"
-    },
-    {
-      "id": "cadrim",
-      "name": "CADRIM",
-      "icon": "tv"
-    },
-    {
-      "id": "calex",
-      "name": "CALEX",
-      "icon": "tv"
-    },
-    {
-      "id": "cameo",
-      "name": "CAMEO",
-      "icon": "tv"
-    },
-    {
-      "id": "candlechoice",
-      "name": "CANDLECHOICE",
-      "icon": "tv"
-    },
-    {
-      "id": "century",
-      "name": "CENTURY",
-      "icon": "tv"
-    },
-    {
-      "id": "chauvet",
-      "name": "CHAUVET",
-      "icon": "tv"
-    },
-    {
-      "id": "combuh",
-      "name": "COMBUH",
-      "icon": "tv"
-    },
-    {
-      "id": "coopark",
-      "name": "COOPARK",
-      "icon": "tv"
-    },
-    {
-      "id": "countryfield",
-      "name": "COUNTRYFIELD",
-      "icon": "tv"
-    },
-    {
-      "id": "dasinko",
-      "name": "DASINKO",
-      "icon": "tv"
-    },
-    {
-      "id": "defiant",
-      "name": "DEFIANT",
-      "icon": "tv"
-    },
-    {
-      "id": "deluxe",
-      "name": "DELUXE",
-      "icon": "tv"
-    },
-    {
-      "id": "duni",
-      "name": "DUNI",
-      "icon": "tv"
-    },
-    {
-      "id": "eambrite",
-      "name": "EAMBRITE",
-      "icon": "tv"
-    },
-    {
-      "id": "ecolite",
-      "name": "ECOLITE",
-      "icon": "tv"
-    },
-    {
-      "id": "eglo",
-      "name": "EGLO",
-      "icon": "tv"
-    },
-    {
-      "id": "eve",
-      "name": "EVE",
-      "icon": "tv"
-    },
-    {
-      "id": "emerson",
-      "name": "EMERSON",
-      "icon": "tv"
-    },
-    {
-      "id": "feron",
-      "name": "FERON",
-      "icon": "tv"
-    },
-    {
-      "id": "flarx",
-      "name": "FLARX",
-      "icon": "tv"
-    },
-    {
-      "id": "gako",
-      "name": "GAKO",
-      "icon": "tv"
-    },
-    {
-      "id": "globo",
-      "name": "GLOBO",
-      "icon": "tv"
-    },
-    {
-      "id": "golden",
-      "name": "GOLDEN",
-      "icon": "tv"
-    },
-    {
-      "id": "govee",
-      "name": "GOVEE",
-      "icon": "tv"
-    },
-    {
-      "id": "hgomx",
-      "name": "HGOMX",
-      "icon": "tv"
-    },
-    {
-      "id": "hlkzine",
-      "name": "HLKZINE",
-      "icon": "tv"
-    },
-    {
-      "id": "homemost",
-      "name": "HOMEMOST",
-      "icon": "tv"
-    },
-    {
-      "id": "hovvida",
-      "name": "HOVVIDA",
-      "icon": "tv"
-    },
-    {
-      "id": "hxweiye",
-      "name": "HXWEIYE",
-      "icon": "tv"
-    },
-    {
-      "id": "ion",
-      "name": "ION",
-      "icon": "tv"
-    },
-    {
-      "id": "isy",
-      "name": "ISY",
-      "icon": "tv"
-    },
-    {
-      "id": "jysk",
-      "name": "JYSK",
-      "icon": "tv"
-    },
-    {
-      "id": "jialine",
-      "name": "JIALINE",
-      "icon": "tv"
-    },
-    {
-      "id": "koda",
-      "name": "KODA",
-      "icon": "tv"
-    },
-    {
-      "id": "keepsmile",
-      "name": "KEEPSMILE",
-      "icon": "tv"
-    },
-    {
-      "id": "kernowo",
-      "name": "KERNOWO",
-      "icon": "tv"
-    },
-    {
-      "id": "kikilive",
-      "name": "KIKILIVE",
-      "icon": "tv"
-    },
-    {
-      "id": "kiwong",
-      "name": "KIWONG",
-      "icon": "tv"
-    },
-    {
-      "id": "kohree",
-      "name": "KOHREE",
-      "icon": "tv"
-    },
-    {
-      "id": "koopower",
-      "name": "KOOPOWER",
-      "icon": "tv"
-    },
-    {
-      "id": "l8star",
-      "name": "L8STAR",
-      "icon": "tv"
-    },
-    {
-      "id": "lethe",
-      "name": "LETHE",
-      "icon": "tv"
-    },
-    {
-      "id": "linahiled",
-      "name": "LINAHILED",
-      "icon": "tv"
-    },
-    {
-      "id": "lolaled",
-      "name": "LOLALED",
-      "icon": "tv"
-    },
-    {
-      "id": "lotti",
-      "name": "LOTTI",
-      "icon": "tv"
-    },
-    {
-      "id": "lucoza",
-      "name": "LUCOZA",
-      "icon": "tv"
-    },
-    {
-      "id": "luminara",
-      "name": "LUMINARA",
-      "icon": "tv"
-    },
-    {
-      "id": "luminarte",
-      "name": "LUMINARTE",
-      "icon": "tv"
-    },
-    {
-      "id": "mirage",
-      "name": "MIRAGE",
-      "icon": "tv"
-    },
-    {
-      "id": "monsterilluminessence",
-      "name": "MONSTERILLUMINESSENCE",
-      "icon": "tv"
-    },
-    {
-      "id": "monster",
-      "name": "MONSTER",
-      "icon": "tv"
-    },
-    {
-      "id": "moredig",
-      "name": "MOREDIG",
-      "icon": "tv"
-    },
-    {
-      "id": "msmkeji",
-      "name": "MSMKEJI",
-      "icon": "tv"
-    },
-    {
-      "id": "neewer",
-      "name": "NEEWER",
-      "icon": "tv"
-    },
-    {
-      "id": "neuhaus",
-      "name": "NEUHAUS",
-      "icon": "tv"
-    },
-    {
-      "id": "nexillumi",
-      "name": "NEXILLUMI",
-      "icon": "tv"
-    },
-    {
-      "id": "noma",
-      "name": "NOMA",
-      "icon": "tv"
-    },
-    {
-      "id": "northerns",
-      "name": "NORTHERNS",
-      "icon": "tv"
-    },
-    {
-      "id": "ollny",
-      "name": "OLLNY",
-      "icon": "tv"
-    },
-    {
-      "id": "onn_lighting",
-      "name": "ONN LIGHTING",
-      "icon": "tv"
-    },
-    {
-      "id": "oshine",
-      "name": "OSHINE",
-      "icon": "tv"
-    },
-    {
-      "id": "oremi",
-      "name": "OREMI",
-      "icon": "tv"
-    },
-    {
-      "id": "osram",
-      "name": "OSRAM",
-      "icon": "tv"
-    },
-    {
-      "id": "ove",
-      "name": "OVE",
-      "icon": "tv"
-    },
-    {
-      "id": "paulman",
-      "name": "PAULMAN",
-      "icon": "tv"
-    },
-    {
-      "id": "piaozoo",
-      "name": "PIAOZOO",
-      "icon": "tv"
-    },
-    {
-      "id": "pixmob",
-      "name": "PIXMOB",
-      "icon": "tv"
-    },
-    {
-      "id": "power",
-      "name": "POWER",
-      "icon": "tv"
-    },
-    {
-      "id": "prolights",
-      "name": "PROLIGHTS",
-      "icon": "tv"
-    },
-    {
-      "id": "puck",
-      "name": "PUCK",
-      "icon": "tv"
-    },
-    {
-      "id": "pumpkin",
-      "name": "PUMPKIN",
-      "icon": "tv"
-    },
-    {
-      "id": "qtx",
-      "name": "QTX",
-      "icon": "tv"
-    },
-    {
-      "id": "ry",
-      "name": "RY",
-      "icon": "tv"
-    },
-    {
-      "id": "rusta",
-      "name": "RUSTA",
-      "icon": "tv"
-    },
-    {
-      "id": "sonoff",
-      "name": "SONOFF",
-      "icon": "tv"
-    },
-    {
-      "id": "sunset",
-      "name": "SUNSET",
-      "icon": "tv"
-    },
-    {
-      "id": "t_sun",
-      "name": "T SUN",
-      "icon": "tv"
-    },
-    {
-      "id": "tao",
-      "name": "TAO",
-      "icon": "tv"
-    },
-    {
-      "id": "tridonic",
-      "name": "TRIDONIC",
-      "icon": "tv"
-    },
-    {
-      "id": "tuya",
-      "name": "TUYA",
-      "icon": "tv"
-    },
-    {
-      "id": "tween",
-      "name": "TWEEN",
-      "icon": "tv"
-    },
-    {
-      "id": "tzumi",
-      "name": "TZUMI",
-      "icon": "tv"
-    },
-    {
-      "id": "ufo",
-      "name": "UFO",
-      "icon": "tv"
-    },
-    {
-      "id": "v_tac",
-      "name": "V TAC",
-      "icon": "tv"
-    },
-    {
-      "id": "varilux",
-      "name": "VARILUX",
-      "icon": "tv"
-    },
-    {
-      "id": "veezio",
-      "name": "VEEZIO",
-      "icon": "tv"
-    },
-    {
-      "id": "warmoon",
-      "name": "WARMOON",
-      "icon": "tv"
-    },
-    {
-      "id": "xtreme",
-      "name": "XTREME",
-      "icon": "tv"
-    },
-    {
-      "id": "idual",
-      "name": "IDUAL",
-      "icon": "tv"
-    },
-    {
-      "id": "itrekkings",
-      "name": "ITREKKINGS",
-      "icon": "tv"
-    },
-    {
-      "id": "tuffenough",
-      "name": "TUFFENOUGH",
-      "icon": "tv"
-    },
-    {
-      "id": "3d",
-      "name": "3D",
-      "icon": "tv"
-    },
-    {
-      "id": "ami",
-      "name": "AMI",
-      "icon": "tv"
-    },
-    {
-      "id": "aoc",
-      "name": "AOC",
-      "icon": "tv"
-    },
-    {
-      "id": "aver",
-      "name": "AVER",
-      "icon": "tv"
-    },
-    {
-      "id": "acorn",
-      "name": "ACORN",
-      "icon": "tv"
-    },
-    {
-      "id": "advanced",
-      "name": "ADVANCED",
-      "icon": "tv"
-    },
-    {
-      "id": "amibot",
-      "name": "AMIBOT",
-      "icon": "tv"
-    },
-    {
-      "id": "andonstar",
-      "name": "ANDONSTAR",
-      "icon": "tv"
-    },
-    {
-      "id": "argonone",
-      "name": "ARGONONE",
-      "icon": "tv"
-    },
-    {
-      "id": "arizer",
-      "name": "ARIZER",
-      "icon": "tv"
-    },
-    {
-      "id": "avfabul",
-      "name": "AVFABUL",
-      "icon": "tv"
-    },
-    {
-      "id": "azulle",
-      "name": "AZULLE",
-      "icon": "tv"
-    },
-    {
-      "id": "berbel",
-      "name": "BERBEL",
-      "icon": "tv"
-    },
-    {
-      "id": "bio",
-      "name": "BIO",
-      "icon": "tv"
-    },
-    {
-      "id": "bluetooth",
-      "name": "BLUETOOTH",
-      "icon": "tv"
-    },
-    {
-      "id": "brand",
-      "name": "BRAND",
-      "icon": "tv"
+      "icon": "gamepad"
     },
     {
       "id": "came",
       "name": "CAME",
-      "icon": "tv"
-    },
-    {
-      "id": "cabelas",
-      "name": "CABELAS",
-      "icon": "tv"
-    },
-    {
-      "id": "chunghop",
-      "name": "CHUNGHOP",
-      "icon": "tv"
-    },
-    {
-      "id": "cisco",
-      "name": "CISCO",
-      "icon": "tv"
-    },
-    {
-      "id": "citysports",
-      "name": "CITYSPORTS",
-      "icon": "tv"
-    },
-    {
-      "id": "clever_clean",
-      "name": "CLEVER CLEAN",
-      "icon": "tv"
-    },
-    {
-      "id": "connectpro",
-      "name": "CONNECTPRO",
-      "icon": "tv"
-    },
-    {
-      "id": "contemporary",
-      "name": "CONTEMPORARY",
-      "icon": "tv"
-    },
-    {
-      "id": "coretec",
-      "name": "CORETEC",
-      "icon": "tv"
-    },
-    {
-      "id": "death",
-      "name": "DEATH",
-      "icon": "tv"
-    },
-    {
-      "id": "diffuser",
-      "name": "DIFFUSER",
-      "icon": "tv"
-    },
-    {
-      "id": "domoova",
-      "name": "DOMOOVA",
-      "icon": "tv"
-    },
-    {
-      "id": "dualtron",
-      "name": "DUALTRON",
-      "icon": "tv"
-    },
-    {
-      "id": "ecovac",
-      "name": "ECOVAC",
-      "icon": "tv"
-    },
-    {
-      "id": "elune",
-      "name": "ELUNE",
-      "icon": "tv"
-    },
-    {
-      "id": "emotiva",
-      "name": "EMOTIVA",
-      "icon": "tv"
-    },
-    {
-      "id": "enido",
-      "name": "ENIDO",
-      "icon": "tv"
-    },
-    {
-      "id": "esylux",
-      "name": "ESYLUX",
-      "icon": "tv"
-    },
-    {
-      "id": "eufy",
-      "name": "EUFY",
-      "icon": "tv"
-    },
-    {
-      "id": "extron",
-      "name": "EXTRON",
-      "icon": "tv"
-    },
-    {
-      "id": "g_story",
-      "name": "G STORY",
-      "icon": "tv"
-    },
-    {
-      "id": "ganxin",
-      "name": "GANXIN",
-      "icon": "tv"
-    },
-    {
-      "id": "gakken",
-      "name": "GAKKEN",
-      "icon": "tv"
-    },
-    {
-      "id": "general",
-      "name": "GENERAL",
-      "icon": "tv"
-    },
-    {
-      "id": "gold",
-      "name": "GOLD",
-      "icon": "tv"
-    },
-    {
-      "id": "goofy",
-      "name": "GOOFY",
-      "icon": "tv"
-    },
-    {
-      "id": "gym",
-      "name": "GYM",
-      "icon": "tv"
-    },
-    {
-      "id": "hiphoptoy",
-      "name": "HIPHOPTOY",
-      "icon": "tv"
-    },
-    {
-      "id": "hallmark",
-      "name": "HALLMARK",
-      "icon": "tv"
-    },
-    {
-      "id": "hob2hood",
-      "name": "HOB2HOOD",
-      "icon": "tv"
-    },
-    {
-      "id": "jb",
-      "name": "JB",
-      "icon": "tv"
-    },
-    {
-      "id": "jettools",
-      "name": "JETTOOLS",
-      "icon": "tv"
-    },
-    {
-      "id": "jukebox",
-      "name": "JUKEBOX",
-      "icon": "tv"
-    },
-    {
-      "id": "kinivo",
-      "name": "KINIVO",
-      "icon": "tv"
-    },
-    {
-      "id": "laserx",
-      "name": "LASERX",
-      "icon": "tv"
-    },
-    {
-      "id": "lightmybricks",
-      "name": "LIGHTMYBRICKS",
-      "icon": "tv"
-    },
-    {
-      "id": "lutron",
-      "name": "LUTRON",
-      "icon": "tv"
+      "icon": "gamepad"
     },
     {
       "id": "makeblock",
       "name": "MAKEBLOCK",
-      "icon": "tv"
+      "icon": "gamepad"
     },
     {
-      "id": "mini",
-      "name": "MINI",
-      "icon": "tv"
-    },
-    {
-      "id": "monoprice",
-      "name": "MONOPRICE",
-      "icon": "tv"
-    },
-    {
-      "id": "movinflame",
-      "name": "MOVINFLAME",
-      "icon": "tv"
-    },
-    {
-      "id": "mrocioa",
-      "name": "MROCIOA",
-      "icon": "tv"
-    },
-    {
-      "id": "nedis",
-      "name": "NEDIS",
-      "icon": "tv"
-    },
-    {
-      "id": "nexigo",
-      "name": "NEXIGO",
-      "icon": "tv"
-    },
-    {
-      "id": "nixplay",
-      "name": "NIXPLAY",
-      "icon": "tv"
-    },
-    {
-      "id": "no_touch",
-      "name": "NO TOUCH",
-      "icon": "tv"
-    },
-    {
-      "id": "orei_hdmi_switcher",
-      "name": "OREI HDMI SWITCHER",
-      "icon": "tv"
-    },
-    {
-      "id": "prime3",
-      "name": "PRIME3",
-      "icon": "tv"
-    },
-    {
-      "id": "prozor",
-      "name": "PROZOR",
-      "icon": "tv"
-    },
-    {
-      "id": "pyle",
-      "name": "PYLE",
-      "icon": "tv"
-    },
-    {
-      "id": "radioshack",
-      "name": "RADIOSHACK",
-      "icon": "tv"
-    },
-    {
-      "id": "rocketfish",
-      "name": "ROCKETFISH",
-      "icon": "tv"
-    },
-    {
-      "id": "roksan",
-      "name": "ROKSAN",
-      "icon": "tv"
-    },
-    {
-      "id": "roland",
-      "name": "ROLAND",
-      "icon": "tv"
-    },
-    {
-      "id": "roomba",
-      "name": "ROOMBA",
-      "icon": "tv"
-    },
-    {
-      "id": "seville",
-      "name": "SEVILLE",
-      "icon": "tv"
-    },
-    {
-      "id": "siemens",
-      "name": "SIEMENS",
-      "icon": "tv"
-    },
-    {
-      "id": "simon",
-      "name": "SIMON",
-      "icon": "tv"
-    },
-    {
-      "id": "simulflame",
-      "name": "SIMULFLAME",
-      "icon": "tv"
-    },
-    {
-      "id": "smartykat",
-      "name": "SMARTYKAT",
-      "icon": "tv"
-    },
-    {
-      "id": "stereo",
-      "name": "STEREO",
-      "icon": "tv"
-    },
-    {
-      "id": "tesmart",
-      "name": "TESMART",
-      "icon": "tv"
-    },
-    {
-      "id": "terratec",
-      "name": "TERRATEC",
-      "icon": "tv"
-    },
-    {
-      "id": "toilet",
-      "name": "TOILET",
-      "icon": "tv"
-    },
-    {
-      "id": "tomlov",
-      "name": "TOMLOV",
-      "icon": "tv"
-    },
-    {
-      "id": "tomlov_microscope",
-      "name": "TOMLOV MICROSCOPE",
-      "icon": "tv"
-    },
-    {
-      "id": "topcon",
-      "name": "TOPCON",
-      "icon": "tv"
-    },
-    {
-      "id": "topping",
-      "name": "TOPPING",
-      "icon": "tv"
-    },
-    {
-      "id": "uncle",
-      "name": "UNCLE",
-      "icon": "tv"
-    },
-    {
-      "id": "urevo",
-      "name": "UREVO",
-      "icon": "tv"
-    },
-    {
-      "id": "varytech",
-      "name": "VARYTECH",
-      "icon": "tv"
-    },
-    {
-      "id": "vibroshaper",
-      "name": "VIBROSHAPER",
-      "icon": "tv"
-    },
-    {
-      "id": "waynedresser",
-      "name": "WAYNEDRESSER",
-      "icon": "tv"
-    },
-    {
-      "id": "biorb",
-      "name": "BIORB",
-      "icon": "tv"
-    },
-    {
-      "id": "dbot",
-      "name": "DBOT",
-      "icon": "tv"
-    },
-    {
-      "id": "ihome",
-      "name": "IHOME",
-      "icon": "tv"
-    },
-    {
-      "id": "ir",
-      "name": "IR",
-      "icon": "tv"
-    },
-    {
-      "id": "micca",
-      "name": "MICCA",
-      "icon": "tv"
-    },
-    {
-      "id": "pandigital",
-      "name": "PANDIGITAL",
-      "icon": "tv"
-    },
-    {
-      "id": "bqeel",
-      "name": "BQEEL",
-      "icon": "tv"
-    },
-    {
-      "id": "formuler",
-      "name": "FORMULER",
-      "icon": "tv"
-    },
-    {
-      "id": "kaleidescape",
-      "name": "KALEIDESCAPE",
-      "icon": "tv"
-    },
-    {
-      "id": "mag",
-      "name": "MAG",
-      "icon": "tv"
-    },
-    {
-      "id": "mecool",
-      "name": "MECOOL",
-      "icon": "tv"
-    },
-    {
-      "id": "roku",
-      "name": "ROKU",
-      "icon": "tv"
-    },
-    {
-      "id": "xiaomi",
-      "name": "XIAOMI",
-      "icon": "tv"
-    },
-    {
-      "id": "onn",
-      "name": "ONN",
-      "icon": "tv"
-    },
-    {
-      "id": "benq",
-      "name": "BENQ",
-      "icon": "tv"
-    },
-    {
-      "id": "boxlight",
-      "name": "BOXLIGHT",
-      "icon": "tv"
-    },
-    {
-      "id": "cleartouch",
-      "name": "CLEARTOUCH",
-      "icon": "tv"
-    },
-    {
-      "id": "clevertouch",
-      "name": "CLEVERTOUCH",
-      "icon": "tv"
-    },
-    {
-      "id": "ctouch",
-      "name": "CTOUCH",
-      "icon": "tv"
-    },
-    {
-      "id": "hieneking",
-      "name": "HIENEKING",
-      "icon": "tv"
-    },
-    {
-      "id": "legamaster",
-      "name": "LEGAMASTER",
-      "icon": "tv"
-    },
-    {
-      "id": "newline",
-      "name": "NEWLINE",
-      "icon": "tv"
-    },
-    {
-      "id": "onescreen",
-      "name": "ONESCREEN",
-      "icon": "tv"
-    },
-    {
-      "id": "prowise",
-      "name": "PROWISE",
-      "icon": "tv"
-    },
-    {
-      "id": "smart",
-      "name": "SMART",
-      "icon": "tv"
-    },
-    {
-      "id": "viewsonic",
-      "name": "VIEWSONIC",
-      "icon": "tv"
-    },
-    {
-      "id": "i3_technologies",
-      "name": "I3 TECHNOLOGIES",
-      "icon": "tv"
-    },
-    {
-      "id": "20q",
-      "name": "20Q",
-      "icon": "tv"
-    },
-    {
-      "id": "brio",
-      "name": "BRIO",
-      "icon": "tv"
-    },
-    {
-      "id": "eichhorn",
-      "name": "EICHHORN",
-      "icon": "tv"
-    },
-    {
-      "id": "fisher_price",
-      "name": "FISHER PRICE",
-      "icon": "tv"
-    },
-    {
-      "id": "hasbro",
-      "name": "HASBRO",
-      "icon": "tv"
-    },
-    {
-      "id": "hexbug",
-      "name": "HEXBUG",
-      "icon": "tv"
-    },
-    {
-      "id": "jamara",
-      "name": "JAMARA",
-      "icon": "tv"
-    },
-    {
-      "id": "k_line",
-      "name": "K LINE",
-      "icon": "tv"
-    },
-    {
-      "id": "kidland",
-      "name": "KIDLAND",
-      "icon": "tv"
-    },
-    {
-      "id": "lego",
-      "name": "LEGO",
-      "icon": "tv"
-    },
-    {
-      "id": "maerklin",
-      "name": "MAERKLIN",
-      "icon": "tv"
-    },
-    {
-      "id": "nerf",
-      "name": "NERF",
-      "icon": "tv"
-    },
-    {
-      "id": "playtive",
-      "name": "PLAYTIVE",
-      "icon": "tv"
-    },
-    {
-      "id": "robomaster",
-      "name": "ROBOMASTER",
-      "icon": "tv"
-    },
-    {
-      "id": "robot",
-      "name": "ROBOT",
-      "icon": "tv"
-    },
-    {
-      "id": "silverlit",
-      "name": "SILVERLIT",
-      "icon": "tv"
-    },
-    {
-      "id": "thinkway",
-      "name": "THINKWAY",
-      "icon": "tv"
-    },
-    {
-      "id": "toys",
-      "name": "TOYS",
-      "icon": "tv"
-    },
-    {
-      "id": "unknown_brand",
-      "name": "UNKNOWN BRAND",
-      "icon": "tv"
-    },
-    {
-      "id": "winyea",
-      "name": "WINYEA",
-      "icon": "tv"
-    },
-    {
-      "id": "wowwee_robosapien",
-      "name": "WOWWEE ROBOSAPIEN",
-      "icon": "tv"
-    },
-    {
-      "id": "apex",
-      "name": "APEX",
-      "icon": "tv"
-    },
-    {
-      "id": "memorex",
-      "name": "MEMOREX",
-      "icon": "tv"
-    },
-    {
-      "id": "ecovacs",
-      "name": "ECOVACS",
-      "icon": "tv"
-    },
-    {
-      "id": "tikom",
-      "name": "TIKOM",
-      "icon": "tv"
-    },
-    {
-      "id": "vactidy",
-      "name": "VACTIDY",
-      "icon": "tv"
-    },
-    {
-      "id": "ziglint",
-      "name": "ZIGLINT",
-      "icon": "tv"
-    },
-    {
-      "id": "iclebo",
-      "name": "ICLEBO",
-      "icon": "tv"
-    },
-    {
-      "id": "ilife",
-      "name": "ILIFE",
-      "icon": "tv"
-    },
-    {
-      "id": "irobot",
-      "name": "IROBOT",
-      "icon": "tv"
-    },
-    {
-      "id": "polycom",
-      "name": "POLYCOM",
-      "icon": "tv"
-    },
-    {
-      "id": "tandberg",
-      "name": "TANDBERG",
-      "icon": "tv"
-    },
-    {
-      "id": "trueconf",
-      "name": "TRUECONF",
-      "icon": "tv"
-    },
-    {
-      "id": "promethean",
-      "name": "PROMETHEAN",
-      "icon": "tv"
-    },
-    {
-      "id": "hobot",
-      "name": "HOBOT",
-      "icon": "tv"
+      "id": "jvc",
+      "name": "JVC",
+      "icon": "gamepad"
     },
     {
       "id": "csv",
       "name": "CSV",
-      "icon": "tv"
+      "icon": "gamepad"
     },
     {
-      "id": "other",
-      "name": "OTHER",
-      "icon": "tv"
+      "id": "ir",
+      "name": "IR",
+      "icon": "gamepad"
     },
     {
       "id": "pronto",
       "name": "PRONTO",
-      "icon": "tv"
+      "icon": "gamepad"
+    }
+  ],
+  "lighting": [
+    {
+      "id": "benchmark",
+      "name": "BENCHMARK",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "lg",
+      "name": "LG",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "sharp",
+      "name": "SHARP",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "amerlife",
+      "name": "AMERLIFE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "classicflame",
+      "name": "CLASSICFLAME",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "homday",
+      "name": "HOMDAY",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "modernember",
+      "name": "MODERNEMBER",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "adj",
+      "name": "ADJ",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "airueek",
+      "name": "AIRUEEK",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "airivo",
+      "name": "AIRIVO",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "amazon",
+      "name": "AMAZON",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "american",
+      "name": "AMERICAN",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "antizer",
+      "name": "ANTIZER",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "aoguerbe",
+      "name": "AOGUERBE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "arlec",
+      "name": "ARLEC",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "artika",
+      "name": "ARTIKA",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "auraglow",
+      "name": "AURAGLOW",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "auraled",
+      "name": "AURALED",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "baltimore",
+      "name": "BALTIMORE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "bawoo",
+      "name": "BAWOO",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "beamz",
+      "name": "BEAMZ",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "boomtone",
+      "name": "BOOMTONE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "bower",
+      "name": "BOWER",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "briloner",
+      "name": "BRILONER",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "brizled",
+      "name": "BRIZLED",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "cadrim",
+      "name": "CADRIM",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "calex",
+      "name": "CALEX",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "cameo",
+      "name": "CAMEO",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "candlechoice",
+      "name": "CANDLECHOICE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "century",
+      "name": "CENTURY",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "chauvet",
+      "name": "CHAUVET",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "combuh",
+      "name": "COMBUH",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "coopark",
+      "name": "COOPARK",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "countryfield",
+      "name": "COUNTRYFIELD",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "dasinko",
+      "name": "DASINKO",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "defiant",
+      "name": "DEFIANT",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "deluxe",
+      "name": "DELUXE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "duni",
+      "name": "DUNI",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "eambrite",
+      "name": "EAMBRITE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "ecolite",
+      "name": "ECOLITE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "eglo",
+      "name": "EGLO",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "eve",
+      "name": "EVE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "emerson",
+      "name": "EMERSON",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "feron",
+      "name": "FERON",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "flarx",
+      "name": "FLARX",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "gako",
+      "name": "GAKO",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "globo",
+      "name": "GLOBO",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "golden",
+      "name": "GOLDEN",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "govee",
+      "name": "GOVEE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "hgomx",
+      "name": "HGOMX",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "hlkzine",
+      "name": "HLKZINE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "homemost",
+      "name": "HOMEMOST",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "hovvida",
+      "name": "HOVVIDA",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "hxweiye",
+      "name": "HXWEIYE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "ion",
+      "name": "ION",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "isy",
+      "name": "ISY",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "jysk",
+      "name": "JYSK",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "jialine",
+      "name": "JIALINE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "koda",
+      "name": "KODA",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "keepsmile",
+      "name": "KEEPSMILE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "kernowo",
+      "name": "KERNOWO",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "kikilive",
+      "name": "KIKILIVE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "kiwong",
+      "name": "KIWONG",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "kohree",
+      "name": "KOHREE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "koopower",
+      "name": "KOOPOWER",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "l8star",
+      "name": "L8STAR",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "lethe",
+      "name": "LETHE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "linahiled",
+      "name": "LINAHILED",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "lolaled",
+      "name": "LOLALED",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "lotti",
+      "name": "LOTTI",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "lucoza",
+      "name": "LUCOZA",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "luminara",
+      "name": "LUMINARA",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "luminarte",
+      "name": "LUMINARTE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "mirage",
+      "name": "MIRAGE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "monsterilluminessence",
+      "name": "MONSTERILLUMINESSENCE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "monster",
+      "name": "MONSTER",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "moredig",
+      "name": "MOREDIG",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "msmkeji",
+      "name": "MSMKEJI",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "neewer",
+      "name": "NEEWER",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "neuhaus",
+      "name": "NEUHAUS",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "nexillumi",
+      "name": "NEXILLUMI",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "noma",
+      "name": "NOMA",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "northerns",
+      "name": "NORTHERNS",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "ollny",
+      "name": "OLLNY",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "onn_lighting",
+      "name": "ONN LIGHTING",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "oshine",
+      "name": "OSHINE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "oremi",
+      "name": "OREMI",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "osram",
+      "name": "OSRAM",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "ove",
+      "name": "OVE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "panasonic",
+      "name": "PANASONIC",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "paulman",
+      "name": "PAULMAN",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "piaozoo",
+      "name": "PIAOZOO",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "pixmob",
+      "name": "PIXMOB",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "power",
+      "name": "POWER",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "prolights",
+      "name": "PROLIGHTS",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "puck",
+      "name": "PUCK",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "pumpkin",
+      "name": "PUMPKIN",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "qtx",
+      "name": "QTX",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "ry",
+      "name": "RY",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "rusta",
+      "name": "RUSTA",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "sonoff",
+      "name": "SONOFF",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "sunset",
+      "name": "SUNSET",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "sylvania",
+      "name": "SYLVANIA",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "t_sun",
+      "name": "T SUN",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "tao",
+      "name": "TAO",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "tridonic",
+      "name": "TRIDONIC",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "tuya",
+      "name": "TUYA",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "tween",
+      "name": "TWEEN",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "tzumi",
+      "name": "TZUMI",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "ufo",
+      "name": "UFO",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "unknown",
+      "name": "UNKNOWN",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "v_tac",
+      "name": "V TAC",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "varilux",
+      "name": "VARILUX",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "veezio",
+      "name": "VEEZIO",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "warmoon",
+      "name": "WARMOON",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "xtreme",
+      "name": "XTREME",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "idual",
+      "name": "IDUAL",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "itrekkings",
+      "name": "ITREKKINGS",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "tuffenough",
+      "name": "TUFFENOUGH",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "aver",
+      "name": "AVER",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "brand",
+      "name": "BRAND",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "diffuser",
+      "name": "DIFFUSER",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "emotiva",
+      "name": "EMOTIVA",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "gym",
+      "name": "GYM",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "lightmybricks",
+      "name": "LIGHTMYBRICKS",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "nexigo",
+      "name": "NEXIGO",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "topping",
+      "name": "TOPPING",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "biorb",
+      "name": "BIORB",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "newline",
+      "name": "NEWLINE",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "onescreen",
+      "name": "ONESCREEN",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "csv",
+      "name": "CSV",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "ir",
+      "name": "IR",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "pronto",
+      "name": "PRONTO",
+      "icon": "lightbulb"
     },
     {
       "id": "iris_ohyama",
       "name": "IRIS OHYAMA",
-      "icon": "tv"
+      "icon": "lightbulb"
     },
     {
       "id": "nec",
       "name": "NEC",
-      "icon": "tv"
+      "icon": "lightbulb"
     },
     {
       "id": "takizumi",
       "name": "TAKIZUMI",
-      "icon": "tv"
+      "icon": "lightbulb"
+    }
+  ],
+  "purifier": [
+    {
+      "id": "3m",
+      "name": "3M",
+      "icon": "air-vent"
+    },
+    {
+      "id": "blueair",
+      "name": "BLUEAIR",
+      "icon": "air-vent"
+    },
+    {
+      "id": "dyson",
+      "name": "DYSON",
+      "icon": "air-vent"
+    },
+    {
+      "id": "iqair",
+      "name": "IQAIR",
+      "icon": "air-vent"
+    },
+    {
+      "id": "rabbit",
+      "name": "RABBIT",
+      "icon": "air-vent"
+    },
+    {
+      "id": "rohnson",
+      "name": "ROHNSON",
+      "icon": "air-vent"
+    },
+    {
+      "id": "shark",
+      "name": "SHARK",
+      "icon": "air-vent"
+    },
+    {
+      "id": "trotec",
+      "name": "TROTEC",
+      "icon": "air-vent"
+    },
+    {
+      "id": "wen",
+      "name": "WEN",
+      "icon": "air-vent"
+    },
+    {
+      "id": "winix",
+      "name": "WINIX",
+      "icon": "air-vent"
+    },
+    {
+      "id": "arlec",
+      "name": "ARLEC",
+      "icon": "air-vent"
+    },
+    {
+      "id": "blyss",
+      "name": "BLYSS",
+      "icon": "air-vent"
+    },
+    {
+      "id": "comfortzone",
+      "name": "COMFORTZONE",
+      "icon": "air-vent"
+    },
+    {
+      "id": "delonghi",
+      "name": "DELONGHI",
+      "icon": "air-vent"
+    },
+    {
+      "id": "devola",
+      "name": "DEVOLA",
+      "icon": "air-vent"
+    },
+    {
+      "id": "dr",
+      "name": "DR",
+      "icon": "air-vent"
+    },
+    {
+      "id": "dreo",
+      "name": "DREO",
+      "icon": "air-vent"
+    },
+    {
+      "id": "duraflame",
+      "name": "DURAFLAME",
+      "icon": "air-vent"
+    },
+    {
+      "id": "edenpure",
+      "name": "EDENPURE",
+      "icon": "air-vent"
+    },
+    {
+      "id": "flamemore",
+      "name": "FLAMEMORE",
+      "icon": "air-vent"
+    },
+    {
+      "id": "frico",
+      "name": "FRICO",
+      "icon": "air-vent"
+    },
+    {
+      "id": "hampton_bay",
+      "name": "HAMPTON BAY",
+      "icon": "air-vent"
+    },
+    {
+      "id": "holmes",
+      "name": "HOLMES",
+      "icon": "air-vent"
+    },
+    {
+      "id": "honeywell",
+      "name": "HONEYWELL",
+      "icon": "air-vent"
+    },
+    {
+      "id": "klarstein",
+      "name": "KLARSTEIN",
+      "icon": "air-vent"
+    },
+    {
+      "id": "konwin",
+      "name": "KONWIN",
+      "icon": "air-vent"
+    },
+    {
+      "id": "kopbeauaireplus",
+      "name": "KOPBEAUAIREPLUS",
+      "icon": "air-vent"
+    },
+    {
+      "id": "lasko",
+      "name": "LASKO",
+      "icon": "air-vent"
+    },
+    {
+      "id": "lervia",
+      "name": "LERVIA",
+      "icon": "air-vent"
+    },
+    {
+      "id": "lifesmart",
+      "name": "LIFESMART",
+      "icon": "air-vent"
+    },
+    {
+      "id": "muskoka",
+      "name": "MUSKOKA",
+      "icon": "air-vent"
+    },
+    {
+      "id": "orbegozo",
+      "name": "ORBEGOZO",
+      "icon": "air-vent"
+    },
+    {
+      "id": "rinnai",
+      "name": "RINNAI",
+      "icon": "air-vent"
+    },
+    {
+      "id": "rolsen",
+      "name": "ROLSEN",
+      "icon": "air-vent"
+    },
+    {
+      "id": "sencor",
+      "name": "SENCOR",
+      "icon": "air-vent"
+    },
+    {
+      "id": "silvercrest",
+      "name": "SILVERCREST",
+      "icon": "air-vent"
+    },
+    {
+      "id": "vornado",
+      "name": "VORNADO",
+      "icon": "air-vent"
+    }
+  ],
+  "camera": [
+    {
+      "id": "aigo",
+      "name": "AIGO",
+      "icon": "camera"
+    },
+    {
+      "id": "canon",
+      "name": "CANON",
+      "icon": "camera"
+    },
+    {
+      "id": "eakins",
+      "name": "EAKINS",
+      "icon": "camera"
+    },
+    {
+      "id": "fujifilm",
+      "name": "FUJIFILM",
+      "icon": "camera"
+    },
+    {
+      "id": "haier",
+      "name": "HAIER",
+      "icon": "camera"
+    },
+    {
+      "id": "hayear",
+      "name": "HAYEAR",
+      "icon": "camera"
+    },
+    {
+      "id": "kodak",
+      "name": "KODAK",
+      "icon": "camera"
+    },
+    {
+      "id": "lifesize",
+      "name": "LIFESIZE",
+      "icon": "camera"
+    },
+    {
+      "id": "logitech",
+      "name": "LOGITECH",
+      "icon": "camera"
+    },
+    {
+      "id": "nikon",
+      "name": "NIKON",
+      "icon": "camera"
+    },
+    {
+      "id": "olympus",
+      "name": "OLYMPUS",
+      "icon": "camera"
+    },
+    {
+      "id": "ordro",
+      "name": "ORDRO",
+      "icon": "camera"
+    },
+    {
+      "id": "ptzoptics",
+      "name": "PTZOPTICS",
+      "icon": "camera"
+    },
+    {
+      "id": "panasonic",
+      "name": "PANASONIC",
+      "icon": "camera"
+    },
+    {
+      "id": "pentax",
+      "name": "PENTAX",
+      "icon": "camera"
+    },
+    {
+      "id": "sanyo",
+      "name": "SANYO",
+      "icon": "camera"
+    },
+    {
+      "id": "sony",
+      "name": "SONY",
+      "icon": "camera"
+    },
+    {
+      "id": "yealink",
+      "name": "YEALINK",
+      "icon": "camera"
+    },
+    {
+      "id": "csv",
+      "name": "CSV",
+      "icon": "camera"
+    },
+    {
+      "id": "ir",
+      "name": "IR",
+      "icon": "camera"
+    },
+    {
+      "id": "pronto",
+      "name": "PRONTO",
+      "icon": "camera"
+    }
+  ],
+  "media_player": [
+    {
+      "id": "biobidet",
+      "name": "BIOBIDET",
+      "icon": "disc"
+    },
+    {
+      "id": "brandell",
+      "name": "BRANDELL",
+      "icon": "disc"
+    },
+    {
+      "id": "insignia",
+      "name": "INSIGNIA",
+      "icon": "disc"
+    },
+    {
+      "id": "jvc",
+      "name": "JVC",
+      "icon": "disc"
+    },
+    {
+      "id": "lg",
+      "name": "LG",
+      "icon": "disc"
+    },
+    {
+      "id": "marantz",
+      "name": "MARANTZ",
+      "icon": "disc"
+    },
+    {
+      "id": "nad",
+      "name": "NAD",
+      "icon": "disc"
+    },
+    {
+      "id": "oppo",
+      "name": "OPPO",
+      "icon": "disc"
+    },
+    {
+      "id": "panasonic",
+      "name": "PANASONIC",
+      "icon": "disc"
+    },
+    {
+      "id": "philips",
+      "name": "PHILIPS",
+      "icon": "disc"
+    },
+    {
+      "id": "pioneer",
+      "name": "PIONEER",
+      "icon": "disc"
+    },
+    {
+      "id": "samsung",
+      "name": "SAMSUNG",
+      "icon": "disc"
+    },
+    {
+      "id": "sanyo",
+      "name": "SANYO",
+      "icon": "disc"
+    },
+    {
+      "id": "sharp",
+      "name": "SHARP",
+      "icon": "disc"
+    },
+    {
+      "id": "soniq",
+      "name": "SONIQ",
+      "icon": "disc"
+    },
+    {
+      "id": "sony",
+      "name": "SONY",
+      "icon": "disc"
+    },
+    {
+      "id": "sylvania",
+      "name": "SYLVANIA",
+      "icon": "disc"
+    },
+    {
+      "id": "toshiba",
+      "name": "TOSHIBA",
+      "icon": "disc"
+    },
+    {
+      "id": "vizio",
+      "name": "VIZIO",
+      "icon": "disc"
+    },
+    {
+      "id": "yamaha",
+      "name": "YAMAHA",
+      "icon": "disc"
+    },
+    {
+      "id": "aeg",
+      "name": "AEG",
+      "icon": "disc"
+    },
+    {
+      "id": "aiwa",
+      "name": "AIWA",
+      "icon": "disc"
+    },
+    {
+      "id": "denon",
+      "name": "DENON",
+      "icon": "disc"
+    },
+    {
+      "id": "fisher",
+      "name": "FISHER",
+      "icon": "disc"
+    },
+    {
+      "id": "gpx",
+      "name": "GPX",
+      "icon": "disc"
+    },
+    {
+      "id": "onkyo",
+      "name": "ONKYO",
+      "icon": "disc"
+    },
+    {
+      "id": "roberts",
+      "name": "ROBERTS",
+      "icon": "disc"
+    },
+    {
+      "id": "rockola",
+      "name": "ROCKOLA",
+      "icon": "disc"
+    },
+    {
+      "id": "teac",
+      "name": "TEAC",
+      "icon": "disc"
+    },
+    {
+      "id": "technics",
+      "name": "TECHNICS",
+      "icon": "disc"
+    },
+    {
+      "id": "unknown",
+      "name": "UNKNOWN",
+      "icon": "disc"
+    },
+    {
+      "id": "winnes",
+      "name": "WINNES",
+      "icon": "disc"
+    },
+    {
+      "id": "cd",
+      "name": "CD",
+      "icon": "disc"
+    },
+    {
+      "id": "dvd",
+      "name": "DVD",
+      "icon": "disc"
+    },
+    {
+      "id": "nav",
+      "name": "NAV",
+      "icon": "disc"
+    },
+    {
+      "id": "xflyee",
+      "name": "XFLYEE",
+      "icon": "disc"
+    },
+    {
+      "id": "apple",
+      "name": "APPLE",
+      "icon": "disc"
+    },
+    {
+      "id": "ossc",
+      "name": "OSSC",
+      "icon": "disc"
+    },
+    {
+      "id": "rme",
+      "name": "RME",
+      "icon": "disc"
+    },
+    {
+      "id": "retro_bit",
+      "name": "RETRO BIT",
+      "icon": "disc"
+    },
+    {
+      "id": "retrotink",
+      "name": "RETROTINK",
+      "icon": "disc"
+    },
+    {
+      "id": "socobeta",
+      "name": "SOCOBETA",
+      "icon": "disc"
+    },
+    {
+      "id": "theta",
+      "name": "THETA",
+      "icon": "disc"
+    },
+    {
+      "id": "bulsatcom",
+      "name": "BULSATCOM",
+      "icon": "disc"
+    },
+    {
+      "id": "cyfrowy",
+      "name": "CYFROWY",
+      "icon": "disc"
+    },
+    {
+      "id": "diprogress",
+      "name": "DIPROGRESS",
+      "icon": "disc"
+    },
+    {
+      "id": "manhattan",
+      "name": "MANHATTAN",
+      "icon": "disc"
+    },
+    {
+      "id": "octagon",
+      "name": "OCTAGON",
+      "icon": "disc"
+    },
+    {
+      "id": "tesla",
+      "name": "TESLA",
+      "icon": "disc"
+    },
+    {
+      "id": "tilview",
+      "name": "TILVIEW",
+      "icon": "disc"
+    },
+    {
+      "id": "bose",
+      "name": "BOSE",
+      "icon": "disc"
+    },
+    {
+      "id": "brandt",
+      "name": "BRANDT",
+      "icon": "disc"
+    },
+    {
+      "id": "magnavox",
+      "name": "MAGNAVOX",
+      "icon": "disc"
+    },
+    {
+      "id": "prinz",
+      "name": "PRINZ",
+      "icon": "disc"
+    },
+    {
+      "id": "s2_digital",
+      "name": "S2 DIGITAL",
+      "icon": "disc"
+    },
+    {
+      "id": "strato",
+      "name": "STRATO",
+      "icon": "disc"
+    },
+    {
+      "id": "digi",
+      "name": "DIGI",
+      "icon": "disc"
+    },
+    {
+      "id": "dynascan",
+      "name": "DYNASCAN",
+      "icon": "disc"
+    },
+    {
+      "id": "iiyama",
+      "name": "IIYAMA",
+      "icon": "disc"
+    },
+    {
+      "id": "jet",
+      "name": "JET",
+      "icon": "disc"
+    },
+    {
+      "id": "altraflame",
+      "name": "ALTRAFLAME",
+      "icon": "disc"
+    },
+    {
+      "id": "delmar",
+      "name": "DELMAR",
+      "icon": "disc"
+    },
+    {
+      "id": "dimplex",
+      "name": "DIMPLEX",
+      "icon": "disc"
+    },
+    {
+      "id": "goldenvantage",
+      "name": "GOLDENVANTAGE",
+      "icon": "disc"
+    },
+    {
+      "id": "longhua",
+      "name": "LONGHUA",
+      "icon": "disc"
+    },
+    {
+      "id": "pleasant",
+      "name": "PLEASANT",
+      "icon": "disc"
+    },
+    {
+      "id": "style",
+      "name": "STYLE",
+      "icon": "disc"
+    },
+    {
+      "id": "twinstar",
+      "name": "TWINSTAR",
+      "icon": "disc"
+    },
+    {
+      "id": "handi",
+      "name": "HANDI",
+      "icon": "disc"
+    },
+    {
+      "id": "dual",
+      "name": "DUAL",
+      "icon": "disc"
+    },
+    {
+      "id": "poweracoustik",
+      "name": "POWERACOUSTIK",
+      "icon": "disc"
+    },
+    {
+      "id": "deerma",
+      "name": "DEERMA",
+      "icon": "disc"
+    },
+    {
+      "id": "dyson",
+      "name": "DYSON",
+      "icon": "disc"
+    },
+    {
+      "id": "elechome",
+      "name": "ELECHOME",
+      "icon": "disc"
+    },
+    {
+      "id": "homedics",
+      "name": "HOMEDICS",
+      "icon": "disc"
+    },
+    {
+      "id": "levoit",
+      "name": "LEVOIT",
+      "icon": "disc"
+    },
+    {
+      "id": "maxcan",
+      "name": "MAXCAN",
+      "icon": "disc"
+    },
+    {
+      "id": "probreeze",
+      "name": "PROBREEZE",
+      "icon": "disc"
+    },
+    {
+      "id": "qlima",
+      "name": "QLIMA",
+      "icon": "disc"
+    },
+    {
+      "id": "tripp",
+      "name": "TRIPP",
+      "icon": "disc"
+    },
+    {
+      "id": "3d",
+      "name": "3D",
+      "icon": "disc"
+    },
+    {
+      "id": "ami",
+      "name": "AMI",
+      "icon": "disc"
+    },
+    {
+      "id": "aoc",
+      "name": "AOC",
+      "icon": "disc"
+    },
+    {
+      "id": "acorn",
+      "name": "ACORN",
+      "icon": "disc"
+    },
+    {
+      "id": "amibot",
+      "name": "AMIBOT",
+      "icon": "disc"
+    },
+    {
+      "id": "andonstar",
+      "name": "ANDONSTAR",
+      "icon": "disc"
+    },
+    {
+      "id": "argonone",
+      "name": "ARGONONE",
+      "icon": "disc"
+    },
+    {
+      "id": "arizer",
+      "name": "ARIZER",
+      "icon": "disc"
+    },
+    {
+      "id": "avfabul",
+      "name": "AVFABUL",
+      "icon": "disc"
+    },
+    {
+      "id": "azulle",
+      "name": "AZULLE",
+      "icon": "disc"
+    },
+    {
+      "id": "berbel",
+      "name": "BERBEL",
+      "icon": "disc"
+    },
+    {
+      "id": "bio",
+      "name": "BIO",
+      "icon": "disc"
+    },
+    {
+      "id": "bluetooth",
+      "name": "BLUETOOTH",
+      "icon": "disc"
+    },
+    {
+      "id": "brand",
+      "name": "BRAND",
+      "icon": "disc"
+    },
+    {
+      "id": "cabelas",
+      "name": "CABELAS",
+      "icon": "disc"
+    },
+    {
+      "id": "cisco",
+      "name": "CISCO",
+      "icon": "disc"
+    },
+    {
+      "id": "citysports",
+      "name": "CITYSPORTS",
+      "icon": "disc"
+    },
+    {
+      "id": "clever_clean",
+      "name": "CLEVER CLEAN",
+      "icon": "disc"
+    },
+    {
+      "id": "connectpro",
+      "name": "CONNECTPRO",
+      "icon": "disc"
+    },
+    {
+      "id": "coretec",
+      "name": "CORETEC",
+      "icon": "disc"
+    },
+    {
+      "id": "death",
+      "name": "DEATH",
+      "icon": "disc"
+    },
+    {
+      "id": "domoova",
+      "name": "DOMOOVA",
+      "icon": "disc"
+    },
+    {
+      "id": "dualtron",
+      "name": "DUALTRON",
+      "icon": "disc"
+    },
+    {
+      "id": "ecovac",
+      "name": "ECOVAC",
+      "icon": "disc"
+    },
+    {
+      "id": "elune",
+      "name": "ELUNE",
+      "icon": "disc"
+    },
+    {
+      "id": "enido",
+      "name": "ENIDO",
+      "icon": "disc"
+    },
+    {
+      "id": "esylux",
+      "name": "ESYLUX",
+      "icon": "disc"
+    },
+    {
+      "id": "eufy",
+      "name": "EUFY",
+      "icon": "disc"
+    },
+    {
+      "id": "extron",
+      "name": "EXTRON",
+      "icon": "disc"
+    },
+    {
+      "id": "g_story",
+      "name": "G STORY",
+      "icon": "disc"
+    },
+    {
+      "id": "ganxin",
+      "name": "GANXIN",
+      "icon": "disc"
+    },
+    {
+      "id": "gakken",
+      "name": "GAKKEN",
+      "icon": "disc"
+    },
+    {
+      "id": "general",
+      "name": "GENERAL",
+      "icon": "disc"
+    },
+    {
+      "id": "gold",
+      "name": "GOLD",
+      "icon": "disc"
+    },
+    {
+      "id": "goofy",
+      "name": "GOOFY",
+      "icon": "disc"
+    },
+    {
+      "id": "hiphoptoy",
+      "name": "HIPHOPTOY",
+      "icon": "disc"
+    },
+    {
+      "id": "hallmark",
+      "name": "HALLMARK",
+      "icon": "disc"
+    },
+    {
+      "id": "hob2hood",
+      "name": "HOB2HOOD",
+      "icon": "disc"
+    },
+    {
+      "id": "jb",
+      "name": "JB",
+      "icon": "disc"
+    },
+    {
+      "id": "jettools",
+      "name": "JETTOOLS",
+      "icon": "disc"
+    },
+    {
+      "id": "jukebox",
+      "name": "JUKEBOX",
+      "icon": "disc"
+    },
+    {
+      "id": "kinivo",
+      "name": "KINIVO",
+      "icon": "disc"
+    },
+    {
+      "id": "laserx",
+      "name": "LASERX",
+      "icon": "disc"
+    },
+    {
+      "id": "logitech",
+      "name": "LOGITECH",
+      "icon": "disc"
+    },
+    {
+      "id": "lutron",
+      "name": "LUTRON",
+      "icon": "disc"
+    },
+    {
+      "id": "mini",
+      "name": "MINI",
+      "icon": "disc"
+    },
+    {
+      "id": "monoprice",
+      "name": "MONOPRICE",
+      "icon": "disc"
+    },
+    {
+      "id": "movinflame",
+      "name": "MOVINFLAME",
+      "icon": "disc"
+    },
+    {
+      "id": "mrocioa",
+      "name": "MROCIOA",
+      "icon": "disc"
+    },
+    {
+      "id": "nedis",
+      "name": "NEDIS",
+      "icon": "disc"
+    },
+    {
+      "id": "nixplay",
+      "name": "NIXPLAY",
+      "icon": "disc"
+    },
+    {
+      "id": "no_touch",
+      "name": "NO TOUCH",
+      "icon": "disc"
+    },
+    {
+      "id": "orei_hdmi_switcher",
+      "name": "OREI HDMI SWITCHER",
+      "icon": "disc"
+    },
+    {
+      "id": "prime3",
+      "name": "PRIME3",
+      "icon": "disc"
+    },
+    {
+      "id": "prozor",
+      "name": "PROZOR",
+      "icon": "disc"
+    },
+    {
+      "id": "pyle",
+      "name": "PYLE",
+      "icon": "disc"
+    },
+    {
+      "id": "radioshack",
+      "name": "RADIOSHACK",
+      "icon": "disc"
+    },
+    {
+      "id": "rocketfish",
+      "name": "ROCKETFISH",
+      "icon": "disc"
+    },
+    {
+      "id": "roksan",
+      "name": "ROKSAN",
+      "icon": "disc"
+    },
+    {
+      "id": "roland",
+      "name": "ROLAND",
+      "icon": "disc"
+    },
+    {
+      "id": "roomba",
+      "name": "ROOMBA",
+      "icon": "disc"
+    },
+    {
+      "id": "seville",
+      "name": "SEVILLE",
+      "icon": "disc"
+    },
+    {
+      "id": "siemens",
+      "name": "SIEMENS",
+      "icon": "disc"
+    },
+    {
+      "id": "simon",
+      "name": "SIMON",
+      "icon": "disc"
+    },
+    {
+      "id": "simulflame",
+      "name": "SIMULFLAME",
+      "icon": "disc"
+    },
+    {
+      "id": "smartykat",
+      "name": "SMARTYKAT",
+      "icon": "disc"
+    },
+    {
+      "id": "stereo",
+      "name": "STEREO",
+      "icon": "disc"
+    },
+    {
+      "id": "tesmart",
+      "name": "TESMART",
+      "icon": "disc"
+    },
+    {
+      "id": "terratec",
+      "name": "TERRATEC",
+      "icon": "disc"
+    },
+    {
+      "id": "toilet",
+      "name": "TOILET",
+      "icon": "disc"
+    },
+    {
+      "id": "tomlov",
+      "name": "TOMLOV",
+      "icon": "disc"
+    },
+    {
+      "id": "tomlov_microscope",
+      "name": "TOMLOV MICROSCOPE",
+      "icon": "disc"
+    },
+    {
+      "id": "topcon",
+      "name": "TOPCON",
+      "icon": "disc"
+    },
+    {
+      "id": "uncle",
+      "name": "UNCLE",
+      "icon": "disc"
+    },
+    {
+      "id": "urevo",
+      "name": "UREVO",
+      "icon": "disc"
+    },
+    {
+      "id": "varytech",
+      "name": "VARYTECH",
+      "icon": "disc"
+    },
+    {
+      "id": "vibroshaper",
+      "name": "VIBROSHAPER",
+      "icon": "disc"
+    },
+    {
+      "id": "waynedresser",
+      "name": "WAYNEDRESSER",
+      "icon": "disc"
+    },
+    {
+      "id": "winix",
+      "name": "WINIX",
+      "icon": "disc"
+    },
+    {
+      "id": "dbot",
+      "name": "DBOT",
+      "icon": "disc"
+    },
+    {
+      "id": "ihome",
+      "name": "IHOME",
+      "icon": "disc"
+    },
+    {
+      "id": "ir",
+      "name": "IR",
+      "icon": "disc"
+    },
+    {
+      "id": "asus",
+      "name": "ASUS",
+      "icon": "disc"
+    },
+    {
+      "id": "dunehd",
+      "name": "DUNEHD",
+      "icon": "disc"
+    },
+    {
+      "id": "evolution",
+      "name": "EVOLUTION",
+      "icon": "disc"
+    },
+    {
+      "id": "fantec",
+      "name": "FANTEC",
+      "icon": "disc"
+    },
+    {
+      "id": "leicke",
+      "name": "LEICKE",
+      "icon": "disc"
+    },
+    {
+      "id": "ligawo",
+      "name": "LIGAWO",
+      "icon": "disc"
+    },
+    {
+      "id": "mt_viki",
+      "name": "MT VIKI",
+      "icon": "disc"
+    },
+    {
+      "id": "qnap",
+      "name": "QNAP",
+      "icon": "disc"
+    },
+    {
+      "id": "rytaki",
+      "name": "RYTAKI",
+      "icon": "disc"
+    },
+    {
+      "id": "ugreen",
+      "name": "UGREEN",
+      "icon": "disc"
+    },
+    {
+      "id": "micca",
+      "name": "MICCA",
+      "icon": "disc"
+    },
+    {
+      "id": "pandigital",
+      "name": "PANDIGITAL",
+      "icon": "disc"
+    },
+    {
+      "id": "amazon",
+      "name": "AMAZON",
+      "icon": "disc"
+    },
+    {
+      "id": "bqeel",
+      "name": "BQEEL",
+      "icon": "disc"
+    },
+    {
+      "id": "formuler",
+      "name": "FORMULER",
+      "icon": "disc"
+    },
+    {
+      "id": "kaleidescape",
+      "name": "KALEIDESCAPE",
+      "icon": "disc"
+    },
+    {
+      "id": "mag",
+      "name": "MAG",
+      "icon": "disc"
+    },
+    {
+      "id": "mecool",
+      "name": "MECOOL",
+      "icon": "disc"
+    },
+    {
+      "id": "roku",
+      "name": "ROKU",
+      "icon": "disc"
+    },
+    {
+      "id": "xiaomi",
+      "name": "XIAOMI",
+      "icon": "disc"
+    },
+    {
+      "id": "onn",
+      "name": "ONN",
+      "icon": "disc"
+    },
+    {
+      "id": "benq",
+      "name": "BENQ",
+      "icon": "disc"
+    },
+    {
+      "id": "ctouch",
+      "name": "CTOUCH",
+      "icon": "disc"
+    },
+    {
+      "id": "hieneking",
+      "name": "HIENEKING",
+      "icon": "disc"
+    },
+    {
+      "id": "legamaster",
+      "name": "LEGAMASTER",
+      "icon": "disc"
+    },
+    {
+      "id": "newline",
+      "name": "NEWLINE",
+      "icon": "disc"
+    },
+    {
+      "id": "prowise",
+      "name": "PROWISE",
+      "icon": "disc"
+    },
+    {
+      "id": "smart",
+      "name": "SMART",
+      "icon": "disc"
+    },
+    {
+      "id": "viewsonic",
+      "name": "VIEWSONIC",
+      "icon": "disc"
+    },
+    {
+      "id": "i3_technologies",
+      "name": "I3 TECHNOLOGIES",
+      "icon": "disc"
+    },
+    {
+      "id": "20q",
+      "name": "20Q",
+      "icon": "disc"
+    },
+    {
+      "id": "brio",
+      "name": "BRIO",
+      "icon": "disc"
+    },
+    {
+      "id": "eichhorn",
+      "name": "EICHHORN",
+      "icon": "disc"
+    },
+    {
+      "id": "fisher_price",
+      "name": "FISHER PRICE",
+      "icon": "disc"
+    },
+    {
+      "id": "hasbro",
+      "name": "HASBRO",
+      "icon": "disc"
+    },
+    {
+      "id": "hexbug",
+      "name": "HEXBUG",
+      "icon": "disc"
+    },
+    {
+      "id": "jamara",
+      "name": "JAMARA",
+      "icon": "disc"
+    },
+    {
+      "id": "k_line",
+      "name": "K LINE",
+      "icon": "disc"
+    },
+    {
+      "id": "kidland",
+      "name": "KIDLAND",
+      "icon": "disc"
+    },
+    {
+      "id": "lego",
+      "name": "LEGO",
+      "icon": "disc"
+    },
+    {
+      "id": "maerklin",
+      "name": "MAERKLIN",
+      "icon": "disc"
+    },
+    {
+      "id": "nerf",
+      "name": "NERF",
+      "icon": "disc"
+    },
+    {
+      "id": "playtive",
+      "name": "PLAYTIVE",
+      "icon": "disc"
+    },
+    {
+      "id": "robomaster",
+      "name": "ROBOMASTER",
+      "icon": "disc"
+    },
+    {
+      "id": "robot",
+      "name": "ROBOT",
+      "icon": "disc"
+    },
+    {
+      "id": "silverlit",
+      "name": "SILVERLIT",
+      "icon": "disc"
+    },
+    {
+      "id": "thinkway",
+      "name": "THINKWAY",
+      "icon": "disc"
+    },
+    {
+      "id": "toys",
+      "name": "TOYS",
+      "icon": "disc"
+    },
+    {
+      "id": "unknown_brand",
+      "name": "UNKNOWN BRAND",
+      "icon": "disc"
+    },
+    {
+      "id": "winyea",
+      "name": "WINYEA",
+      "icon": "disc"
+    },
+    {
+      "id": "wowwee_robosapien",
+      "name": "WOWWEE ROBOSAPIEN",
+      "icon": "disc"
+    },
+    {
+      "id": "apex",
+      "name": "APEX",
+      "icon": "disc"
+    },
+    {
+      "id": "memorex",
+      "name": "MEMOREX",
+      "icon": "disc"
+    },
+    {
+      "id": "ecovacs",
+      "name": "ECOVACS",
+      "icon": "disc"
+    },
+    {
+      "id": "tikom",
+      "name": "TIKOM",
+      "icon": "disc"
+    },
+    {
+      "id": "vactidy",
+      "name": "VACTIDY",
+      "icon": "disc"
+    },
+    {
+      "id": "ziglint",
+      "name": "ZIGLINT",
+      "icon": "disc"
+    },
+    {
+      "id": "iclebo",
+      "name": "ICLEBO",
+      "icon": "disc"
+    },
+    {
+      "id": "ilife",
+      "name": "ILIFE",
+      "icon": "disc"
+    },
+    {
+      "id": "irobot",
+      "name": "IROBOT",
+      "icon": "disc"
+    },
+    {
+      "id": "aver",
+      "name": "AVER",
+      "icon": "disc"
+    },
+    {
+      "id": "polycom",
+      "name": "POLYCOM",
+      "icon": "disc"
+    },
+    {
+      "id": "tandberg",
+      "name": "TANDBERG",
+      "icon": "disc"
+    },
+    {
+      "id": "trueconf",
+      "name": "TRUECONF",
+      "icon": "disc"
+    },
+    {
+      "id": "boxlight",
+      "name": "BOXLIGHT",
+      "icon": "disc"
+    },
+    {
+      "id": "promethean",
+      "name": "PROMETHEAN",
+      "icon": "disc"
+    },
+    {
+      "id": "hobot",
+      "name": "HOBOT",
+      "icon": "disc"
+    },
+    {
+      "id": "csv",
+      "name": "CSV",
+      "icon": "disc"
+    },
+    {
+      "id": "other",
+      "name": "OTHER",
+      "icon": "disc"
+    },
+    {
+      "id": "power",
+      "name": "POWER",
+      "icon": "disc"
+    },
+    {
+      "id": "pronto",
+      "name": "PRONTO",
+      "icon": "disc"
+    },
+    {
+      "id": "tcl",
+      "name": "TCL",
+      "icon": "disc"
+    },
+    {
+      "id": "pace",
+      "name": "PACE",
+      "icon": "disc"
+    },
+    {
+      "id": "silver",
+      "name": "SILVER",
+      "icon": "disc"
+    },
+    {
+      "id": "turbox",
+      "name": "TURBOX",
+      "icon": "disc"
+    },
+    {
+      "id": "thomson",
+      "name": "THOMSON",
+      "icon": "disc"
+    },
+    {
+      "id": "grunding",
+      "name": "GRUNDING",
+      "icon": "disc"
+    },
+    {
+      "id": "oki",
+      "name": "OKI",
+      "icon": "disc"
+    },
+    {
+      "id": "sky",
+      "name": "SKY",
+      "icon": "disc"
+    },
+    {
+      "id": "bauhn",
+      "name": "BAUHN",
+      "icon": "disc"
+    },
+    {
+      "id": "optoma",
+      "name": "OPTOMA",
+      "icon": "disc"
+    },
+    {
+      "id": "jbl",
+      "name": "JBL",
+      "icon": "disc"
+    },
+    {
+      "id": "edifier",
+      "name": "EDIFIER",
+      "icon": "disc"
+    },
+    {
+      "id": "kanto",
+      "name": "KANTO",
+      "icon": "disc"
+    },
+    {
+      "id": "epson",
+      "name": "EPSON",
+      "icon": "disc"
+    },
+    {
+      "id": "dialog",
+      "name": "DIALOG",
+      "icon": "disc"
+    },
+    {
+      "id": "kivi",
+      "name": "KIVI",
+      "icon": "disc"
+    },
+    {
+      "id": "noblex",
+      "name": "NOBLEX",
+      "icon": "disc"
+    },
+    {
+      "id": "zte",
+      "name": "ZTE",
+      "icon": "disc"
+    },
+    {
+      "id": "cambridge_audio",
+      "name": "CAMBRIDGE AUDIO",
+      "icon": "disc"
     }
   ]
 }

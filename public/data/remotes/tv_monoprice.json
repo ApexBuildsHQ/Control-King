@@ -114,7 +114,7 @@
       }
     },
     {
-      "id": "bright_up",
+      "id": "brightness_up",
       "label": "Bright_up",
       "ir": {
         "code": "80 00 00 00",

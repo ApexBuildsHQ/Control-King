@@ -6,17 +6,8 @@
   ],
   "buttons": [
     {
-      "id": "off",
-      "label": "Off",
-      "ir": {
-        "code": "91 00 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
       "id": "power",
-      "label": "POWER",
+      "label": "Off",
       "ir": {
         "code": "81 00 00 00",
         "protocol": "NEC",
@@ -159,7 +150,7 @@
       }
     },
     {
-      "id": "auto",
+      "id": "mode_auto",
       "label": "Auto",
       "ir": {
         "code": "86 00 00 00",

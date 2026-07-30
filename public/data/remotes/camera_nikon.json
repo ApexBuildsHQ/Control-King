@@ -1,0 +1,27 @@
+{
+  "categoryId": "camera",
+  "brandId": "nikon",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "take_photo",
+      "label": "Take_photo",
+      "ir": {
+        "code": "1989 27513 408 1569 386 3503 408 62013 1985 27517 404 1573 382 3506 405",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "shutter_release",
+      "label": "Shutter",
+      "ir": {
+        "code": "1945 28253 404 1513 410 3611 460 70144 1974 28213 455 1493 461 3591 409",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

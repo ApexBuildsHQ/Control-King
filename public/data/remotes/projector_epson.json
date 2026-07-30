@@ -357,7 +357,7 @@
       }
     },
     {
-      "id": "auto",
+      "id": "mode_auto",
       "label": "Auto",
       "ir": {
         "code": "9E 61 00 00",

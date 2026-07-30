@@ -2,31 +2,52 @@
   "categoryId": "fan",
   "brandId": "europace",
   "supportedModes": [
-    "WIFI"
+    "IR"
   ],
   "buttons": [
     {
-      "id": "off",
+      "id": "power",
       "label": "off",
-      "wifi": {
-        "endpoint": "JgBYAAABLJYTEhMTExITExQ2EzgTEhMTEzcUNhQ3EzcUEhITFDYUNxMSFBIUNhQ3ExIUEhQRFDcUNhQ2FBIUERQ3EzcUNhQSFAAFKQABLUkUAAxzAAEsShQADQU=",
-        "method": "POST"
+      "ir": {
+        "code": "JgBYAAABLJYTEhMTExITExQ2EzgTEhMTEzcUNhQ3EzcUEhITFDYUNxMSFBIUNhQ3ExIUEhQRFDcUNhQ2FBIUERQ3EzcUNhQSFAAFKQABLUkUAAxzAAEsShQADQU=",
+        "protocol": "RAW",
+        "frequency": 38000
       }
     },
     {
-      "id": "default",
-      "label": "default",
-      "wifi": {
-        "endpoint": "{\"low\":\"JgBYAAABLZUTEhMTFBETExM3EzgSExMTEzcTNxQ3EzcUEhITEzcTOBQRFBITExI4ExITExMTEjgUNhM3FDcTEhM4EzcTNxQSEwAFKgABLEoUAAxyAAEtSRQADQU=\",\"medium\":\"JgBYAAABLZUTEhMTFBETExM3EzgSExMTEzcTNxQ3EzcUEhITEzcTOBQRFBITExI4ExITExMTEjgUNhM3FDcTEhM4EzcTNxQSEwAFKgABLEoUAAxyAAEtSRQADQU=\",\"high\":\"JgBYAAABLZUTEhMTFBETExM3EzgSExMTEzcTNxQ3EzcUEhITEzcTOBQRFBITExI4ExITExMTEjgUNhM3FDcTEhM4EzcTNxQSEwAFKgABLEoUAAxyAAEtSRQADQU=\"}",
-        "method": "POST"
+      "id": "default_low",
+      "label": "default_low",
+      "ir": {
+        "code": "JgBYAAABLZUTEhMTFBETExM3EzgSExMTEzcTNxQ3EzcUEhITEzcTOBQRFBITExI4ExITExMTEjgUNhM3FDcTEhM4EzcTNxQSEwAFKgABLEoUAAxyAAEtSRQADQU=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "default_medium",
+      "label": "default_medium",
+      "ir": {
+        "code": "JgBYAAABLZUTEhMTFBETExM3EzgSExMTEzcTNxQ3EzcUEhITEzcTOBQRFBITExI4ExITExMTEjgUNhM3FDcTEhM4EzcTNxQSEwAFKgABLEoUAAxyAAEtSRQADQU=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "default_high",
+      "label": "default_high",
+      "ir": {
+        "code": "JgBYAAABLZUTEhMTFBETExM3EzgSExMTEzcTNxQ3EzcUEhITEzcTOBQRFBITExI4ExITExMTEjgUNhM3FDcTEhM4EzcTNxQSEwAFKgABLEoUAAxyAAEtSRQADQU=",
+        "protocol": "RAW",
+        "frequency": 38000
       }
     },
     {
       "id": "oscillate",
       "label": "oscillate",
-      "wifi": {
-        "endpoint": "JgBQAAABLJYTExMSFBITExM3FDYTExMSEzgTNxQ3FDYTExITFDcSOBMTEjgUNhQSExMTEhMTFDYTOBMSFBITNxQ2FDcTNxMTEwAFKwABLEsTAA0FAAAAAAAAAAA=",
-        "method": "POST"
+      "ir": {
+        "code": "JgBQAAABLJYTExMSFBITExM3FDYTExMSEzgTNxQ3FDYTExITFDcSOBMTEjgUNhQSExMTEhMTFDYTOBMSFBITNxQ2FDcTNxMTEwAFKwABLEsTAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
       }
     }
   ]

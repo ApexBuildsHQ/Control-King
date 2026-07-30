@@ -303,7 +303,7 @@
       }
     },
     {
-      "id": "smooth",
+      "id": "effect_smooth",
       "label": "Smooth",
       "ir": {
         "code": "17 E8 00 00",
@@ -321,7 +321,7 @@
       }
     },
     {
-      "id": "dim",
+      "id": "brightness_down",
       "label": "Dim",
       "ir": {
         "code": "01 FE 00 00",

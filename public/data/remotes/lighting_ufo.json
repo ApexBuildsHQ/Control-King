@@ -1,0 +1,72 @@
+{
+  "categoryId": "lighting",
+  "brandId": "ufo",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "Off",
+      "ir": {
+        "code": "03 FC 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_up",
+      "label": "Up",
+      "ir": {
+        "code": "00 FF 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_down",
+      "label": "Down",
+      "ir": {
+        "code": "01 FE 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "effect_flash",
+      "label": "Flash",
+      "ir": {
+        "code": "0B F4 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "strobe",
+      "label": "Strobe",
+      "ir": {
+        "code": "9206 4353 650 512 622 512 647 486 649 485 649 485 649 485 648 486 647 487 646 1596 645 1597 644 1597 645 1597 645 489 645 1597 645 1597 645 1597 645 1597 645 1598 644 1597 645 1598 644 490 644 490 644 490 644 490 644 490 644 490 644 490 644 490 644 1598 644 1598 644 1598 644 1598 644 40917 9123 2174 646",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "effect_fade",
+      "label": "Fade",
+      "ir": {
+        "code": "13 EC 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "effect_smooth",
+      "label": "Smooth",
+      "ir": {
+        "code": "17 E8 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

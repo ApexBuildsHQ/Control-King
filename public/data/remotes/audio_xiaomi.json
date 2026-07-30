@@ -2,8 +2,7 @@
   "categoryId": "audio",
   "brandId": "xiaomi",
   "supportedModes": [
-    "IR",
-    "WIFI"
+    "IR"
   ],
   "buttons": [
     {
@@ -112,46 +111,6 @@
         "code": "51 00 00 00",
         "protocol": "NEC",
         "frequency": 38000
-      }
-    },
-    {
-      "id": "off",
-      "label": "off",
-      "wifi": {
-        "endpoint": "JgA0ACMRFhEWLRYtFhEWLRYRFi0WERUuFi0WAAFTIhEWERYtFi0WERYtFhEVLhYRFS4VLhYADQUAAAAA",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "on",
-      "label": "on",
-      "wifi": {
-        "endpoint": "JgA0ACMRFhEWLRYtFhEWLRYRFi0WERUuFi0WAAFTIhEWERYtFi0WERYtFhEVLhYRFS4VLhYADQUAAAAA",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "volumedown",
-      "label": "volumeDown",
-      "wifi": {
-        "endpoint": "JgA0ACMRFSUVERYaFiQWERYRFS4VLhYRFRsWAAGOIxEVJBYRFhoWJBYRFREWLRYuFREWGhYADQUAAAAA",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "volumeup",
-      "label": "volumeUp",
-      "wifi": {
-        "endpoint": "JgA0ACMRFSUVERYaFiQWERYRGikVJBYRFhEVAAGhIxEVJBYRFhoWJBYRFREWLhUkFhEWERUADQUAAAAA",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "sources",
-      "label": "sources",
-      "wifi": {
-        "endpoint": "{\"UP\":\"JgA0ACISFSQWERUbFiQWERURFhoWGxUkFi0WAAGMJREWJBYRFRsWIxYRFhEWGhYaFiQWLRYADQUAAAAA\",\"DOWN\":\"JgA0ACISFSQWERUbFiQWERURFhoWGxUkFi0WAAGMJREWJBYRFRsWIxYRFhEWGhYaFiQWLRYADQUAAAAA\",\"LEFT\":\"JgA2ABQmExQTHRMmFBMUExMnEzATHRMdFAABkCETEycTExQdEyYUExMUEyYULxQdEx0TAAioDQAN\",\"RIGHT\":\"JgA0ACQRFSQWERYaFiQWERYQFi4VERYRFiQVAAGhIxEVJBYRFhoWJBYRFREWLRYRFhEWJBUADQUAAAAA\",\"OK\":\"JgA0ACMRFiQVERYbFSQWERYRFS4WGhYRFi0WAAGOIxEVJBYRFhoWJBYRFhAWLhUbFREWLhUADQUAAAAA\",\"HOME\":\"JgA0ACYSFSQWERUbFiQWERURFiQWERUbFiMWAAGhIhEWJBYRFRsWJBURFhEWJBYQFhsVJBYADQUAAAAA\",\"BACK\":\"JgA0ACMRFSQWERUbFiQWERURFhoWLhUkFhoWAAGPIhEWJBYRFRsWIxYRFhEWGhYtFiQWGhYADQUAAAAA\"}",
-        "method": "POST"
       }
     }
   ]

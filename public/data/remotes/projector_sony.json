@@ -15,15 +15,6 @@
       }
     },
     {
-      "id": "on",
-      "label": "On",
-      "ir": {
-        "code": "2E 00 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
       "id": "menu",
       "label": "Menu",
       "ir": {
@@ -240,7 +231,7 @@
       }
     },
     {
-      "id": "a",
+      "id": "btn_a",
       "label": "A",
       "ir": {
         "code": "2B 00 00 00",
@@ -249,7 +240,7 @@
       }
     },
     {
-      "id": "b",
+      "id": "btn_b",
       "label": "B",
       "ir": {
         "code": "2C 00 00 00",

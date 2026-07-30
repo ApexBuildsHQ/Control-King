@@ -144,7 +144,7 @@
       "id": "rew",
       "label": "Rew",
       "ir": {
-        "code": "21 00 00 00",
+        "code": "57 A8 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }
@@ -447,15 +447,6 @@
       }
     },
     {
-      "id": "subtitle",
-      "label": "Subtitle",
-      "ir": {
-        "code": "4B 00 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
       "id": "smartimage",
       "label": "SmartImage",
       "ir": {
@@ -649,6 +640,15 @@
       "label": "Format",
       "ir": {
         "code": "F5 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "subtitle",
+      "label": "Subtitle",
+      "ir": {
+        "code": "4B 00 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }

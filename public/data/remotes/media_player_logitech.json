@@ -1,45 +1,522 @@
 {
   "categoryId": "media_player",
   "brandId": "logitech",
-  "protocol": "RAW",
-  "frequency": 38000,
-  "ipEndpoint": null,
+  "supportedModes": [
+    "IR"
+  ],
   "buttons": [
     {
-      "id": "off",
-      "label": "off",
-      "code": "JgBQAAABI5YRExITERUQOREUERQRFBEUETkQORI5ERMSORA5ETkROREUERQQFRETEjkQFBITERUQORE5ETkRORAVETkQORI5EQAFIQABJUsRAA0FAAAAAAAA",
-      "type": "WIFI"
+      "id": "answer",
+      "label": "Answer",
+      "ir": {
+        "code": "E6 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
     },
     {
-      "id": "on",
-      "label": "on",
-      "code": "JgBQAAABI5YRExITERUQOREUERQRFBEUETkQORI5ERMSORA5ETkROREUERQQFRETEjkQFBITERUQORE5ETkRORAVETkQORI5EQAFIQABJUsRAA0FAAAAAAAA",
-      "type": "WIFI"
+      "id": "end",
+      "label": "End",
+      "ir": {
+        "code": "F6 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_down",
+      "label": "VOL-",
+      "ir": {
+        "code": "00 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "vol_up",
+      "label": "VOL+",
+      "ir": {
+        "code": "01 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mute",
+      "label": "MUTE",
+      "ir": {
+        "code": "JgBQAAABJJURFBEUEBURORAVERMSFBAVEDkRORM3ERQTNxE5EDkUNxAUEjkQOREUETkQFRITERQQORITERUQOREVEDkRORE5EQAFIQABJUsUAA0FAAAAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_up",
+      "label": "Up",
+      "ir": {
+        "code": "A6 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_down",
+      "label": "Down",
+      "ir": {
+        "code": "B6 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_left",
+      "label": "Left",
+      "ir": {
+        "code": "AE 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_right",
+      "label": "Right",
+      "ir": {
+        "code": "BE 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "zoom_out",
+      "label": "Zoom_Out",
+      "ir": {
+        "code": "E3 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "zoom_in",
+      "label": "Zoom_In",
+      "ir": {
+        "code": "A3 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "far_end_control",
+      "label": "Far_End_Control",
+      "ir": {
+        "code": "FA 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "1",
+      "label": "1",
+      "ir": {
+        "code": "AC 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "2",
+      "label": "2",
+      "ir": {
+        "code": "6C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "3",
+      "label": "3",
+      "ir": {
+        "code": "EC 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "4",
+      "label": "4",
+      "ir": {
+        "code": "12 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "5",
+      "label": "5",
+      "ir": {
+        "code": "13 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "power",
+      "label": "POWER",
+      "ir": {
+        "code": "JgBQAAABI5YRExITERUQOREUERQRFBEUETkQORI5ERMSORA5ETkROREUERQQFRETEjkQFBITERUQORE5ETkRORAVETkQORI5EQAFIQABJUsRAA0FAAAAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "home",
+      "label": "Home",
+      "ir": {
+        "code": "FB 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sleep",
+      "label": "Sleep",
+      "ir": {
+        "code": "1D 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "media_play",
+      "label": "Play",
+      "ir": {
+        "code": "08 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "media_pause",
+      "label": "Pause",
+      "ir": {
+        "code": "04 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "forward",
+      "label": "Forward",
+      "ir": {
+        "code": "05 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "rewind",
+      "label": "Rewind",
+      "ir": {
+        "code": "03 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "more",
+      "label": "More",
+      "ir": {
+        "code": "06 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "6",
+      "label": "6",
+      "ir": {
+        "code": "14 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "7",
+      "label": "7",
+      "ir": {
+        "code": "15 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "8",
+      "label": "8",
+      "ir": {
+        "code": "16 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "9",
+      "label": "9",
+      "ir": {
+        "code": "17 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nec_19",
+      "label": "NEC_19",
+      "ir": {
+        "code": "19 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "0",
+      "label": "0",
+      "ir": {
+        "code": "19 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "repeat",
+      "label": "Repeat",
+      "ir": {
+        "code": "1C 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "shuffle",
+      "label": "Shuffle",
+      "ir": {
+        "code": "1B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "search",
+      "label": "Search",
+      "ir": {
+        "code": "46 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "now_playing",
+      "label": "Now_Playing",
+      "ir": {
+        "code": "45 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "favorites",
+      "label": "Favorites",
+      "ir": {
+        "code": "47 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "video_mute",
+      "label": "Video_Mute",
+      "ir": {
+        "code": "F9 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mirror",
+      "label": "Mirror",
+      "ir": {
+        "code": "E8 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "zoom_up",
+      "label": "Zoom_up",
+      "ir": {
+        "code": "A3 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "zoom_dn",
+      "label": "Zoom_dn",
+      "ir": {
+        "code": "E3 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nextchannel",
+      "label": "nextChannel",
+      "ir": {
+        "code": "JgVQAAABKJMSEhI3EhISEhISEhISEhISEhISEhISEhISEhI3EhISNxISEhISEhI3EhISEhISEhISNxI3EjcSEhI3EjcSNxI3EgAF0wABKEoSAAxWDQUAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
     },
     {
       "id": "volumedown",
       "label": "volumeDown",
-      "code": "JgBQAAABJJYRExITERUQOREUERQRFBEUETkQORI5EBQSORA5ETkROREUETkRORA6ERMRFRAUERQROREUERQRExI5ETgRORI4EQAFIQABJksRAA0FAAAAAAAA",
-      "type": "WIFI"
+      "ir": {
+        "code": "JgBQAAABJJYRExITERUQOREUERQRFBEUETkQORI5EBQSORA5ETkROREUETkRORA6ERMRFRAUERQROREUERQRExI5ETgRORI4EQAFIQABJksRAA0FAAAAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
     },
     {
       "id": "volumeup",
       "label": "volumeUp",
-      "code": "JgBQAAABJpQSEhMSERQROREUExITEhAVETkQORI5EBQRORE5ETkRORETEjkQFBI5EDkRFBEUERQROREUEDkSFBAVEDkRORE5EQAFIQABJ0oTAA0FAAAAAAAA",
-      "type": "WIFI"
+      "ir": {
+        "code": "JgBQAAABJpQSEhMSERQROREUExITEhAVETkQORI5EBQRORE5ETkRORETEjkQFBI5EDkRFBEUERQROREUEDkSFBAVEDkRORE5EQAFIQABJ0oTAA0FAAAAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
     },
     {
-      "id": "mute",
-      "label": "mute",
-      "code": "JgBQAAABJJURFBEUEBURORAVERMSFBAVEDkRORM3ERQTNxE5EDkUNxAUEjkQOREUETkQFRITERQQORITERUQOREVEDkRORE5EQAFIQABJUsUAA0FAAAAAAAA",
-      "type": "WIFI"
+      "id": "sources_6channel",
+      "label": "sources_6Channel",
+      "ir": {
+        "code": "JgVQAAABKJMSEhI3EhISEhISEhISEhISEhISEhISEhISEhI3EhISNxISEhISNxISEhISEhISEhISNxI3EhISNxI3EjcSNxI3EgAF0wABKEoSAAxWDQUAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
     },
     {
-      "id": "sources",
-      "label": "sources",
-      "code": "{\"Stereo 1\":\"JgBQAAABJJYSEhMSERQTNxEUExITEhAVEzcQORQ3EhITOBI3ETkTNxM3EDkTEhEVEjcRFBMSExIRFBMSEzcSOBAVEjcRORM3EwAFHwABJksTAA0FAAAAAAAA\",\"Stereo 2\":\"JgBQAAABJJUSExEUEBURORAVEBQSExEVEDkRORE5ERQRORE4ETkSOBE5ETkRFBA5EjkRExITERUQFBITETkRFBEUETkQORI5EAAFIgABJUsSAA0FAAAAAAAA\",\"Stereo 3\":\"JgBQAAABJJYRExITERQROREUERQRFBAVETkQORI5EBQSOBE5ETkRORETEhQQFRA5ETkRFBEVEBQRORE5EDkSFBAVEDkRORE5EQAFIQABJUwRAA0FAAAAAAAA\",\"Optical 1\":\"JgBQAAABJJUSExEUEBURORAVEBQSExEVEDkRORE5ERQRORE4ETkSORA5ERQRFBEUETkRFBAVERMSFBA5EjgROREUETkRORE5EQAFIQABJUsSAA0FAAAAAAAA\",\"Optical 2\":\"JgBQAAABJZQSEhQRERUSNxEUExITEhEUEzcQORQ3EhIUNxI3ETkTNxM3EBUTERQ3EjcRFRISExIRFBM3ETkUERAVEzcQORQ3EgAFHwABKEkTAA0FAAAAAAAA\",\"Coaxial\":\"JgBQAAABJJUSExEUEBURORAVERMSExEVEDkRORE5ERQRORE5EDkSORAUERQRORE5ERQRFBAVERMSORA5ERUQFBE5ETkRORE5EQAFIQABJUsSAA0FAAAAAAAA\"}",
-      "type": "WIFI"
+      "id": "sources_rca",
+      "label": "sources_RCA",
+      "ir": {
+        "code": "JgVQAAABKJMSEhI3EhISEhISEhISEhISEhISEhISEhISEhI3EhISNxISEjcSEhISEhISEhISEjcSNxISEjcSNxI3EjcSNxISEgAF0wABKEoSAAxWDQUAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_opt1",
+      "label": "sources_Opt1",
+      "ir": {
+        "code": "JgVQAAABKJMSEhI3EhISEhISEhISEhISEhISEhISEhISEhI3EhISNxISEhISNxI3EhISEhISEhISNxI3EhISEhI3EjcSNxI3EgAF0wABKEoSAAxWDQUAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_opt2",
+      "label": "sources_Opt2",
+      "ir": {
+        "code": "JgVQAAABKJMSEhI3EhISEhISEhISEhISEhISEhISEhISEhI3EhISNxISEhISNxI3EhISEhISEjcSNxI3EhISEhI3EjcSNxISEgAF0wABKEoSAAxWDQUAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_coax",
+      "label": "sources_COAX",
+      "ir": {
+        "code": "JgBgAAABJ5YSExEUERQROREUERQSExEUEjgRORI5EhISORM3ETkRORITERQRORI5EhISExEVEhISORM3EBURFBE5ETkRORE5EQAFJQABJ0sSAAxhAAEmTBEADGEAASdLEgANBQAAAAAAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_aux",
+      "label": "sources_AUX",
+      "ir": {
+        "code": "JgVQAAABKJMSEhI3EhISEhISEhISEhISEhISEhISEhISEhI3EhISNxISEjcSEhISEhISEhI3EhISNxISEjcSNxI3EjcSEhI3EgAF0wABKEoSAAxWDQUAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_direct",
+      "label": "sources_direct",
+      "ir": {
+        "code": "JgBgAAABKJUSExEUERQSOBEUEhMSExEUEjgRORI5EhISORI4ETkRORITETkSExI5ERMSExEVERMSORISEjkSExE5EjgRORE5EgAFJAABKEoSAAxhAAEmTBEADGEAAShKEgANBQAAAAAAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_optical",
+      "label": "sources_optical",
+      "ir": {
+        "code": "JgBYAAABJ5USExITERUROBEVERMSFBAVEjgQOhE5EhMRORI4ETkSORE4ETkSFBA5EhQRFBITERQRFBITETkSExI4EjgRORI5EgAFIwABKEsRAAxhAAEnSxIADQU=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_stereo_1",
+      "label": "sources_Stereo 1",
+      "ir": {
+        "code": "JgBQAAABJJYSEhMSERQTNxEUExITEhAVEzcQORQ3EhITOBI3ETkTNxM3EDkTEhEVEjcRFBMSExIRFBMSEzcSOBAVEjcRORM3EwAFHwABJksTAA0FAAAAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_stereo_2",
+      "label": "sources_Stereo 2",
+      "ir": {
+        "code": "JgBQAAABJJUSExEUEBURORAVEBQSExEVEDkRORE5ERQRORE4ETkSOBE5ETkRFBA5EjkRExITERUQFBITETkRFBEUETkQORI5EAAFIgABJUsSAA0FAAAAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_stereo_3",
+      "label": "sources_Stereo 3",
+      "ir": {
+        "code": "JgBQAAABJJYRExITERQROREUERQRFBAVETkQORI5EBQSOBE5ETkRORETEhQQFRA5ETkRFBEVEBQRORE5EDkSFBAVEDkRORE5EQAFIQABJUwRAA0FAAAAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_optical_1",
+      "label": "sources_Optical 1",
+      "ir": {
+        "code": "JgBQAAABJJUSExEUEBURORAVEBQSExEVEDkRORE5ERQRORE4ETkSORA5ERQRFBEUETkRFBAVERMSFBA5EjgROREUETkRORE5EQAFIQABJUsSAA0FAAAAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_optical_2",
+      "label": "sources_Optical 2",
+      "ir": {
+        "code": "JgBQAAABJZQSEhQRERUSNxEUExITEhEUEzcQORQ3EhIUNxI3ETkTNxM3EBUTERQ3EjcRFRISExIRFBM3ETkUERAVEzcQORQ3EgAFHwABKEkTAA0FAAAAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "sources_coaxial",
+      "label": "sources_Coaxial",
+      "ir": {
+        "code": "JgBQAAABJJUSExEUEBURORAVERMSExEVEDkRORE5ERQRORE5EDkSORAUERQRORE5ERQRFBAVERMSORA5ERUQFBE5ETkRORE5EQAFIQABJUsSAA0FAAAAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
     }
   ]
 }

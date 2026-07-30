@@ -9,7 +9,7 @@
       "id": "power",
       "label": "POWER",
       "ir": {
-        "code": "4F B0 00 00",
+        "code": "4E B1 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "auto",
+      "id": "mode_auto",
       "label": "Auto",
       "ir": {
         "code": "08 F7 00 00",
@@ -199,15 +199,6 @@
       "label": "Aspect",
       "ir": {
         "code": "13 EC 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
-      "id": "off",
-      "label": "OFF",
-      "ir": {
-        "code": "4E B1 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }
@@ -487,15 +478,6 @@
       "label": "Gamme",
       "ir": {
         "code": "5E A1 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
-      "id": "on",
-      "label": "On",
-      "ir": {
-        "code": "4F B0 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }

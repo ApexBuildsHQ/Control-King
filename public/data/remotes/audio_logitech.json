@@ -2,8 +2,7 @@
   "categoryId": "audio",
   "brandId": "logitech",
   "supportedModes": [
-    "IR",
-    "WIFI"
+    "IR"
   ],
   "buttons": [
     {
@@ -40,10 +39,6 @@
         "code": "16 00 00 00",
         "protocol": "NEC",
         "frequency": 38000
-      },
-      "wifi": {
-        "endpoint": "JgBQAAABJJURFBEUEBURORAVERMSFBAVEDkRORM3ERQTNxE5EDkUNxAUEjkQOREUETkQFRITERQQORITERUQOREVEDkRORE5EQAFIQABJUsUAA0FAAAAAAAA",
-        "method": "POST"
       }
     },
     {
@@ -152,62 +147,6 @@
         "code": "05 00 00 00",
         "protocol": "NEC",
         "frequency": 38000
-      }
-    },
-    {
-      "id": "off",
-      "label": "off",
-      "wifi": {
-        "endpoint": "JgBQAAABI5YRExITERUQOREUERQRFBEUETkQORI5ERMSORA5ETkROREUERQQFRETEjkQFBITERUQORE5ETkRORAVETkQORI5EQAFIQABJUsRAA0FAAAAAAAA",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "on",
-      "label": "on",
-      "wifi": {
-        "endpoint": "JgBQAAABI5YRExITERUQOREUERQRFBEUETkQORI5ERMSORA5ETkROREUERQQFRETEjkQFBITERUQORE5ETkRORAVETkQORI5EQAFIQABJUsRAA0FAAAAAAAA",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "nextchannel",
-      "label": "nextChannel",
-      "wifi": {
-        "endpoint": "",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "volumedown",
-      "label": "volumeDown",
-      "wifi": {
-        "endpoint": "JgBQAAABJJYRExITERUQOREUERQRFBEUETkQORI5EBQSORA5ETkROREUETkRORA6ERMRFRAUERQROREUERQRExI5ETgRORI4EQAFIQABJksRAA0FAAAAAAAA",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "volumeup",
-      "label": "volumeUp",
-      "wifi": {
-        "endpoint": "JgBQAAABJpQSEhMSERQROREUExITEhAVETkQORI5EBQRORE5ETkRORETEjkQFBI5EDkRFBEUERQROREUEDkSFBAVEDkRORE5EQAFIQABJ0oTAA0FAAAAAAAA",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "sources",
-      "label": "sources",
-      "wifi": {
-        "endpoint": "{\"Stereo 1\":\"JgBQAAABJJYSEhMSERQTNxEUExITEhAVEzcQORQ3EhITOBI3ETkTNxM3EDkTEhEVEjcRFBMSExIRFBMSEzcSOBAVEjcRORM3EwAFHwABJksTAA0FAAAAAAAA\",\"Stereo 2\":\"JgBQAAABJJUSExEUEBURORAVEBQSExEVEDkRORE5ERQRORE4ETkSOBE5ETkRFBA5EjkRExITERUQFBITETkRFBEUETkQORI5EAAFIgABJUsSAA0FAAAAAAAA\",\"Stereo 3\":\"JgBQAAABJJYRExITERQROREUERQRFBAVETkQORI5EBQSOBE5ETkRORETEhQQFRA5ETkRFBEVEBQRORE5EDkSFBAVEDkRORE5EQAFIQABJUwRAA0FAAAAAAAA\",\"Optical 1\":\"JgBQAAABJJUSExEUEBURORAVEBQSExEVEDkRORE5ERQRORE4ETkSORA5ERQRFBEUETkRFBAVERMSFBA5EjgROREUETkRORE5EQAFIQABJUsSAA0FAAAAAAAA\",\"Optical 2\":\"JgBQAAABJZQSEhQRERUSNxEUExITEhEUEzcQORQ3EhIUNxI3ETkTNxM3EBUTERQ3EjcRFRISExIRFBM3ETkUERAVEzcQORQ3EgAFHwABKEkTAA0FAAAAAAAA\",\"Coaxial\":\"JgBQAAABJJUSExEUEBURORAVERMSExEVEDkRORE5ERQRORE5EDkSORAUERQRORE5ERQRFBAVERMSORA5ERUQFBE5ETkRORE5EQAFIQABJUsSAA0FAAAAAAAA\"}",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "previouschannel",
-      "label": "previousChannel",
-      "wifi": {
-        "endpoint": "",
-        "method": "POST"
       }
     }
   ]

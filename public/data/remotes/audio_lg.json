@@ -2,8 +2,7 @@
   "categoryId": "audio",
   "brandId": "lg",
   "supportedModes": [
-    "IR",
-    "WIFI"
+    "IR"
   ],
   "buttons": [
     {
@@ -49,10 +48,6 @@
         "code": "1F 00 00 00",
         "protocol": "NEC",
         "frequency": 38000
-      },
-      "wifi": {
-        "endpoint": "JgB4AAABIJISEhISEjgSEhISEhMRExISEjgROBITETgSNxI4EjcSOBE4EhISExE4EhMRExETEhISExE4EjgRExI3EjgROBI4EQAFNAABJUoSAAxZAAEjSxEADFUAASdKEQAMWAABJEsRAAxYAAElSRIADFcAASVKEQANBQ==",
-        "method": "POST"
       }
     },
     {
@@ -200,6 +195,177 @@
       }
     },
     {
+      "id": "info",
+      "label": "Info",
+      "ir": {
+        "code": "A3 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "ok",
+      "label": "Ok",
+      "ir": {
+        "code": "05 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_up",
+      "label": "Up",
+      "ir": {
+        "code": "4E 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_down",
+      "label": "Down",
+      "ir": {
+        "code": "4F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_left",
+      "label": "Left",
+      "ir": {
+        "code": "06 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "nav_right",
+      "label": "Right",
+      "ir": {
+        "code": "07 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "media_pause",
+      "label": "Pause",
+      "ir": {
+        "code": "4F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "media_play",
+      "label": "Play",
+      "ir": {
+        "code": "4F 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "media_stop",
+      "label": "Stop",
+      "ir": {
+        "code": "05 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "1",
+      "label": "1",
+      "ir": {
+        "code": "41 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "2",
+      "label": "2",
+      "ir": {
+        "code": "42 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "3",
+      "label": "3",
+      "ir": {
+        "code": "43 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "4",
+      "label": "4",
+      "ir": {
+        "code": "44 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "5",
+      "label": "5",
+      "ir": {
+        "code": "45 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "6",
+      "label": "6",
+      "ir": {
+        "code": "46 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "7",
+      "label": "7",
+      "ir": {
+        "code": "47 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "8",
+      "label": "8",
+      "ir": {
+        "code": "48 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "9",
+      "label": "9",
+      "ir": {
+        "code": "49 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "0",
+      "label": "0",
+      "ir": {
+        "code": "4B 00 00 00",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
       "id": "v_up",
       "label": "V_up",
       "ir": {
@@ -267,15 +433,6 @@
       "label": "AutoVol",
       "ir": {
         "code": "1C 00 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
-      "id": "info",
-      "label": "Info",
-      "ir": {
-        "code": "A3 00 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }
@@ -350,62 +507,6 @@
         "code": "4576 4480 601 535 714 422 712 1548 578 1682 577 559 577 1682 577 559 576 559 600 536 600 535 601 1658 601 1657 601 535 601 1658 601 535 601 535 602 1658 601 535 601 535 601 1659 600 536 600 536 600 1660 599 1660 599 538 598 1661 598 1663 596 540 596 1662 597 1662 597 539 597 539 597 46478 4547 4480 601 1657 601 96263 4570 4456 574 1685 573 96287 4571 4456 573 1686 572 96292 4570 4455 598 1661 597",
         "protocol": "NEC",
         "frequency": 38000
-      }
-    },
-    {
-      "id": "off",
-      "label": "off",
-      "wifi": {
-        "endpoint": "JgCIAAABIJESExAUETgUERAUERMRExEUETgSOBETETgRORE4EjgTNhITEBQRExE5ERMRExETERQROBQ2ETgSEhE5EzYUNhM2EQAFNAABJkoTAAxWAAElShEADFoAASRIEQAMWAABJUoSAAxXAAEnSBEADFgAASVKEAAMWQABJEoSAAxXAAElShIADQU=",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "on",
-      "label": "on",
-      "wifi": {
-        "endpoint": "JgCIAAABIJESExAUETgUERAUERMRExEUETgSOBETETgRORE4EjgTNhITEBQRExE5ERMRExETERQROBQ2ETgSEhE5EzYUNhM2EQAFNAABJkoTAAxWAAElShEADFoAASRIEQAMWAABJUoSAAxXAAEnSBEADFgAASVKEAAMWQABJEoSAAxXAAElShIADQU=",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "previouschannel",
-      "label": "previousChannel",
-      "wifi": {
-        "endpoint": "JgCgAAABIJESExETEjcSExETEhISExETEjcSOBETEjgROBI3EjgSNxI4ERMSEhITERMSEhITERMSEhI4ETgSOBE4EjcSOBI3EgAFNQABJEoSAAxZAAEjShEADFsAASJJEgAMVwABJUoSAAxXAAElShIADFgAASRKEQAMWAABJUoRAAxYAAEkShIADFgAASRKEgAMVwABJUoRAAxYAAElSRIADQU=",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "nextchannel",
-      "label": "nextChannel",
-      "wifi": {
-        "endpoint": "JgB4AAABIJIRExISEjgRExISEhMRExISEjgROBISEjgROBI4ETgSOBETEhISEhITERMSEhITERMSNxI4EjcSOBE4EjgROBI3EgAFNAABJUoSAAxZAAEjRxUADFcAASVKEQAMWAABJEoSAAxYAAEkShIADFgAASNLEQANBQ==",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "volumedown",
-      "label": "volumeDown",
-      "wifi": {
-        "endpoint": "JgCIAAABIJIRExETEjgRExETEhISExETETkROBISEjgRORE4ETgSOBE4EjcSExETERMSExETERMSExETETgSOBE4EjgROBI3EgAFNAABJUoSAAxYAAEkShEADFcAASZJEgAMVwABJUoSAAxXAAElShIADFsAASFKEQAMWAABJEoSAAxYAAEkShIADQU=",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "volumeup",
-      "label": "volumeUp",
-      "wifi": {
-        "endpoint": "JgCIAAABIZESExETETgSExETERMRFBETETgSOBETETkROBI3EjgROBITEDkSEhEUEBQRExETERQROBITEDkSNhI5EjcSNxI4EgAFNAABJUoSAAxWAAEmShEADFgAASRKEQAMWAABJUoSAAxWAAEmShEADFcAASZKEQAMWQABJEkSAAxXAAElShEADQU=",
-        "method": "POST"
-      }
-    },
-    {
-      "id": "sources",
-      "label": "sources",
-      "wifi": {
-        "endpoint": "{\"Input\":\"JgB4AAABIJISEhITETgSEhITERMRExITETgSOBETETgSOBE4EjgROBI3EjgSEhI4ERMSEhITERMRExETEjgSEhI4ETgSOBE4EgAFMwABJkoRAAxXAAElShIADFcAASVKEQAMWAABJEsRAAxXAAEmSRIADFcAASVKEQANBQ==\",\"TV\":\"JgBwAAABIJISEhITEDkSEhITERMSEhEUETgSNxITETgSNxI4EjcSOBI3EjgSNxI4ERMSEhEUERMSEhISEhMRExE5ETgSOBE4EgAFMwABJUoSAAxXAAElShIADFcAASVKEQAMXAABIEoSAAxYAAEkShIADQU=\",\"UP\":\"JgBoAAABIJISEhETETkSEhETERQRExETETkSNxITEDkSNxI4EjcSOBETERMRFBETERMSExA5EhIRORE4EjYTOBE5ETgSEhE4EgAFNQABJEoSAAxbAAEhShIADFcAASVKEQAMVwABJUoSAA0F\",\"DOWN\":\"JgBwAAABIpATERMRFDYTERMRFBETERMREzcTNhMSEzYTNhQ2EzYTNxM2ExITERMRExETEhM2ExEUERM2EzcTNhM3EzYTERM3EwAFMwABJkgTAAxXAAEmSBMADFYAASRLEgAMVwABJEoTAAxWAAElShEADQU=\",\"LEFT\":\"JgBoAAABIJIQFBETFDYRExETERQQFBETETkROBETETkROBI4ETgRORA5ETgSOBETERMRFBETERMRFBAUERMRORE4EjgROBE4EQAFNgABJEoUAAxWAAEmSBEADFcAASdIEwAMVwABI0sRAA0F\",\"RIGHT\":\"JgBoAAABIZETERMREzcTERMRExITERMREzcTNhMREzcTNhM3EzYTNxMREzYTNxMRExESExETEhIRORETEhIRORA5ETkQORE5EAAFNQABJ0gRAAxYAAEkSxIADFgAASVIEwAMVgABJkkTAA0F\",\"OK\":\"JgBwAAABIZAUERMREzcTERMRExITERMREzYUNhMREzcTNhM3EzYTNhQRExETNhQRExETERQ2ExETNxM2ExETNxM2EzcTERM2FAAFMgABJEsTAAxWAAEkSxAADFgAASRLEQAMVwABJUsQAAxZAAEjSxIADQU=\",\"EXIT\":\"JgBwAAABIpARExISEzcSEhMRExISEhMRFDYSNxMREzcSNxM3EjcTNxI3EjcTEhI3EzcSEhM2ExISEhMRFDYSEhQQFDYSEhM3EgAFMwABJ0gRAAxZAAEkShMADFUAASdIEwAMVgABJUoSAAxXAAEpRRMADQU=\"}",
-        "method": "POST"
       }
     }
   ]

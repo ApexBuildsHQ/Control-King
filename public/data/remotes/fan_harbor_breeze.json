@@ -2,31 +2,106 @@
   "categoryId": "fan",
   "brandId": "harbor_breeze",
   "supportedModes": [
-    "WIFI"
+    "IR"
   ],
   "buttons": [
     {
-      "id": "off",
+      "id": "power",
       "label": "off",
-      "wifi": {
-        "endpoint": "eAs0ABARHx0QHRAdEB0QDx8eEB0QDx8dEA8fHRAdEB0RDh8PHw8fDh8OHx0QDx8dEA8fHQ8AAYEA",
-        "method": "POST"
+      "ir": {
+        "code": "eAs0ABARHx0QHRAdEB0QDx8eEB0QDx8dEA8fHRAdEB0RDh8PHw8fDh8OHx0QDx8dEA8fHQ8AAYEA",
+        "protocol": "RAW",
+        "frequency": 38000
       }
     },
     {
-      "id": "default",
-      "label": "default",
-      "wifi": {
-        "endpoint": "{\"1\":\"eAc0ABAaDxoPGg8aDxoPGg8aDxoPGg8aDxoPGg8aDxoPGg8aEBoPDhsOGw0bDRsaDw4bGg8AAbkAAAAA\",\"2\":\"eAY0ABAaDxoPGg8aDxoPGg8aDxoPGg8aDxoPGg8aDxoPGg8aEA0bGg8OGw4bDhsaDw0bGg8AAbkAAAAA\",\"3\":\"eAs0AA8aDhsPGg8aDxsPGg8aDxoPGg8aDxsPGg8aDxsPGg8bDxoPGg8OGw4bDhsbDw4bGg8AAboAAAAA\",\"4\":\"eAc0ABAZEBoPGg8ZEBoPGQ8aEBkQGQ8ZDxoQGQ8ZEBkPGg8aEA0cDRwZEA0cDRwZEA0cGQ8AAbkAAAAA\",\"5\":\"eAs0ABAaDxoPGg8aDxkPGRAaDxoPGg8aDxoPGg8aDxoPGg8aEBoPDRwaEA0bDRwaDw0bGg8AAbkAAAAA\",\"6\":\"eAs0ABAaDxoPGg8aDxoPGg8aDxoPGg8aDxoPGg8aDxoPGg8aEA0bGg8aDw0bDRsaDw0bGg8AAbkAAAAA\"}",
-        "method": "POST"
+      "id": "default_low",
+      "label": "default_low",
+      "ir": {
+        "code": "eQ00ABARHx0QHRAdEB0QDx8eEB0QDh8dEQ4fHRAeEB0QDx8PHx0RDx8OHw8fDh8dEA8fHQ8AAYEA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "default_medium",
+      "label": "default_medium",
+      "ir": {
+        "code": "eTI0ABARHx0RHRAdEB0RDh8dER0QDh8dEQ4fHRAdEB0RDh8PHw8fHRAOHw8fDh8dEA4fHQ8AAYAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "default_high",
+      "label": "default_high",
+      "ir": {
+        "code": "eU80ABARHx0QHRAdEB0QDx8dEB0QDh8dEA8fHRAdEB0QDh8PHx0QHRAOHw8fDh8dEQ4fHQ8AAX8A",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "default_1",
+      "label": "default_1",
+      "ir": {
+        "code": "eAc0ABAaDxoPGg8aDxoPGg8aDxoPGg8aDxoPGg8aDxoPGg8aEBoPDhsOGw0bDRsaDw4bGg8AAbkAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "default_2",
+      "label": "default_2",
+      "ir": {
+        "code": "eAY0ABAaDxoPGg8aDxoPGg8aDxoPGg8aDxoPGg8aDxoPGg8aEA0bGg8OGw4bDhsaDw0bGg8AAbkAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "default_3",
+      "label": "default_3",
+      "ir": {
+        "code": "eAs0AA8aDhsPGg8aDxsPGg8aDxoPGg8aDxsPGg8aDxsPGg8bDxoPGg8OGw4bDhsbDw4bGg8AAboAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "default_4",
+      "label": "default_4",
+      "ir": {
+        "code": "eAc0ABAZEBoPGg8ZEBoPGQ8aEBkQGQ8ZDxoQGQ8ZEBkPGg8aEA0cDRwZEA0cDRwZEA0cGQ8AAbkAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "default_5",
+      "label": "default_5",
+      "ir": {
+        "code": "eAs0ABAaDxoPGg8aDxkPGRAaDxoPGg8aDxoPGg8aDxoPGg8aEBoPDRwaEA0bDRwaDw0bGg8AAbkAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "default_6",
+      "label": "default_6",
+      "ir": {
+        "code": "eAs0ABAaDxoPGg8aDxoPGg8aDxoPGg8aDxoPGg8aDxoPGg8aEA0bGg8aDw0bDRsaDw0bGg8AAbkAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
       }
     },
     {
       "id": "oscillate",
       "label": "oscillate",
-      "wifi": {
-        "endpoint": "eQs0AA8aDhsPGw4bDhsOGg4bDxsPGw4bDhsOGw4bDhsOGw4bDxsOGw4bDg8bDhobDw4aGw4AAboAAAAA",
-        "method": "POST"
+      "ir": {
+        "code": "eQs0AA8aDhsPGw4bDhsOGg4bDxsPGw4bDhsOGw4bDhsOGw4bDxsOGw4bDg8bDhobDw4aGw4AAboAAAAA",
+        "protocol": "RAW",
+        "frequency": 38000
       }
     }
   ]

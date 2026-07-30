@@ -6,7 +6,7 @@
   ],
   "buttons": [
     {
-      "id": "on",
+      "id": "power",
       "label": "On",
       "ir": {
         "code": "73 8C 00 00",

@@ -1,0 +1,18 @@
+{
+  "categoryId": "camera",
+  "brandId": "pentax",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "shutter_release",
+      "label": "Shutter",
+      "ir": {
+        "code": "12652 3118 984 1016 958 1041 953 1046 959 1041 954 1046 959 3124 958",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

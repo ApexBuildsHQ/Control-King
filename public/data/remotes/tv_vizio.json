@@ -420,7 +420,7 @@
       }
     },
     {
-      "id": "auto",
+      "id": "mode_auto",
       "label": "AUTO",
       "ir": {
         "code": "0F 00 00 00",
@@ -456,7 +456,7 @@
       }
     },
     {
-      "id": "flash",
+      "id": "effect_flash",
       "label": "FLASH",
       "ir": {
         "code": "0B 00 00 00",

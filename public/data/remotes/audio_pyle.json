@@ -9,7 +9,7 @@
       "id": "power",
       "label": "Power",
       "ir": {
-        "code": "1C 00 00 00",
+        "code": "55 00 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }
@@ -208,15 +208,6 @@
       "label": "DSP_7",
       "ir": {
         "code": "12 00 00 00",
-        "protocol": "NEC",
-        "frequency": 38000
-      }
-    },
-    {
-      "id": "off",
-      "label": "OFF",
-      "ir": {
-        "code": "55 00 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }

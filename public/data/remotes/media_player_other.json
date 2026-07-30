@@ -1,0 +1,108 @@
+{
+  "categoryId": "media_player",
+  "brandId": "other",
+  "supportedModes": [
+    "IR"
+  ],
+  "buttons": [
+    {
+      "id": "power",
+      "label": "Power",
+      "ir": {
+        "code": "0x FF A2 5D",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "mute",
+      "label": "Mute",
+      "ir": {
+        "code": "0x FF 4A B5",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "rewind",
+      "label": "Rewind",
+      "ir": {
+        "code": "0x FF 30 CF",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "fast_forward",
+      "label": "Fast forward",
+      "ir": {
+        "code": "0x FF 7A 85",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "up_arrow",
+      "label": "Up arrow",
+      "ir": {
+        "code": "0x FF 52 AD",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "left_arrow",
+      "label": "Left arrow",
+      "ir": {
+        "code": "0x FF E0 1F",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "play___pause",
+      "label": "Play / Pause",
+      "ir": {
+        "code": "0x FF 18 E7",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "right_arrow",
+      "label": "Right arrow",
+      "ir": {
+        "code": "0x FF 90 6F",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "down_arrow",
+      "label": "Down arrow",
+      "ir": {
+        "code": "0x FF 42 BD",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "menu",
+      "label": "Settings",
+      "ir": {
+        "code": "0x FF A8 57",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    },
+    {
+      "id": "back",
+      "label": "Back",
+      "ir": {
+        "code": "0x FF E2 1D",
+        "protocol": "NEC",
+        "frequency": 38000
+      }
+    }
+  ]
+}

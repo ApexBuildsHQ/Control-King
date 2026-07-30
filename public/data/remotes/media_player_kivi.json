@@ -1,39 +1,45 @@
 {
   "categoryId": "media_player",
   "brandId": "kivi",
-  "protocol": "RAW",
-  "frequency": 38000,
-  "ipEndpoint": null,
+  "supportedModes": [
+    "IR"
+  ],
   "buttons": [
     {
-      "id": "on",
+      "id": "power",
       "label": "on",
-      "code": "JgBQAAABJJMTEhITEhMSExITEjYTEhM2EzYTNhM2EzYTNhMSEjcSExETEhMTNhM2EzYTEhITEhMSNhM2ExITEhMSEzYTNhM2EwAFEQABJEoTAA0FAAAAAAAAAAA=",
-      "type": "WIFI"
-    },
-    {
-      "id": "off",
-      "label": "off",
-      "code": "JgBQAAABJ5EUERMSExEVEBQRFDUUERQ1FDUUNRQ0FTQUNRUQFDUVEBUQFBEUNRM1FDUVEBUQFRAVNBU0FRAUERQQFTQVNBU0FQAFDwABJkgUAA0FAAAAAAAAAAA=",
-      "type": "WIFI"
+      "ir": {
+        "code": "JgBQAAABJ5EUERMSExEVEBQRFDUUERQ1FDUUNRQ0FTQUNRUQFDUVEBUQFBEUNRM1FDUVEBUQFRAVNBU0FRAUERQQFTQVNBU0FQAFDwABJkgUAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
     },
     {
       "id": "volumedown",
       "label": "volumeDown",
-      "code": "JgBQAAABJ5AVEBUQFRAVEBQRFDQVEBU0FTQVNBU0FTQVNBQRFDQVEBU0FRAVNBQ1FTQUERQ1ExEVEBU0FRAVEBQRFTQUERQ0FQAFDwABJ0YWAA0FAAAAAAAAAAA=",
-      "type": "WIFI"
+      "ir": {
+        "code": "JgBQAAABJ5AVEBUQFRAVEBQRFDQVEBU0FTQVNBU0FTQVNBQRFDQVEBU0FRAVNBQ1FTQUERQ1ExEVEBU0FRAVEBQRFTQUERQ0FQAFDwABJ0YWAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
     },
     {
       "id": "volumeup",
       "label": "volumeUp",
-      "code": "JgBQAAABJZISExITEhMSExITEjcRFBE3EjcSNxI3EjcSNxITEjcSExETEhMSExITEhMSExI3EhMRNxI3EjcSNxI3EjcSExI3EQAFEAABJ0kSAA0FAAAAAAAAAAA=",
-      "type": "WIFI"
+      "ir": {
+        "code": "JgBQAAABJZISExITEhMSExITEjcRFBE3EjcSNxI3EjcSNxITEjcSExETEhMSExITEhMSExI3EhMRNxI3EjcSNxI3EjcSExI3EQAFEAABJ0kSAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
     },
     {
       "id": "mute",
       "label": "mute",
-      "code": "JgBQAAABJZMSExISEhMSExMSEzYTEhM2EzYTNhM2EzYSNxMSEzYSExI3EjcSNxI2EjcTEhM2ExISExMSEhMTEhMSEzYTEhI3EgAFEwABJUkTAA0FAAAAAAAAAAA=",
-      "type": "WIFI"
+      "ir": {
+        "code": "JgBQAAABJZMSExISEhMSExMSEzYTEhM2EzYTNhM2EzYSNxMSEzYSExI3EjcSNxI2EjcTEhM2ExISExMSEhMTEhMSEzYTEhI3EgAFEwABJUkTAA0FAAAAAAAAAAA=",
+        "protocol": "RAW",
+        "frequency": 38000
+      }
     }
   ]
 }

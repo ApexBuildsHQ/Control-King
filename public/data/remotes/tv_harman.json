@@ -9,7 +9,7 @@
       "id": "nav_right",
       "label": "Right",
       "ir": {
-        "code": "C2 3D 00 00",
+        "code": "BF 40 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }
@@ -18,7 +18,7 @@
       "id": "nav_left",
       "label": "Left",
       "ir": {
-        "code": "C1 3E 00 00",
+        "code": "BD 42 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }
@@ -27,7 +27,7 @@
       "id": "nav_up",
       "label": "Up",
       "ir": {
-        "code": "99 66 00 00",
+        "code": "BC 43 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }
@@ -36,7 +36,7 @@
       "id": "nav_down",
       "label": "Down",
       "ir": {
-        "code": "9A 65 00 00",
+        "code": "C1 3E 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }
@@ -45,7 +45,7 @@
       "id": "ok",
       "label": "Ok",
       "ir": {
-        "code": "84 7B 00 00",
+        "code": "BE 41 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }
@@ -90,7 +90,7 @@
       "id": "vol_up",
       "label": "Vol_up",
       "ir": {
-        "code": "C7 38 00 00",
+        "code": "D1 2E 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }
@@ -99,7 +99,7 @@
       "id": "vol_dn",
       "label": "Vol_dn",
       "ir": {
-        "code": "C8 37 00 00",
+        "code": "D2 2D 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }
@@ -108,7 +108,7 @@
       "id": "mute",
       "label": "Mute",
       "ir": {
-        "code": "C1 3E 00 00",
+        "code": "D3 2C 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }
@@ -144,7 +144,7 @@
       "id": "power",
       "label": "Power",
       "ir": {
-        "code": "C0 3F 00 00",
+        "code": "B0 4F 00 00",
         "protocol": "NEC",
         "frequency": 38000
       }
