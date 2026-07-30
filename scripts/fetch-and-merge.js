@@ -7,7 +7,39 @@ const TEMP_DIR = path.join(process.cwd(), 'temp_sources');
 const OUTPUT_DIR = path.join(process.cwd(), 'public/data/remotes');
 const BRANDS_FILE = path.join(process.cwd(), 'public/data/brands.json');
 
-// خريطة توحيد مسميات الأزرار الموحدة والشاملة لكافة الأجهزة
+// 1. خريطة توحيد مسميات الأقسام (الأجهزة) إلى أسماء قصيرة
+function normalizeCategory(rawCat) {
+  const cleaned = cleanText(rawCat);
+
+  // AC / التكييفات
+  if (/^(ac|acs|air|climate|hvac|air_conditioner|air_conditioners|aircon|cool)$/.test(cleaned) || cleaned.includes('climate') || cleaned.includes('air_cond')) {
+    return 'ac';
+  }
+  // TV / الشاشات
+  if (/^(tv|tvs|television|televisions|smart_tv|display|monitors)$/.test(cleaned) || cleaned.includes('tv')) {
+    return 'tv';
+  }
+  // Receiver / أجهزة الاستقبال والستلايت
+  if (/^(receiver|receivers|sat|sats|satellite|cable|cable_boxes|stb|set_top_box|decoder|box)$/.test(cleaned) || cleaned.includes('sat') || cleaned.includes('cable')) {
+    return 'receiver';
+  }
+  // Audio / الصوتيات والمسرح المنزلي
+  if (/^(audio|sound|speaker|speakers|soundbar|media_player|media|amp|amplifier|dvd|bluray|hifi)$/.test(cleaned) || cleaned.includes('audio') || cleaned.includes('sound') || cleaned.includes('media')) {
+    return 'audio';
+  }
+  // Fan / الموح والمُنقيات
+  if (/^(fan|fans|purifier|air_purifier)$/.test(cleaned) || cleaned.includes('fan')) {
+    return 'fan';
+  }
+  // Projector / العارض الضوئي
+  if (/^(projector|projectors|beamer)$/.test(cleaned) || cleaned.includes('projector')) {
+    return 'projector';
+  }
+
+  return 'general';
+}
+
+// 2. خريطة توحيد مسميات الأزرار الموحدة والشاملة لكافة الأجهزة
 const GLOBAL_BUTTON_MAP = {
   // TV & Receivers
   'PWR': 'power', 'POWER': 'power', 'POWER_OFF': 'power', 'ON/OFF': 'power', 'STANDBY': 'power',
@@ -108,8 +140,8 @@ function parseLocalRawData() {
         const rawContent = fs.readFileSync(path.join(SOURCE_DIR, file), 'utf-8');
         const parsed = JSON.parse(rawContent);
 
-        const categoryId = cleanText(parsed.categoryId || 'general');
-        const brandId = cleanText(parsed.brandId || 'generic');
+        const categoryId = normalizeCategory(parsed.categoryId || parsed.category || 'general');
+        const brandId = cleanText(parsed.brandId || parsed.brand || 'generic');
         const buttons = (parsed.buttons || []).map(normalizeButton);
 
         if (buttons.length > 0) {
@@ -147,7 +179,7 @@ function parseFlipperFiles() {
     const categoryPath = path.join(flipperDir, category);
     if (!fs.statSync(categoryPath).isDirectory() || category.startsWith('.')) return;
 
-    const catId = cleanText(category) || 'general';
+    const catId = normalizeCategory(category);
     const files = fs.readdirSync(categoryPath);
 
     files.forEach(file => {
@@ -187,7 +219,7 @@ function parseSmartIRFiles() {
     const catPath = path.join(smartirDir, category);
     if (!fs.statSync(catPath).isDirectory()) return;
 
-    const catId = cleanText(category);
+    const catId = normalizeCategory(category);
     const files = fs.readdirSync(catPath);
 
     files.forEach(file => {
