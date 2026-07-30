@@ -1,0 +1,39 @@
+name: Fetch, Merge and Audit Remote Data
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # يعمل أسبوعياً تلقائياً
+  workflow_dispatch: # يسمح بتشغيله يدوياً بضغطة زر
+
+jobs:
+  build-and-verify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install Dependencies
+        run: npm ci || npm install
+
+      - name: Run Fetch and Merge Script
+        run: node scripts/fetch-and-merge.js
+
+      - name: Run AI Audit and Data Verification
+        run: node scripts/verify-dataset.js
+
+      - name: Commit and Push Updated Data
+        if: success()
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+          git add public/data/
+          git status
+          git diff-index --quiet HEAD || git commit -m "chore: auto-update and audit remote datasets [skip ci]"
+          git push
+
